@@ -1,0 +1,104 @@
+{
+  "theme_id": "theme-02",
+  "slug": "my-school-day",
+  "theme_label": "THEME 02",
+  "title": "My school day",
+  "folder_name": "2. Мой школьный день",
+  "level": "basic",
+  "video": {
+    "width": 1280,
+    "height": 720,
+    "fps": 24,
+    "background_color": "#F6F0E5"
+  },
+  "entries": [
+    {
+      "en": "My school day starts at nine o'clock.",
+      "ru": "Мой школьный день начинается в девять часов."
+    },
+    {
+      "en": "I get up at ten past eight.",
+      "ru": "Я встаю в восемь десять."
+    },
+    {
+      "en": "I wash my face and brush my teeth in the morning.",
+      "ru": "Утром я умываюсь и чищу зубы."
+    },
+    {
+      "en": "Then I get dressed for school.",
+      "ru": "Потом я одеваюсь в школу."
+    },
+    {
+      "en": "My school is very close to my home.",
+      "ru": "Моя школа находится очень близко к дому."
+    },
+    {
+      "en": "It takes only five minutes to walk there.",
+      "ru": "Туда идти всего пять минут."
+    },
+    {
+      "en": "I do not need a bus or a car.",
+      "ru": "Мне не нужен ни автобус, ни машина."
+    },
+    {
+      "en": "I can walk to school easily.",
+      "ru": "Я могу легко дойти до школы пешком."
+    },
+    {
+      "en": "I usually come to school on time.",
+      "ru": "Обычно я прихожу в школу вовремя."
+    },
+    {
+      "en": "I study well and I get top marks.",
+      "ru": "Я хорошо учусь и получаю пятёрки."
+    },
+    {
+      "en": "My favourite subjects are Art and Literature.",
+      "ru": "Мои любимые предметы — рисование и литература."
+    },
+    {
+      "en": "I like drawing because I can be creative.",
+      "ru": "Мне нравится рисование, потому что я могу быть творческой."
+    },
+    {
+      "en": "I like Literature because I enjoy stories and books.",
+      "ru": "Мне нравится литература, потому что я люблю истории и книги."
+    },
+    {
+      "en": "School subjects are usually not difficult for me.",
+      "ru": "Школьные предметы обычно не трудные для меня."
+    },
+    {
+      "en": "I listen to my teachers carefully.",
+      "ru": "Я внимательно слушаю учителей."
+    },
+    {
+      "en": "At school there is a canteen where I have lunch.",
+      "ru": "В школе есть столовая, где я обедаю."
+    },
+    {
+      "en": "During the break we run on the playground if the weather is good.",
+      "ru": "На перемене мы бегаем на площадке, если погода хорошая."
+    },
+    {
+      "en": "I like active breaks with my classmates.",
+      "ru": "Мне нравятся активные перемены с одноклассниками."
+    },
+    {
+      "en": "After school I do my homework.",
+      "ru": "После школы я делаю домашнее задание."
+    },
+    {
+      "en": "If I have free time, I play games or watch YouTube.",
+      "ru": "Если у меня есть свободное время, я играю в игры или смотрю YouTube."
+    },
+    {
+      "en": "I think my school day is busy but good.",
+      "ru": "Я думаю, что мой школьный день насыщенный, но хороший."
+    },
+    {
+      "en": "I feel confident at school.",
+      "ru": "Я чувствую себя уверенно в школе."
+    }
+  ]
+}

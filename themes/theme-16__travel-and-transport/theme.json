@@ -1,0 +1,95 @@
+{
+  "theme_id": "theme-16",
+  "slug": "travel-and-transport",
+  "theme_label": "THEME 16",
+  "title": "Travel and transport",
+  "folder_name": "16. Путешествия и транспорт",
+  "video": {
+    "width": 1280,
+    "height": 720,
+    "fps": 24,
+    "background_color": "#F6F0E5"
+  },
+  "entries": [
+    {
+      "en": "Travelling can be exciting and educational.",
+      "ru": "Путешествия могут быть увлекательными и познавательными."
+    },
+    {
+      "en": "People travel to see new places.",
+      "ru": "Люди путешествуют, чтобы увидеть новые места."
+    },
+    {
+      "en": "They also travel to meet relatives or have отдых.",
+      "ru": "Они также путешествуют, чтобы навестить родных или отдохнуть."
+    },
+    {
+      "en": "There are many kinds of transport.",
+      "ru": "Существует много видов транспорта."
+    },
+    {
+      "en": "People can travel by car, bus, train, or plane.",
+      "ru": "Люди могут путешествовать на машине, автобусе, поезде или самолёте."
+    },
+    {
+      "en": "A train journey can be long but comfortable.",
+      "ru": "Путешествие на поезде может быть долгим, но удобным."
+    },
+    {
+      "en": "A plane is fast for long distances.",
+      "ru": "Самолёт быстро преодолевает большие расстояния."
+    },
+    {
+      "en": "A bus is useful in towns and cities.",
+      "ru": "Автобус полезен в городах."
+    },
+    {
+      "en": "A bicycle is good for short trips and exercise.",
+      "ru": "Велосипед хорош для коротких поездок и физической активности."
+    },
+    {
+      "en": "Before a trip people pack their bags.",
+      "ru": "Перед поездкой люди собирают вещи."
+    },
+    {
+      "en": "They take clothes, documents, and other important things.",
+      "ru": "Они берут одежду, документы и другие важные вещи."
+    },
+    {
+      "en": "It is useful to have a plan for the trip.",
+      "ru": "Полезно иметь план поездки."
+    },
+    {
+      "en": "We should be careful at stations and airports.",
+      "ru": "Нужно быть внимательными на вокзалах и в аэропортах."
+    },
+    {
+      "en": "It is important to follow safety rules.",
+      "ru": "Важно соблюдать правила безопасности."
+    },
+    {
+      "en": "I like looking out of the window when I travel.",
+      "ru": "Мне нравится смотреть в окно во время поездки."
+    },
+    {
+      "en": "I can see fields, houses, rivers, and roads.",
+      "ru": "Я могу видеть поля, дома, реки и дороги."
+    },
+    {
+      "en": "Travelling teaches us about the world.",
+      "ru": "Путешествия учат нас миру."
+    },
+    {
+      "en": "It can also teach patience and organisation.",
+      "ru": "Они также могут научить терпению и организованности."
+    },
+    {
+      "en": "I would like to visit many beautiful places one day.",
+      "ru": "Однажды я хотела бы посетить много красивых мест."
+    },
+    {
+      "en": "Every trip can become a happy memory.",
+      "ru": "Каждая поездка может стать счастливым воспоминанием."
+    }
+  ]
+}

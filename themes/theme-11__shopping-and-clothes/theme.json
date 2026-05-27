@@ -1,0 +1,95 @@
+{
+  "theme_id": "theme-11",
+  "slug": "shopping-and-clothes",
+  "theme_label": "THEME 11",
+  "title": "Shopping and clothes",
+  "folder_name": "11. Покупки и одежда",
+  "video": {
+    "width": 1280,
+    "height": 720,
+    "fps": 24,
+    "background_color": "#F6F0E5"
+  },
+  "entries": [
+    {
+      "en": "People go shopping to buy food, clothes, and other things.",
+      "ru": "Люди ходят за покупками, чтобы купить еду, одежду и другие вещи."
+    },
+    {
+      "en": "I sometimes go to the shop with my parents.",
+      "ru": "Иногда я хожу в магазин с родителями."
+    },
+    {
+      "en": "A supermarket is big and has many products.",
+      "ru": "Супермаркет большой и в нём много товаров."
+    },
+    {
+      "en": "A clothes shop has dresses, trousers, shirts, and shoes.",
+      "ru": "В магазине одежды есть платья, брюки, рубашки и обувь."
+    },
+    {
+      "en": "I like wearing comfortable clothes.",
+      "ru": "Мне нравится носить удобную одежду."
+    },
+    {
+      "en": "At school I wear neat clothes every day.",
+      "ru": "В школу я каждый день надеваю аккуратную одежду."
+    },
+    {
+      "en": "In winter I wear a warm coat and boots.",
+      "ru": "Зимой я ношу тёплое пальто и сапоги."
+    },
+    {
+      "en": "In summer I wear a T-shirt, shorts, or a light dress.",
+      "ru": "Летом я ношу футболку, шорты или лёгкое платье."
+    },
+    {
+      "en": "My favourite colours for clothes are blue and green.",
+      "ru": "Мои любимые цвета в одежде — синий и зелёный."
+    },
+    {
+      "en": "Before buying clothes people often try them on.",
+      "ru": "Перед покупкой одежды люди часто её примеряют."
+    },
+    {
+      "en": "The size must be right.",
+      "ru": "Размер должен подходить."
+    },
+    {
+      "en": "The clothes should not be too tight or too loose.",
+      "ru": "Одежда не должна быть слишком тесной или слишком свободной."
+    },
+    {
+      "en": "Comfort is important for active children.",
+      "ru": "Для активных детей важен комфорт."
+    },
+    {
+      "en": "In a shop we must be polite to the shop assistant.",
+      "ru": "В магазине мы должны быть вежливы с продавцом."
+    },
+    {
+      "en": "We can ask how much something costs.",
+      "ru": "Мы можем спросить, сколько что-то стоит."
+    },
+    {
+      "en": "Sometimes there are discounts and sales.",
+      "ru": "Иногда бывают скидки и распродажи."
+    },
+    {
+      "en": "It is better to buy useful things, not only pretty things.",
+      "ru": "Лучше покупать полезные вещи, а не только красивые."
+    },
+    {
+      "en": "I try to keep my clothes clean and tidy.",
+      "ru": "Я стараюсь держать одежду чистой и аккуратной."
+    },
+    {
+      "en": "I put my clothes away after wearing them.",
+      "ru": "После носки я убираю одежду на место."
+    },
+    {
+      "en": "Shopping is easier when we know what we need.",
+      "ru": "Покупки становятся проще, когда мы знаем, что нам нужно."
+    }
+  ]
+}

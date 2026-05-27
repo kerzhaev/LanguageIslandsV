@@ -1,0 +1,104 @@
+{
+  "theme_id": "theme-13",
+  "slug": "travel-and-trips",
+  "theme_label": "THEME 13",
+  "title": "Travel and trips",
+  "folder_name": "13. Путешествия и поездки",
+  "level": "basic",
+  "video": {
+    "width": 1280,
+    "height": 720,
+    "fps": 24,
+    "background_color": "#F6F0E5"
+  },
+  "entries": [
+    {
+      "en": "I do not really like travelling.",
+      "ru": "Я не очень люблю путешествовать."
+    },
+    {
+      "en": "I do not like going far from home.",
+      "ru": "Мне не нравится уезжать далеко от дома."
+    },
+    {
+      "en": "Still, I have had some nice trips.",
+      "ru": "Но у меня все же были хорошие поездки."
+    },
+    {
+      "en": "I have been to the sea.",
+      "ru": "Я ездила на море."
+    },
+    {
+      "en": "I have also been to hot springs.",
+      "ru": "Я также ездила на горячие источники."
+    },
+    {
+      "en": "Hot springs are my favourite place for rest.",
+      "ru": "Горячие источники — мое любимое место для отдыха."
+    },
+    {
+      "en": "I feel calm and comfortable there.",
+      "ru": "Там я чувствую себя спокойно и уютно."
+    },
+    {
+      "en": "My favourite transport is the train.",
+      "ru": "Мой любимый транспорт — поезд."
+    },
+    {
+      "en": "A train trip feels quiet and special.",
+      "ru": "Поездка на поезде кажется спокойной и особенной."
+    },
+    {
+      "en": "In the train I like looking out of the window.",
+      "ru": "В поезде мне нравится смотреть в окно."
+    },
+    {
+      "en": "I also like watching films on the way.",
+      "ru": "Еще мне нравится смотреть фильмы в дороге."
+    },
+    {
+      "en": "Films make the road easier for me.",
+      "ru": "Фильмы делают дорогу для меня легче."
+    },
+    {
+      "en": "I take food and the most necessary things with me.",
+      "ru": "В поездку я беру еду и самое необходимое."
+    },
+    {
+      "en": "I like simple and comfortable trips.",
+      "ru": "Мне нравятся простые и удобные поездки."
+    },
+    {
+      "en": "I do not love trips, but I can enjoy good moments.",
+      "ru": "Я не люблю поездки, но могу радоваться хорошим моментам."
+    },
+    {
+      "en": "A quiet place can make a trip better.",
+      "ru": "Спокойное место может сделать поездку лучше."
+    },
+    {
+      "en": "Warm water and rest make me happy.",
+      "ru": "Теплая вода и отдых делают меня счастливой."
+    },
+    {
+      "en": "Sometimes I can dream about future journeys.",
+      "ru": "Иногда я могу мечтать о будущих путешествиях."
+    },
+    {
+      "en": "I dream about going to Kazakhstan one day.",
+      "ru": "Я мечтаю однажды съездить в Казахстан."
+    },
+    {
+      "en": "Maybe that trip will be calm and interesting.",
+      "ru": "Может быть, эта поездка будет спокойной и интересной."
+    },
+    {
+      "en": "I hope to see new places at my own pace.",
+      "ru": "Я надеюсь увидеть новые места в своем спокойном ритме."
+    },
+    {
+      "en": "Even a small dream can become a real trip one day.",
+      "ru": "Даже маленькая мечта однажды может стать настоящей поездкой."
+    }
+  ]
+}

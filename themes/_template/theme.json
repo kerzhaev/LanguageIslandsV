@@ -1,0 +1,23 @@
+{
+  "theme_id": "theme-XX",
+  "slug": "replace-with-topic-slug",
+  "theme_label": "THEME XX",
+  "title": "Replace with theme title",
+  "folder_name": "X. Название темы",
+  "video": {
+    "width": 1280,
+    "height": 720,
+    "fps": 24,
+    "background_color": "#F6F0E5"
+  },
+  "entries": [
+    {
+      "en": "First English sentence.",
+      "ru": "Первое русское значение."
+    },
+    {
+      "en": "Second English sentence.",
+      "ru": "Второе русское значение."
+    }
+  ]
+}

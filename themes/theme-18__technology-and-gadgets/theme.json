@@ -1,0 +1,95 @@
+{
+  "theme_id": "theme-18",
+  "slug": "technology-and-gadgets",
+  "theme_label": "THEME 18",
+  "title": "Technology and gadgets",
+  "folder_name": "18. Технологии и гаджеты",
+  "video": {
+    "width": 1280,
+    "height": 720,
+    "fps": 24,
+    "background_color": "#F6F0E5"
+  },
+  "entries": [
+    {
+      "en": "Technology is part of our everyday life.",
+      "ru": "Технологии — часть нашей повседневной жизни."
+    },
+    {
+      "en": "Many people use phones, tablets, and computers.",
+      "ru": "Многие люди пользуются телефонами, планшетами и компьютерами."
+    },
+    {
+      "en": "A computer can help with school work.",
+      "ru": "Компьютер может помочь с учёбой."
+    },
+    {
+      "en": "We can type texts and look for information.",
+      "ru": "Мы можем печатать тексты и искать информацию."
+    },
+    {
+      "en": "A tablet is useful for reading and watching videos.",
+      "ru": "Планшет полезен для чтения и просмотра видео."
+    },
+    {
+      "en": "A phone can help people call and send messages.",
+      "ru": "Телефон помогает людям звонить и отправлять сообщения."
+    },
+    {
+      "en": "Technology can save time.",
+      "ru": "Технологии могут экономить время."
+    },
+    {
+      "en": "It can also make learning more interesting.",
+      "ru": "Они также могут делать учёбу интереснее."
+    },
+    {
+      "en": "But gadgets should be used wisely.",
+      "ru": "Но гаджетами нужно пользоваться разумно."
+    },
+    {
+      "en": "Too much screen time is not healthy.",
+      "ru": "Слишком много времени у экрана вредно."
+    },
+    {
+      "en": "Children should rest their eyes.",
+      "ru": "Детям нужно давать глазам отдых."
+    },
+    {
+      "en": "It is important to move and play outside too.",
+      "ru": "Важно также двигаться и играть на улице."
+    },
+    {
+      "en": "We should not share personal information online.",
+      "ru": "Мы не должны делиться личной информацией в интернете."
+    },
+    {
+      "en": "The internet can be helpful, but we must be careful.",
+      "ru": "Интернет может быть полезным, но нужно быть осторожными."
+    },
+    {
+      "en": "Parents and teachers can help children stay safe online.",
+      "ru": "Родители и учителя могут помочь детям оставаться в безопасности в интернете."
+    },
+    {
+      "en": "I like using technology for learning languages.",
+      "ru": "Мне нравится использовать технологии для изучения языков."
+    },
+    {
+      "en": "Some apps help with vocabulary and pronunciation.",
+      "ru": "Некоторые приложения помогают со словами и произношением."
+    },
+    {
+      "en": "Technology is better when it helps people do good things.",
+      "ru": "Технологии лучше всего, когда помогают людям делать полезные вещи."
+    },
+    {
+      "en": "It is good to have balance between gadgets and real life.",
+      "ru": "Хорошо сохранять баланс между гаджетами и реальной жизнью."
+    },
+    {
+      "en": "Smart use of technology can make life easier and brighter.",
+      "ru": "Умное использование технологий может сделать жизнь проще и ярче."
+    }
+  ]
+}

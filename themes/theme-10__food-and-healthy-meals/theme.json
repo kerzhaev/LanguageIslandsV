@@ -1,0 +1,95 @@
+{
+  "theme_id": "theme-10",
+  "slug": "food-and-healthy-meals",
+  "theme_label": "THEME 10",
+  "title": "Food and healthy meals",
+  "folder_name": "10. Еда и полезные блюда",
+  "video": {
+    "width": 1280,
+    "height": 720,
+    "fps": 24,
+    "background_color": "#F6F0E5"
+  },
+  "entries": [
+    {
+      "en": "Food gives us energy for school and play.",
+      "ru": "Еда даёт нам энергию для школы и игр."
+    },
+    {
+      "en": "I like tasty meals, but I also try to eat healthy food.",
+      "ru": "Я люблю вкусную еду, но стараюсь есть и полезную пищу."
+    },
+    {
+      "en": "For breakfast I often eat porridge, eggs, or yoghurt.",
+      "ru": "На завтрак я часто ем кашу, яйца или йогурт."
+    },
+    {
+      "en": "Fruit is a good snack during the day.",
+      "ru": "Фрукты — хороший перекус в течение дня."
+    },
+    {
+      "en": "Apples, bananas, and oranges are healthy and sweet.",
+      "ru": "Яблоки, бананы и апельсины полезные и сладкие."
+    },
+    {
+      "en": "Vegetables are important too.",
+      "ru": "Овощи тоже важны."
+    },
+    {
+      "en": "I eat cucumbers, tomatoes, carrots, and potatoes.",
+      "ru": "Я ем огурцы, помидоры, морковь и картофель."
+    },
+    {
+      "en": "Soup is warm and filling.",
+      "ru": "Суп тёплый и сытный."
+    },
+    {
+      "en": "Many children like pasta, rice, or mashed potatoes.",
+      "ru": "Многие дети любят макароны, рис или пюре."
+    },
+    {
+      "en": "Chicken and fish can be part of a healthy lunch.",
+      "ru": "Курица и рыба могут быть частью полезного обеда."
+    },
+    {
+      "en": "I drink water every day.",
+      "ru": "Я каждый день пью воду."
+    },
+    {
+      "en": "Too many sweets are not good for our teeth.",
+      "ru": "Слишком много сладкого вредно для зубов."
+    },
+    {
+      "en": "Fast food may be tasty, but it should not be eaten too often.",
+      "ru": "Фастфуд может быть вкусным, но его не стоит есть слишком часто."
+    },
+    {
+      "en": "My family sometimes cooks dinner together.",
+      "ru": "Моя семья иногда готовит ужин вместе."
+    },
+    {
+      "en": "I can help wash vegetables or set the table.",
+      "ru": "Я могу помочь помыть овощи или накрыть на стол."
+    },
+    {
+      "en": "It is polite to say thank you for the meal.",
+      "ru": "Вежливо говорить спасибо за еду."
+    },
+    {
+      "en": "I like learning simple recipes.",
+      "ru": "Мне нравится узнавать простые рецепты."
+    },
+    {
+      "en": "Healthy food helps us grow strong.",
+      "ru": "Полезная еда помогает нам расти сильными."
+    },
+    {
+      "en": "A balanced diet is important for children.",
+      "ru": "Сбалансированное питание важно для детей."
+    },
+    {
+      "en": "Good food and good habits can keep us active and cheerful.",
+      "ru": "Хорошая еда и хорошие привычки помогают нам быть активными и весёлыми."
+    }
+  ]
+}

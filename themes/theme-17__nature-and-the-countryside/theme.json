@@ -1,0 +1,95 @@
+{
+  "theme_id": "theme-17",
+  "slug": "nature-and-the-countryside",
+  "theme_label": "THEME 17",
+  "title": "Nature and the countryside",
+  "folder_name": "17. Природа и деревня",
+  "video": {
+    "width": 1280,
+    "height": 720,
+    "fps": 24,
+    "background_color": "#F6F0E5"
+  },
+  "entries": [
+    {
+      "en": "Nature is beautiful in every season.",
+      "ru": "Природа прекрасна в любое время года."
+    },
+    {
+      "en": "I like forests, rivers, fields, and hills.",
+      "ru": "Мне нравятся леса, реки, поля и холмы."
+    },
+    {
+      "en": "The countryside is quiet and peaceful.",
+      "ru": "За городом тихо и спокойно."
+    },
+    {
+      "en": "There is fresh air and a lot of space there.",
+      "ru": "Там свежий воздух и много простора."
+    },
+    {
+      "en": "People can hear birds singing in the morning.",
+      "ru": "Утром можно слышать пение птиц."
+    },
+    {
+      "en": "Trees give shade on hot summer days.",
+      "ru": "Деревья дают тень в жаркие летние дни."
+    },
+    {
+      "en": "Flowers make fields and gardens colourful.",
+      "ru": "Цветы делают поля и сады яркими."
+    },
+    {
+      "en": "I like walking on forest paths.",
+      "ru": "Мне нравится гулять по лесным тропинкам."
+    },
+    {
+      "en": "Sometimes I collect leaves or cones.",
+      "ru": "Иногда я собираю листья или шишки."
+    },
+    {
+      "en": "Rivers and lakes are important for animals and people.",
+      "ru": "Реки и озёра важны для животных и людей."
+    },
+    {
+      "en": "We must not throw rubbish into nature.",
+      "ru": "Мы не должны бросать мусор в природу."
+    },
+    {
+      "en": "Animals need clean places to live.",
+      "ru": "Животным нужны чистые места для жизни."
+    },
+    {
+      "en": "Plants also need care and protection.",
+      "ru": "Растениям тоже нужны забота и защита."
+    },
+    {
+      "en": "I enjoy picnics in the countryside.",
+      "ru": "Мне нравятся пикники за городом."
+    },
+    {
+      "en": "It is fun to sit on the grass and look at the sky.",
+      "ru": "Весело сидеть на траве и смотреть на небо."
+    },
+    {
+      "en": "Clouds can look like animals or ships.",
+      "ru": "Облака могут быть похожи на животных или корабли."
+    },
+    {
+      "en": "Nature helps people rest from noisy city life.",
+      "ru": "Природа помогает людям отдыхать от шумной городской жизни."
+    },
+    {
+      "en": "I feel calm when I spend time outdoors.",
+      "ru": "Я чувствую спокойствие, когда провожу время на улице."
+    },
+    {
+      "en": "The Earth is our home, so we must protect it.",
+      "ru": "Земля — наш дом, поэтому мы должны её беречь."
+    },
+    {
+      "en": "A love of nature can make us kinder and more careful.",
+      "ru": "Любовь к природе может сделать нас добрее и внимательнее."
+    }
+  ]
+}

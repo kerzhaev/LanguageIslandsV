@@ -1,0 +1,103 @@
+{
+  "theme_id": "theme-01",
+  "slug": "about-me-my-family-and-school",
+  "theme_label": "THEME 01",
+  "title": "About me, my family and school",
+  "folder_name": "1. Обо мне",
+  "video": {
+    "width": 1280,
+    "height": 720,
+    "fps": 24,
+    "background_color": "#F6F0E5"
+  },
+  "entries": [
+    {
+      "en": "My name is Varvara.",
+      "ru": "Меня зовут Варвара."
+    },
+    {
+      "en": "I am ten years old.",
+      "ru": "Мне десять лет."
+    },
+    {
+      "en": "I live in Russia.",
+      "ru": "Я живу в России."
+    },
+    {
+      "en": "I live in Stavropol.",
+      "ru": "Я живу в городе Ставрополь."
+    },
+    {
+      "en": "I have got a small family.",
+      "ru": "У меня маленькая семья."
+    },
+    {
+      "en": "I am the only child in the family.",
+      "ru": "Я единственный ребенок в семье."
+    },
+    {
+      "en": "My family has got a mother, a father, a granny and a grandpa.",
+      "ru": "В моей семье есть мама, папа, бабушка и дедушка."
+    },
+    {
+      "en": "I have got a cat.",
+      "ru": "У меня есть кот."
+    },
+    {
+      "en": "His name is Felix.",
+      "ru": "Его зовут Феликс."
+    },
+    {
+      "en": "He is cute, clever and beautiful.",
+      "ru": "Он милый, умный и красивый."
+    },
+    {
+      "en": "I am in the fourth form.",
+      "ru": "Я учусь в четвертом классе."
+    },
+    {
+      "en": "My favourite school subjects are Russian, Literature and Art.",
+      "ru": "Мои любимые школьные предметы - русский язык, литература и ИЗО."
+    },
+    {
+      "en": "After school I like walking and listening to music.",
+      "ru": "После школы я люблю гулять и слушать музыку."
+    },
+    {
+      "en": "My favourite sport is taekwondo.",
+      "ru": "Мой любимый вид спорта - тхэквондо."
+    },
+    {
+      "en": "My favourite game is hide-and-seek.",
+      "ru": "Моя любимая игра - прятки-догонялки."
+    },
+    {
+      "en": "I like drawing, dancing, singing, reading and playing.",
+      "ru": "Я люблю рисовать, танцевать, петь, читать и играть."
+    },
+    {
+      "en": "My favourite colours are purple and blue.",
+      "ru": "Мои любимые цвета - фиолетовый и синий."
+    },
+    {
+      "en": "My favourite food is borscht and meat with mashed potatoes.",
+      "ru": "Моя любимая еда - борщ и мясо с пюре."
+    },
+    {
+      "en": "My favourite fruit is an apple, a banana, watermelon and blueberries.",
+      "ru": "Мои любимые фрукты - яблоко, банан, арбуз и голубика."
+    },
+    {
+      "en": "My birthday is on the twenty-fourth of July.",
+      "ru": "Мой день рождения двадцать четвертого июля."
+    },
+    {
+      "en": "I like getting toys as presents.",
+      "ru": "Я люблю получать в подарок игрушки."
+    },
+    {
+      "en": "I also like getting art sets as presents.",
+      "ru": "Я также люблю получать наборы для творчества."
+    }
+  ]
+}

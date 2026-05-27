@@ -1,0 +1,104 @@
+{
+  "theme_id": "theme-06",
+  "slug": "my-hobbies-and-free-time",
+  "theme_label": "THEME 06",
+  "title": "My hobbies and free time",
+  "folder_name": "6. Мои хобби и свободное время",
+  "level": "basic",
+  "video": {
+    "width": 1280,
+    "height": 720,
+    "fps": 24,
+    "background_color": "#F6F0E5"
+  },
+  "entries": [
+    {
+      "en": "My favourite hobby is drawing.",
+      "ru": "Мое любимое хобби — рисование."
+    },
+    {
+      "en": "I like drawing very much.",
+      "ru": "Мне очень нравится рисовать."
+    },
+    {
+      "en": "After school I like walking and sleeping.",
+      "ru": "После школы я люблю гулять и спать."
+    },
+    {
+      "en": "I also like watching videos.",
+      "ru": "Я также люблю смотреть видео."
+    },
+    {
+      "en": "Drawing makes me happy.",
+      "ru": "Рисование делает меня счастливой."
+    },
+    {
+      "en": "I can spend a lot of time drawing.",
+      "ru": "Я могу проводить много времени за рисованием."
+    },
+    {
+      "en": "Drawing is what I do best.",
+      "ru": "Рисование получается у меня лучше всего."
+    },
+    {
+      "en": "I feel calm when I draw.",
+      "ru": "Я чувствую себя спокойно, когда рисую."
+    },
+    {
+      "en": "In my free time I like doing things I enjoy.",
+      "ru": "В свободное время мне нравится делать то, что я люблю."
+    },
+    {
+      "en": "With my friends I like playing tag.",
+      "ru": "С моими друзьями я люблю играть в догонялки."
+    },
+    {
+      "en": "We have fun together.",
+      "ru": "Нам весело вместе."
+    },
+    {
+      "en": "With my mum I like doing my homework.",
+      "ru": "С мамой мне нравится делать уроки."
+    },
+    {
+      "en": "She helps me when I need it.",
+      "ru": "Она помогает мне, когда мне это нужно."
+    },
+    {
+      "en": "I go to taekwondo.",
+      "ru": "Я хожу на тхэквондо."
+    },
+    {
+      "en": "I also go swimming.",
+      "ru": "Я также хожу на плавание."
+    },
+    {
+      "en": "Sport is good for me.",
+      "ru": "Спорт полезен для меня."
+    },
+    {
+      "en": "I like being active.",
+      "ru": "Мне нравится быть активной."
+    },
+    {
+      "en": "My hobbies make my life interesting.",
+      "ru": "Мои хобби делают мою жизнь интересной."
+    },
+    {
+      "en": "I like learning new things.",
+      "ru": "Мне нравится узнавать новое."
+    },
+    {
+      "en": "I want to become a doctor.",
+      "ru": "Я хочу стать врачом."
+    },
+    {
+      "en": "I think my hobbies help me grow.",
+      "ru": "Я думаю, что мои хобби помогают мне расти."
+    },
+    {
+      "en": "My free time is fun and important to me.",
+      "ru": "Мое свободное время веселое и важное для меня."
+    }
+  ]
+}

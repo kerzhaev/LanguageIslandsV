@@ -1,0 +1,95 @@
+{
+  "theme_id": "theme-20",
+  "slug": "school-subjects-and-projects",
+  "theme_label": "THEME 20",
+  "title": "School subjects and projects",
+  "folder_name": "20. Школьные предметы и проекты",
+  "video": {
+    "width": 1280,
+    "height": 720,
+    "fps": 24,
+    "background_color": "#F6F0E5"
+  },
+  "entries": [
+    {
+      "en": "At school we study many interesting subjects.",
+      "ru": "В школе мы изучаем много интересных предметов."
+    },
+    {
+      "en": "Russian and Maths are very important.",
+      "ru": "Русский язык и математика очень важны."
+    },
+    {
+      "en": "English helps us speak to people from other countries.",
+      "ru": "Английский помогает нам говорить с людьми из других стран."
+    },
+    {
+      "en": "History tells us about the past.",
+      "ru": "История рассказывает нам о прошлом."
+    },
+    {
+      "en": "Geography teaches us about countries, rivers, and mountains.",
+      "ru": "География учит нас странам, рекам и горам."
+    },
+    {
+      "en": "Biology helps us understand plants, animals, and the human body.",
+      "ru": "Биология помогает понимать растения, животных и человеческое тело."
+    },
+    {
+      "en": "Art lets us be creative.",
+      "ru": "ИЗО позволяет нам быть творческими."
+    },
+    {
+      "en": "Music teaches us to listen and feel rhythm.",
+      "ru": "Музыка учит нас слушать и чувствовать ритм."
+    },
+    {
+      "en": "PE helps us stay fit and active.",
+      "ru": "Физкультура помогает нам быть в форме и активными."
+    },
+    {
+      "en": "Some lessons are easy for me.",
+      "ru": "Некоторые уроки для меня лёгкие."
+    },
+    {
+      "en": "Some lessons are more difficult, but I still try hard.",
+      "ru": "Некоторые уроки труднее, но я всё равно стараюсь."
+    },
+    {
+      "en": "Projects are a fun part of school life.",
+      "ru": "Проекты — интересная часть школьной жизни."
+    },
+    {
+      "en": "A project can be about nature, books, or famous people.",
+      "ru": "Проект может быть о природе, книгах или известных людях."
+    },
+    {
+      "en": "We can make posters, slides, or drawings for a project.",
+      "ru": "Для проекта мы можем делать плакаты, слайды или рисунки."
+    },
+    {
+      "en": "Sometimes we work on projects in groups.",
+      "ru": "Иногда мы работаем над проектами в группах."
+    },
+    {
+      "en": "That teaches us to share ideas.",
+      "ru": "Это учит нас делиться идеями."
+    },
+    {
+      "en": "A good project needs time and attention.",
+      "ru": "Хороший проект требует времени и внимания."
+    },
+    {
+      "en": "I feel proud when I finish my work well.",
+      "ru": "Я горжусь собой, когда хорошо заканчиваю работу."
+    },
+    {
+      "en": "Every school subject can be useful in life.",
+      "ru": "Каждый школьный предмет может пригодиться в жизни."
+    },
+    {
+      "en": "Learning new things helps me grow every day.",
+      "ru": "Изучение нового помогает мне расти каждый день."
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "theme_id": "theme-15",
+  "slug": "helping-at-home",
+  "theme_label": "THEME 15",
+  "title": "Helping at home",
+  "folder_name": "15. Помощь дома",
+  "level": "basic",
+  "video": {
+    "width": 1280,
+    "height": 720,
+    "fps": 24,
+    "background_color": "#F6F0E5"
+  },
+  "entries": [
+    {
+      "en": "I help my mum at home.",
+      "ru": "Я помогаю маме дома."
+    },
+    {
+      "en": "I help her clean vegetables.",
+      "ru": "Я помогаю ей чистить овощи."
+    },
+    {
+      "en": "I also help my mum by not disturbing her.",
+      "ru": "Я также помогаю маме тем, что не мешаю ей."
+    },
+    {
+      "en": "I think quiet help is important too.",
+      "ru": "Я думаю, что спокойная помощь тоже важна."
+    },
+    {
+      "en": "I tidy my bedding after sleep.",
+      "ru": "Я убираю за собой постельные принадлежности."
+    },
+    {
+      "en": "I can clean up after myself.",
+      "ru": "Я умею убирать за собой."
+    },
+    {
+      "en": "I like keeping my things in order.",
+      "ru": "Мне нравится держать свои вещи в порядке."
+    },
+    {
+      "en": "I like putting away my school things.",
+      "ru": "Мне нравится убирать школьные принадлежности."
+    },
+    {
+      "en": "A tidy desk helps me feel calm.",
+      "ru": "Аккуратный стол помогает мне чувствовать себя спокойно."
+    },
+    {
+      "en": "My mum does not trust me to wash dishes yet.",
+      "ru": "Мама пока не доверяет мне мыть посуду."
+    },
+    {
+      "en": "She says I do not wash them well enough yet.",
+      "ru": "Она говорит, что я пока мою ее недостаточно хорошо."
+    },
+    {
+      "en": "So washing dishes is not my job now.",
+      "ru": "Поэтому мытье посуды сейчас не моя задача."
+    },
+    {
+      "en": "My mum takes care of the cat.",
+      "ru": "Мама заботится о коте."
+    },
+    {
+      "en": "I do not clean after the cat.",
+      "ru": "Я не убираю за котом."
+    },
+    {
+      "en": "I only stroke him.",
+      "ru": "Я только глажу его."
+    },
+    {
+      "en": "I like being gentle with our cat.",
+      "ru": "Мне нравится быть ласковой с нашим котом."
+    },
+    {
+      "en": "It is important to help at home.",
+      "ru": "Важно помогать дома."
+    },
+    {
+      "en": "My mum gets tired.",
+      "ru": "Моя мама устает."
+    },
+    {
+      "en": "I want our home to be clean.",
+      "ru": "Я хочу, чтобы наш дом был чистым."
+    },
+    {
+      "en": "Small help can also be useful.",
+      "ru": "Даже маленькая помощь тоже может быть полезной."
+    },
+    {
+      "en": "When everyone helps, home feels better.",
+      "ru": "Когда все помогают, дома становится лучше."
+    },
+    {
+      "en": "Helping at home is a kind and good thing.",
+      "ru": "Помощь дома — это доброе и хорошее дело."
+    }
+  ]
+}

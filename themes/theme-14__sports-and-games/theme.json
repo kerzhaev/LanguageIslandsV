@@ -1,0 +1,95 @@
+{
+  "theme_id": "theme-14",
+  "slug": "sports-and-games",
+  "theme_label": "THEME 14",
+  "title": "Sports and games",
+  "folder_name": "14. Спорт и игры",
+  "video": {
+    "width": 1280,
+    "height": 720,
+    "fps": 24,
+    "background_color": "#F6F0E5"
+  },
+  "entries": [
+    {
+      "en": "Sport is good for children and adults.",
+      "ru": "Спорт полезен для детей и взрослых."
+    },
+    {
+      "en": "It helps us stay strong and healthy.",
+      "ru": "Он помогает нам быть сильными и здоровыми."
+    },
+    {
+      "en": "I like active games and movement.",
+      "ru": "Мне нравятся активные игры и движение."
+    },
+    {
+      "en": "At school we have PE lessons.",
+      "ru": "В школе у нас есть уроки физкультуры."
+    },
+    {
+      "en": "During PE we run, jump, and play team games.",
+      "ru": "На физкультуре мы бегаем, прыгаем и играем в командные игры."
+    },
+    {
+      "en": "Some children like football or basketball.",
+      "ru": "Некоторым детям нравится футбол или баскетбол."
+    },
+    {
+      "en": "Others prefer swimming, dancing, or gymnastics.",
+      "ru": "Другие предпочитают плавание, танцы или гимнастику."
+    },
+    {
+      "en": "I enjoy outdoor games with my friends.",
+      "ru": "Мне нравятся игры на улице с друзьями."
+    },
+    {
+      "en": "Tag and hide-and-seek are simple but fun.",
+      "ru": "Салки и прятки простые, но весёлые."
+    },
+    {
+      "en": "Sport teaches us to follow rules.",
+      "ru": "Спорт учит нас соблюдать правила."
+    },
+    {
+      "en": "It also teaches teamwork and patience.",
+      "ru": "Он также учит работать в команде и быть терпеливыми."
+    },
+    {
+      "en": "Winning is nice, but trying your best is more important.",
+      "ru": "Побеждать приятно, но важнее стараться изо всех сил."
+    },
+    {
+      "en": "It is okay to lose sometimes.",
+      "ru": "Иногда проигрывать — это нормально."
+    },
+    {
+      "en": "We can learn from every game.",
+      "ru": "Мы можем учиться в каждой игре."
+    },
+    {
+      "en": "I like cheering for my friends.",
+      "ru": "Мне нравится болеть за друзей."
+    },
+    {
+      "en": "Warm-up exercises are important before sport.",
+      "ru": "Разминка важна перед спортом."
+    },
+    {
+      "en": "Water is important after exercise.",
+      "ru": "После упражнений важно пить воду."
+    },
+    {
+      "en": "Too much screen time is not as good as active play.",
+      "ru": "Слишком много времени за экраном не так полезно, как активные игры."
+    },
+    {
+      "en": "Sport can make us brave and disciplined.",
+      "ru": "Спорт может сделать нас смелыми и дисциплинированными."
+    },
+    {
+      "en": "I want to stay active and enjoy movement every week.",
+      "ru": "Я хочу оставаться активной и радоваться движению каждую неделю."
+    }
+  ]
+}

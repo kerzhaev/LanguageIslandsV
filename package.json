@@ -1,0 +1,11 @@
+{
+  "name": "language-islands-varvara",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "naturalreaders": "node ./scripts/naturalreaders_download.mjs"
+  },
+  "dependencies": {
+    "playwright": "^1.54.1"
+  }
+}

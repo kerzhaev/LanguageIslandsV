@@ -1,0 +1,104 @@
+{
+  "theme_id": "theme-07",
+  "slug": "my-cat-and-animals",
+  "theme_label": "THEME 07",
+  "title": "My cat and animals",
+  "folder_name": "7. Мой кот и животные",
+  "level": "basic",
+  "video": {
+    "width": 1280,
+    "height": 720,
+    "fps": 24,
+    "background_color": "#F6F0E5"
+  },
+  "entries": [
+    {
+      "en": "My cat's name is Felix.",
+      "ru": "Моего кота зовут Феликс."
+    },
+    {
+      "en": "Felix is lazy, clever and funny.",
+      "ru": "Феликс ленивый, умный и смешной."
+    },
+    {
+      "en": "He is grey and white.",
+      "ru": "Он серый с белым."
+    },
+    {
+      "en": "Felix is a very big cat.",
+      "ru": "Феликс очень большой кот."
+    },
+    {
+      "en": "He weighs almost eight kilos.",
+      "ru": "Он весит почти восемь килограммов."
+    },
+    {
+      "en": "He has a big tummy.",
+      "ru": "У него большой живот."
+    },
+    {
+      "en": "Felix likes sleeping all day.",
+      "ru": "Феликс любит спать целый день."
+    },
+    {
+      "en": "He also likes eating.",
+      "ru": "Он также любит кушать."
+    },
+    {
+      "en": "He lives a calm cat life.",
+      "ru": "Он живет спокойной кошачьей жизнью."
+    },
+    {
+      "en": "Felix likes sitting on hands.",
+      "ru": "Феликс любит сидеть на руках."
+    },
+    {
+      "en": "He likes playing too.",
+      "ru": "Ему также нравится играть."
+    },
+    {
+      "en": "He can run fast at night.",
+      "ru": "Ночью он может быстро бегать."
+    },
+    {
+      "en": "There is another cat called Nyusha.",
+      "ru": "Есть еще одна кошка по имени Нюша."
+    },
+    {
+      "en": "Nyusha is my dad's cat.",
+      "ru": "Нюша — это кошка моего папы."
+    },
+    {
+      "en": "When Nyusha comes to visit, the night becomes noisy.",
+      "ru": "Когда Нюша приезжает в гости, ночь становится шумной."
+    },
+    {
+      "en": "Felix and Nyusha run and play at night.",
+      "ru": "Феликс и Нюша ночью бегают и играют."
+    },
+    {
+      "en": "Sometimes they do not let people sleep.",
+      "ru": "Иногда они не дают людям спать."
+    },
+    {
+      "en": "I think Nyusha is funny too.",
+      "ru": "Я думаю, что Нюша тоже прикольная."
+    },
+    {
+      "en": "I like cats very much.",
+      "ru": "Я очень люблю кошек."
+    },
+    {
+      "en": "Animals are cute and fluffy.",
+      "ru": "Животные милые и пушистые."
+    },
+    {
+      "en": "That is why I love animals.",
+      "ru": "Вот почему я люблю животных."
+    },
+    {
+      "en": "Felix is a special part of my life.",
+      "ru": "Феликс — особенная часть моей жизни."
+    }
+  ]
+}

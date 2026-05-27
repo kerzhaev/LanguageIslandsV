@@ -1,0 +1,95 @@
+{
+  "theme_id": "theme-15",
+  "slug": "books-and-reading",
+  "theme_label": "THEME 15",
+  "title": "Books and reading",
+  "folder_name": "15. Книги и чтение",
+  "video": {
+    "width": 1280,
+    "height": 720,
+    "fps": 24,
+    "background_color": "#F6F0E5"
+  },
+  "entries": [
+    {
+      "en": "Books are our quiet friends.",
+      "ru": "Книги — наши тихие друзья."
+    },
+    {
+      "en": "Reading helps us learn new things.",
+      "ru": "Чтение помогает нам узнавать новое."
+    },
+    {
+      "en": "I like reading stories in the evening.",
+      "ru": "Мне нравится читать истории вечером."
+    },
+    {
+      "en": "Adventure books are exciting and fun.",
+      "ru": "Приключенческие книги увлекательные и интересные."
+    },
+    {
+      "en": "Fairy tales can be magical and kind.",
+      "ru": "Сказки могут быть волшебными и добрыми."
+    },
+    {
+      "en": "Some books make us laugh.",
+      "ru": "Некоторые книги заставляют нас смеяться."
+    },
+    {
+      "en": "Other books make us think deeply.",
+      "ru": "Другие книги заставляют нас задуматься."
+    },
+    {
+      "en": "I often read at home in a cosy place.",
+      "ru": "Я часто читаю дома в уютном месте."
+    },
+    {
+      "en": "Sometimes I borrow books from the library.",
+      "ru": "Иногда я беру книги в библиотеке."
+    },
+    {
+      "en": "A library is a wonderful place for readers.",
+      "ru": "Библиотека — замечательное место для читателей."
+    },
+    {
+      "en": "Reading improves our imagination.",
+      "ru": "Чтение развивает наше воображение."
+    },
+    {
+      "en": "It also helps us remember words and ideas.",
+      "ru": "Оно также помогает запоминать слова и идеи."
+    },
+    {
+      "en": "I like books with interesting characters.",
+      "ru": "Мне нравятся книги с интересными героями."
+    },
+    {
+      "en": "A good story can take us to another world.",
+      "ru": "Хорошая история может перенести нас в другой мир."
+    },
+    {
+      "en": "Sometimes I read alone and sometimes with my family.",
+      "ru": "Иногда я читаю одна, а иногда с семьёй."
+    },
+    {
+      "en": "Parents can read aloud to children.",
+      "ru": "Родители могут читать детям вслух."
+    },
+    {
+      "en": "That makes reading warm and special.",
+      "ru": "Это делает чтение тёплым и особенным."
+    },
+    {
+      "en": "I think reading is better than being bored.",
+      "ru": "Я думаю, что читать лучше, чем скучать."
+    },
+    {
+      "en": "Every book can teach us something useful.",
+      "ru": "Каждая книга может научить нас чему-то полезному."
+    },
+    {
+      "en": "I hope I will always have time for books.",
+      "ru": "Надеюсь, у меня всегда будет время для книг."
+    }
+  ]
+}

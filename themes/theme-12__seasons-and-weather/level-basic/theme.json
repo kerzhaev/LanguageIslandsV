@@ -1,0 +1,104 @@
+{
+  "theme_id": "theme-12",
+  "slug": "seasons-and-weather",
+  "theme_label": "THEME 12",
+  "title": "Seasons and weather",
+  "folder_name": "12. Погода и времена года",
+  "level": "basic",
+  "video": {
+    "width": 1280,
+    "height": 720,
+    "fps": 24,
+    "background_color": "#F6F0E5"
+  },
+  "entries": [
+    {
+      "en": "My favourite seasons are spring and summer.",
+      "ru": "Мои любимые времена года — весна и лето."
+    },
+    {
+      "en": "I like them because they are warm.",
+      "ru": "Мне они нравятся, потому что они теплые."
+    },
+    {
+      "en": "Warm weather is my favourite.",
+      "ru": "Теплая погода — моя любимая."
+    },
+    {
+      "en": "I feel happy when the weather is warm.",
+      "ru": "Я чувствую себя счастливой, когда погода теплая."
+    },
+    {
+      "en": "In summer I like walking a lot.",
+      "ru": "Летом мне очень нравится гулять."
+    },
+    {
+      "en": "I also like riding my scooter in summer.",
+      "ru": "Летом мне также нравится кататься на самокате."
+    },
+    {
+      "en": "Summer is great for outdoor fun.",
+      "ru": "Лето отлично подходит для веселья на улице."
+    },
+    {
+      "en": "In winter I like playing snowballs.",
+      "ru": "Зимой мне нравится играть в снежки."
+    },
+    {
+      "en": "I also like riding a sled in winter.",
+      "ru": "Зимой мне также нравится кататься на санках."
+    },
+    {
+      "en": "Winter games can be very fun.",
+      "ru": "Зимние игры могут быть очень веселыми."
+    },
+    {
+      "en": "In spring I like jumping in puddles.",
+      "ru": "Весной мне нравится прыгать по лужам."
+    },
+    {
+      "en": "Spring feels fresh and lively.",
+      "ru": "Весна кажется свежей и живой."
+    },
+    {
+      "en": "In autumn I like collecting leaves for a herbarium.",
+      "ru": "Осенью мне нравится собирать листья для гербария."
+    },
+    {
+      "en": "Autumn leaves can be beautiful.",
+      "ru": "Осенние листья могут быть красивыми."
+    },
+    {
+      "en": "I like both rain and sunshine.",
+      "ru": "Мне нравится и дождь, и солнце."
+    },
+    {
+      "en": "Rain can be fun in the right mood.",
+      "ru": "Дождь может быть приятным в правильном настроении."
+    },
+    {
+      "en": "Sunshine makes the day bright.",
+      "ru": "Солнечный свет делает день ярким."
+    },
+    {
+      "en": "Warm weather is the best for walking.",
+      "ru": "Теплая погода лучше всего подходит для прогулок."
+    },
+    {
+      "en": "I do not like cold weather.",
+      "ru": "Мне не нравится холодная погода."
+    },
+    {
+      "en": "I also do not like windy weather.",
+      "ru": "Мне также не нравится ветреная погода."
+    },
+    {
+      "en": "I feel best when the weather is warm and pleasant.",
+      "ru": "Лучше всего я себя чувствую, когда погода теплая и приятная."
+    },
+    {
+      "en": "Every season has something nice, but warmth is best for me.",
+      "ru": "В каждом времени года есть что-то хорошее, но тепло для меня лучше всего."
+    }
+  ]
+}

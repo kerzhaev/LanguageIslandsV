@@ -1,0 +1,104 @@
+{
+  "theme_id": "theme-03",
+  "slug": "my-family",
+  "theme_label": "THEME 03",
+  "title": "My family",
+  "folder_name": "3. Моя семья",
+  "level": "basic",
+  "video": {
+    "width": 1280,
+    "height": 720,
+    "fps": 24,
+    "background_color": "#F6F0E5"
+  },
+  "entries": [
+    {
+      "en": "My family is kind and important to me.",
+      "ru": "Моя семья добрая и очень важна для меня."
+    },
+    {
+      "en": "I live with my mum and my cat.",
+      "ru": "Я живу с мамой и с моим котом."
+    },
+    {
+      "en": "My mum's name is Yulia.",
+      "ru": "Мою маму зовут Юлия."
+    },
+    {
+      "en": "My dad's name is Zhenya.",
+      "ru": "Моего папу зовут Женя."
+    },
+    {
+      "en": "My dad works in another city.",
+      "ru": "Мой папа работает в другом городе."
+    },
+    {
+      "en": "He comes to us on holidays or during his vacation.",
+      "ru": "Он приезжает к нам на праздники или во время отпуска."
+    },
+    {
+      "en": "My granny and my grandpa live separately.",
+      "ru": "Моя бабушка и мой дедушка живут отдельно."
+    },
+    {
+      "en": "They come to visit us from time to time.",
+      "ru": "Они время от времени приезжают к нам в гости."
+    },
+    {
+      "en": "My granny comes more often.",
+      "ru": "Моя бабушка приезжает чаще."
+    },
+    {
+      "en": "I have no brothers or sisters.",
+      "ru": "У меня нет братьев и сестер."
+    },
+    {
+      "en": "But I have a cousin called Ilya.",
+      "ru": "Но у меня есть двоюродный брат по имени Илья."
+    },
+    {
+      "en": "My mum likes cooking tasty food.",
+      "ru": "Моя мама любит готовить вкусную еду."
+    },
+    {
+      "en": "My dad helps her in the kitchen.",
+      "ru": "Мой папа помогает ей на кухне."
+    },
+    {
+      "en": "He can cut vegetables and clean fish.",
+      "ru": "Он может резать овощи и чистить рыбу."
+    },
+    {
+      "en": "He can also do strong men's work at home.",
+      "ru": "Он также может делать дома сильную мужскую работу."
+    },
+    {
+      "en": "I like drawing very much.",
+      "ru": "Мне очень нравится рисовать."
+    },
+    {
+      "en": "I also like playing with my cat Felix.",
+      "ru": "Мне также нравится играть с моим котом Феликсом."
+    },
+    {
+      "en": "My mum and I often go for a walk together.",
+      "ru": "Мы с мамой часто вместе ходим гулять."
+    },
+    {
+      "en": "Sometimes we can go somewhere together.",
+      "ru": "Иногда мы можем куда-нибудь поехать вместе."
+    },
+    {
+      "en": "When my dad comes, we can watch a long cartoon or a film together.",
+      "ru": "Когда приезжает папа, мы можем вместе посмотреть полнометражный мультфильм или фильм."
+    },
+    {
+      "en": "We choose something interesting for everyone.",
+      "ru": "Мы выбираем что-то интересное для всех."
+    },
+    {
+      "en": "I feel happy when my family is together.",
+      "ru": "Я чувствую себя счастливой, когда моя семья вместе."
+    }
+  ]
+}
