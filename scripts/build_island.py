@@ -31,6 +31,14 @@ ROOT = Path(__file__).resolve().parents[1]
 OUTPUT_ROOT = ROOT / "output"
 FONT_REGULAR = "ArialUnicodeFallback"
 FONT_BOLD = "ArialUnicodeFallbackBold"
+LANGUAGE_INFO = {
+    "english": {"name": "English", "code": "en"},
+    "spanish": {"name": "Spanish", "code": "es"},
+    "german": {"name": "German", "code": "de"},
+    "french": {"name": "French", "code": "fr"},
+    "italian": {"name": "Italian", "code": "it"},
+    "japanese": {"name": "Japanese", "code": "ja"},
+}
 
 
 def load_theme(path: Path) -> dict:
@@ -39,6 +47,27 @@ def load_theme(path: Path) -> dict:
 
 def theme_prefix(theme: dict) -> str:
     return f"{theme['theme_id']}__{theme['slug']}"
+
+
+def theme_language_key(theme: dict) -> str:
+    value = str(theme.get("language", "english")).strip().lower()
+    return value if value else "english"
+
+
+def theme_language_name(theme: dict) -> str:
+    return LANGUAGE_INFO.get(theme_language_key(theme), {}).get("name", theme_language_key(theme).replace("-", " ").title())
+
+
+def theme_language_code(theme: dict) -> str:
+    return LANGUAGE_INFO.get(theme_language_key(theme), {}).get("code", theme_language_key(theme)[:2])
+
+
+def target_text(entry: dict) -> str:
+    return str(entry.get("text") or entry.get("target") or entry.get("en") or "").strip()
+
+
+def native_text(entry: dict) -> str:
+    return str(entry.get("ru") or "").strip()
 
 
 def output_dir(theme: dict) -> Path:
@@ -99,6 +128,10 @@ def build_styles():
 
 def as_paragraph(text: str, style: ParagraphStyle) -> Paragraph:
     return Paragraph(text.replace("&", "&amp;"), style)
+
+
+def numbered_text(index: int, text: str) -> str:
+    return f"<b>{index}.</b> {text}"
 
 
 def pdf_layout_candidates(theme: dict) -> list[dict]:
@@ -227,18 +260,19 @@ def make_pdf_table(rows: list[list[Paragraph]], layout: dict, doc: SimpleDocTemp
 
 def pdf_story(theme: dict, layout: dict, mode: str, doc: SimpleDocTemplate) -> list:
     styles = pdf_styles(layout)
+    target_language = theme_language_name(theme)
     if mode == "bilingual":
         story = [
             Paragraph(f"{theme['theme_label']}<br/>{theme['title']} - Bilingual Study", styles["title"]),
             Paragraph(
-                "Read across both columns. Use English as the main track and Russian only as support.",
+                f"Read across both columns. Use {target_language} as the main track and Russian only as support.",
                 styles["subtitle"],
             ),
         ]
         rows = [
             [
                 as_paragraph(
-                    f"English<br/><font size='{layout['header_hint_size']}'>Primary text</font>",
+                    f"{target_language}<br/><font size='{layout['header_hint_size']}'>Primary text</font>",
                     styles["cell_bold"],
                 ),
                 as_paragraph(
@@ -251,14 +285,14 @@ def pdf_story(theme: dict, layout: dict, mode: str, doc: SimpleDocTemplate) -> l
         story = [
             Paragraph(f"{theme['theme_label']}<br/>{theme['title']} - Active Recall", styles["title"]),
             Paragraph(
-                "Read the Russian prompt first, answer aloud in English, then uncover and check.",
+                f"Read the Russian prompt first, answer aloud in {target_language}, then uncover and check.",
                 styles["subtitle"],
             ),
         ]
         rows = [
             [
                 as_paragraph(
-                    f"English answer<br/><font size='{layout['header_hint_size']}'>Keep covered while recalling</font>",
+                    f"{target_language} answer<br/><font size='{layout['header_hint_size']}'>Keep covered while recalling</font>",
                     styles["cell_bold"],
                 ),
                 as_paragraph(
@@ -267,11 +301,21 @@ def pdf_story(theme: dict, layout: dict, mode: str, doc: SimpleDocTemplate) -> l
                 ),
             ]
         ]
-    for entry in theme["entries"]:
+    for index, entry in enumerate(theme["entries"], start=1):
         if mode == "bilingual":
-            rows.append([as_paragraph(entry["en"], styles["cell"]), as_paragraph(entry["ru"], styles["cell"])])
+            rows.append(
+                [
+                    as_paragraph(numbered_text(index, target_text(entry)), styles["cell"]),
+                    as_paragraph(numbered_text(index, native_text(entry)), styles["cell"]),
+                ]
+            )
         else:
-            rows.append([as_paragraph(entry["en"], styles["cell"]), as_paragraph(entry["ru"], styles["cell"])])
+            rows.append(
+                [
+                    as_paragraph(numbered_text(index, target_text(entry)), styles["cell"]),
+                    as_paragraph(numbered_text(index, native_text(entry)), styles["cell"]),
+                ]
+            )
     table = make_pdf_table(rows, layout, doc, mode)
     story.append(table)
     return story
@@ -321,10 +365,10 @@ def write_text(path: Path, lines: list[str]) -> None:
 
 
 def build_naturalreaders_inputs(theme: dict, target_once: Path, target_repeat: Path) -> None:
-    once_lines = [entry["en"] for entry in theme["entries"]]
+    once_lines = [target_text(entry) for entry in theme["entries"]]
     repeat_lines: list[str] = []
     for entry in theme["entries"]:
-        repeat_lines.extend([entry["en"]] * 5)
+        repeat_lines.extend([target_text(entry)] * 5)
         repeat_lines.append("")
     write_text(target_once, once_lines)
     write_text(target_repeat, repeat_lines)
@@ -337,7 +381,7 @@ def mp3_duration_seconds(path: Path) -> float:
 def subtitle_weights(entries: list[dict]) -> list[float]:
     weights = []
     for entry in entries:
-        text = entry["en"]
+        text = target_text(entry)
         words = max(1, len(text.split()))
         chars = len(text)
         weights.append(words * 1.4 + chars * 0.06)
@@ -353,7 +397,7 @@ def subtitle_blocks(entries: list[dict], total_seconds: float) -> list[tuple[flo
         duration = total_seconds * (weight / total_weight)
         start = cursor
         end = start + duration
-        blocks.append((start, end, entry["en"]))
+        blocks.append((start, end, target_text(entry)))
         cursor = end
     if blocks:
         start, _, text = blocks[-1]
@@ -457,7 +501,7 @@ def partition_chunks(
             end = min(end, midpoint)
         if end <= start:
             end = min(total_seconds, start + 0.2)
-        blocks.append((start, end, entries[idx]["en"]))
+        blocks.append((start, end, target_text(entries[idx])))
         previous_end = end
 
     if blocks:
@@ -489,7 +533,7 @@ def build_srt(theme: dict, mp3_path: Path, srt_path: Path, language: str, number
     lines = []
     for idx, (start, end, _) in enumerate(blocks, start=1):
         entry = theme["entries"][idx - 1]
-        text = entry["en"] if language == "en" else entry["ru"]
+        text = target_text(entry) if language == "target" else native_text(entry)
         if numbered:
             text = f"{idx}. {text}"
         lines.extend(
@@ -571,18 +615,19 @@ def main() -> None:
     out_dir = output_dir(theme)
     out_dir.mkdir(parents=True, exist_ok=True)
     prefix = theme_prefix(theme)
+    lang_code = theme_language_code(theme)
 
     pdf_bilingual = out_dir / f"{prefix}__03__bilingual_study.pdf"
     pdf_active = out_dir / f"{prefix}__05__active_recall.pdf"
-    txt_once = out_dir / f"{prefix}__04a__shadowing_en__naturalreaders_input.txt"
-    txt_repeat = out_dir / f"{prefix}__06a__shadowing_en_repeat__naturalreaders_input.txt"
-    mp3_once = out_dir / f"{prefix}__04__shadowing_en.mp3"
-    mp3_repeat = out_dir / f"{prefix}__06__shadowing_en_repeat.mp3"
+    txt_once = out_dir / f"{prefix}__04a__shadowing_{lang_code}__naturalreaders_input.txt"
+    txt_repeat = out_dir / f"{prefix}__06a__shadowing_{lang_code}_repeat__naturalreaders_input.txt"
+    mp3_once = out_dir / f"{prefix}__04__shadowing_{lang_code}.mp3"
+    mp3_repeat = out_dir / f"{prefix}__06__shadowing_{lang_code}_repeat.mp3"
     srt_path = out_dir / f"{prefix}__13__shadowing_ru.srt"
-    video_path = out_dir / f"{prefix}__14__shadowing_video_en.mp4"
+    video_path = out_dir / f"{prefix}__14__shadowing_video_{lang_code}.mp4"
     zip_name = datetime.now().strftime("%d-%m-%Y_%H-%M-%S.zip")
     zip_path = out_dir / zip_name
-    legacy_srt_path = out_dir / f"{prefix}__13__shadowing_en.srt"
+    legacy_srt_path = out_dir / f"{prefix}__13__shadowing_{lang_code}.srt"
 
     build_bilingual_pdf(theme, pdf_bilingual)
     build_active_recall_pdf(theme, pdf_active)
@@ -590,10 +635,10 @@ def main() -> None:
 
     if mp3_once.exists():
         build_srt(theme, mp3_once, srt_path, language="ru", numbered=True)
-        with tempfile.NamedTemporaryFile(prefix=f"{prefix}__burn_en__", suffix=".srt", delete=False) as temp_file:
+        with tempfile.NamedTemporaryFile(prefix=f"{prefix}__burn_{lang_code}__", suffix=".srt", delete=False) as temp_file:
             burn_srt_path = Path(temp_file.name)
         try:
-            build_srt(theme, mp3_once, burn_srt_path, language="en", numbered=True)
+            build_srt(theme, mp3_once, burn_srt_path, language="target", numbered=True)
             render_video(theme, mp3_once, burn_srt_path, video_path)
         finally:
             burn_srt_path.unlink(missing_ok=True)

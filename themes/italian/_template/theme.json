@@ -3,8 +3,8 @@
   "slug": "replace-with-topic-slug",
   "theme_label": "THEME XX",
   "title": "Replace with theme title",
-  "folder_name": "X. Название темы",
-  "language": "english",
+  "folder_name": "X. Replace with folder title",
+  "language": "italian",
   "video": {
     "width": 1280,
     "height": 720,
@@ -13,11 +13,11 @@
   },
   "entries": [
     {
-      "text": "First target-language sentence.",
+      "text": "Prima frase in italiano.",
       "ru": "Первое русское значение."
     },
     {
-      "text": "Second target-language sentence.",
+      "text": "Seconda frase in italiano.",
       "ru": "Второе русское значение."
     }
   ]
