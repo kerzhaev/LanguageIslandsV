@@ -1,0 +1,105 @@
+{
+  "theme_id": "theme-05-es",
+  "slug": "mi-casa-y-mi-habitacion",
+  "theme_label": "THEME 05",
+  "title": "Mi casa y mi habitacion",
+  "folder_name": "Spanish\\5. My home and my room",
+  "language": "spanish",
+  "level": "basic",
+  "video": {
+    "width": 1280,
+    "height": 720,
+    "fps": 24,
+    "background_color": "#F6F0E5"
+  },
+  "entries": [
+    {
+      "text": "Vivo en un piso.",
+      "ru": "Я живу в квартире."
+    },
+    {
+      "text": "En nuestro piso hay una habitacion grande.",
+      "ru": "В нашей квартире одна большая комната."
+    },
+    {
+      "text": "Mi casa es acogedora y comoda.",
+      "ru": "Мой дом уютный и удобный."
+    },
+    {
+      "text": "Me gusta estar en casa.",
+      "ru": "Мне нравится быть дома."
+    },
+    {
+      "text": "En la habitacion hay una mesa.",
+      "ru": "В комнате есть стол."
+    },
+    {
+      "text": "Tambien hay una cama.",
+      "ru": "Там также есть кровать."
+    },
+    {
+      "text": "En mi habitacion hay estanterias.",
+      "ru": "В моей комнате есть полки."
+    },
+    {
+      "text": "En mi habitacion tengo juguetes.",
+      "ru": "У меня в комнате есть игрушки."
+    },
+    {
+      "text": "Tambien tengo libros ahi.",
+      "ru": "У меня там также есть книги."
+    },
+    {
+      "text": "Mi cosa favorita en la habitacion es mi cama.",
+      "ru": "Моя любимая вещь в комнате — это моя кровать."
+    },
+    {
+      "text": "Mi cama es mi lugar favorito para descansar.",
+      "ru": "Моя кровать — мое любимое место для отдыха."
+    },
+    {
+      "text": "Hago los deberes en la mesa.",
+      "ru": "Я делаю уроки за столом."
+    },
+    {
+      "text": "La mesa esta delante del ordenador.",
+      "ru": "Стол стоит перед компьютером."
+    },
+    {
+      "text": "Puedo sentarme ahi y estudiar.",
+      "ru": "Я могу сидеть там и заниматься."
+    },
+    {
+      "text": "Leo libros en mi habitacion.",
+      "ru": "Я читаю книги в своей комнате."
+    },
+    {
+      "text": "Tambien puedo jugar con mis juguetes ahi.",
+      "ru": "Я также могу там играть со своими игрушками."
+    },
+    {
+      "text": "Mi habitacion es importante para mi.",
+      "ru": "Моя комната важна для меня."
+    },
+    {
+      "text": "Me siento tranquila y feliz en mi habitacion.",
+      "ru": "Я чувствую себя спокойно и счастливо в своей комнате."
+    },
+    {
+      "text": "Me gusta el desorden creativo.",
+      "ru": "Мне нравится творческий беспорядок."
+    },
+    {
+      "text": "Mi desorden creativo es parte de mi habitacion.",
+      "ru": "Мой творческий беспорядок — это часть моей комнаты."
+    },
+    {
+      "text": "Mi habitacion es pequena en cierto modo pero grande para mis ideas.",
+      "ru": "Моя комната маленькая в одном смысле, но большая для моих идей."
+    },
+    {
+      "text": "Me gusta mucho mi casa y mi habitacion.",
+      "ru": "Мне очень нравится мой дом и моя комната."
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "theme_id": "theme-07",
+  "slug": "my-cat-and-animals",
+  "theme_label": "THEME 07",
+  "title": "My cat and animals",
+  "folder_name": "7. Мой кот и животные",
+  "level": "advanced",
+  "video": {
+    "width": 1280,
+    "height": 720,
+    "fps": 24,
+    "background_color": "#F6F0E5"
+  },
+  "entries": [
+    {
+      "en": "My cat's name is Felix, and he is a very special part of my life.",
+      "ru": "Моего кота зовут Феликс, и он очень особенная часть моей жизни."
+    },
+    {
+      "en": "Felix is lazy, clever and funny.",
+      "ru": "Феликс ленивый, умный и смешной."
+    },
+    {
+      "en": "He is grey and white.",
+      "ru": "Он серо-белый."
+    },
+    {
+      "en": "Felix is a very big cat.",
+      "ru": "Феликс — очень большой кот."
+    },
+    {
+      "en": "He weighs almost eight kilos.",
+      "ru": "Он весит почти восемь килограммов."
+    },
+    {
+      "en": "He has a big tummy, which makes him look even funnier.",
+      "ru": "У него большой живот, и из-за этого он выглядит ещё смешнее."
+    },
+    {
+      "en": "Felix likes sleeping all day.",
+      "ru": "Феликс любит спать целый день."
+    },
+    {
+      "en": "He also likes eating.",
+      "ru": "Он также любит есть."
+    },
+    {
+      "en": "Most of the time he lives a calm cat life.",
+      "ru": "Большую часть времени он живёт спокойной кошачьей жизнью."
+    },
+    {
+      "en": "Felix likes sitting on hands.",
+      "ru": "Феликс любит сидеть на руках."
+    },
+    {
+      "en": "He likes playing too, especially when he feels energetic.",
+      "ru": "Ему также нравится играть, особенно когда у него есть настроение и силы."
+    },
+    {
+      "en": "At night he can run very fast.",
+      "ru": "Ночью он может очень быстро бегать."
+    },
+    {
+      "en": "There is another cat called Nyusha.",
+      "ru": "Есть ещё одна кошка по имени Нюша."
+    },
+    {
+      "en": "Nyusha is my dad's cat.",
+      "ru": "Нюша — кошка моего папы."
+    },
+    {
+      "en": "When Nyusha comes to visit, the night becomes much noisier.",
+      "ru": "Когда Нюша приезжает в гости, ночь становится гораздо шумнее."
+    },
+    {
+      "en": "Felix and Nyusha run and play at night.",
+      "ru": "Феликс и Нюша ночью бегают и играют."
+    },
+    {
+      "en": "Sometimes they do not let people sleep.",
+      "ru": "Иногда они не дают людям спать."
+    },
+    {
+      "en": "I think Nyusha is funny too.",
+      "ru": "Я думаю, что Нюша тоже смешная."
+    },
+    {
+      "en": "I like cats very much.",
+      "ru": "Я очень люблю кошек."
+    },
+    {
+      "en": "Animals are cute and fluffy, and that is one reason why I love them.",
+      "ru": "Животные милые и пушистые, и это одна из причин, почему я их люблю."
+    },
+    {
+      "en": "They also make life warmer and more cheerful.",
+      "ru": "Они также делают жизнь теплее и веселее."
+    },
+    {
+      "en": "That is why Felix has become such an important part of my life.",
+      "ru": "Поэтому Феликс стал такой важной частью моей жизни."
+    }
+  ]
+}

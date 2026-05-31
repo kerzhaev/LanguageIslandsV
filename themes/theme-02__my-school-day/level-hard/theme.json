@@ -1,0 +1,60 @@
+{
+  "theme_id": "theme-02",
+  "slug": "my-school-day",
+  "theme_label": "THEME 02",
+  "title": "My school day",
+  "folder_name": "2. Мой школьный день",
+  "level": "hard",
+  "video": {
+    "width": 1280,
+    "height": 720,
+    "fps": 24,
+    "background_color": "#F6F0E5"
+  },
+  "entries": [
+    {
+      "en": "My school day usually starts at nine o'clock, so my mornings have a clear rhythm. I get up at ten past eight, which gives me enough time to get ready.",
+      "ru": "Мой школьный день обычно начинается в девять часов, поэтому у моего утра есть понятный ритм. Я встаю в восемь десять, и у меня хватает времени спокойно собраться."
+    },
+    {
+      "en": "Every morning I wash my face and brush my teeth before school. Then I get dressed and prepare for the day ahead.",
+      "ru": "Каждое утро я умываюсь и чищу зубы перед школой. Потом я одеваюсь и готовлюсь к предстоящему дню."
+    },
+    {
+      "en": "My school is very close to my home, and that makes my routine easier. It takes only five minutes to walk there.",
+      "ru": "Моя школа находится очень близко к дому, и это делает мой распорядок легче. Туда идти всего пять минут."
+    },
+    {
+      "en": "I do not need a bus or a car because the school is nearby. That is why I can walk to school easily and calmly.",
+      "ru": "Мне не нужен ни автобус, ни машина, потому что школа рядом. Поэтому я могу легко и спокойно дойти до школы пешком."
+    },
+    {
+      "en": "I usually come to school on time. I study well and have already got many top marks.",
+      "ru": "Обычно я прихожу в школу вовремя. Я хорошо учусь и уже получила много пятёрок."
+    },
+    {
+      "en": "My favourite subjects are Art and Literature because they are the most interesting for me. I like drawing because it helps me be creative and express my ideas.",
+      "ru": "Мои любимые предметы — рисование и литература, потому что они для меня самые интересные. Мне нравится рисование, потому что оно помогает мне быть творческой и выражать свои идеи."
+    },
+    {
+      "en": "I like Literature because I really enjoy stories, books and interesting characters. School subjects are usually not difficult for me.",
+      "ru": "Мне нравится литература, потому что я очень люблю истории, книги и интересных персонажей. Школьные предметы обычно не кажутся мне трудными."
+    },
+    {
+      "en": "I listen to my teachers carefully and try to understand everything well. At school there is a canteen where I have lunch.",
+      "ru": "Я внимательно слушаю учителей и стараюсь хорошо всё понимать. В школе есть столовая, где я обедаю."
+    },
+    {
+      "en": "During the break we run on the playground if the weather is good. I like active breaks with my classmates because they make the school day livelier.",
+      "ru": "На перемене мы бегаем на площадке, если погода хорошая. Мне нравятся активные перемены с одноклассниками, потому что они делают школьный день живее."
+    },
+    {
+      "en": "After school I do my homework. If I have free time, I usually play games or watch YouTube.",
+      "ru": "После школы я делаю домашнее задание. Если у меня есть свободное время, я обычно играю в игры или смотрю YouTube."
+    },
+    {
+      "en": "I think my school day is busy, but it is also good and interesting. School has become a place where I feel confident and calm.",
+      "ru": "Я думаю, что мой школьный день насыщенный, но при этом хороший и интересный. Школа стала для меня местом, где я чувствую себя уверенно и спокойно."
+    }
+  ]
+}

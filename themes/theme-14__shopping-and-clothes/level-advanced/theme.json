@@ -1,0 +1,104 @@
+{
+  "theme_id": "theme-14",
+  "slug": "shopping-and-clothes",
+  "theme_label": "THEME 14",
+  "title": "Shopping and clothes",
+  "folder_name": "14. Покупки и одежда",
+  "level": "advanced",
+  "video": {
+    "width": 1280,
+    "height": 720,
+    "fps": 24,
+    "background_color": "#F6F0E5"
+  },
+  "entries": [
+    {
+      "en": "I like going shopping.",
+      "ru": "Мне нравится ходить по магазинам."
+    },
+    {
+      "en": "Shopping can be interesting for me, especially when I choose things myself.",
+      "ru": "Покупки могут быть для меня интересными, особенно когда я выбираю вещи сама."
+    },
+    {
+      "en": "I like choosing stationery.",
+      "ru": "Мне нравится выбирать канцтовары."
+    },
+    {
+      "en": "I also like choosing food.",
+      "ru": "Мне также нравится выбирать еду."
+    },
+    {
+      "en": "Nice shops make me feel happy.",
+      "ru": "Хорошие магазины делают меня счастливой."
+    },
+    {
+      "en": "I like clothes like hoodies.",
+      "ru": "Мне нравится одежда вроде толстовок."
+    },
+    {
+      "en": "Hoodies are comfortable and cosy.",
+      "ru": "Толстовки удобные и уютные."
+    },
+    {
+      "en": "I like many different colours.",
+      "ru": "Мне нравятся разные цвета."
+    },
+    {
+      "en": "I do not choose only one colour because I enjoy variety.",
+      "ru": "Я не выбираю только один цвет, потому что люблю разнообразие."
+    },
+    {
+      "en": "For school I wear a school uniform.",
+      "ru": "В школу я ношу школьную форму."
+    },
+    {
+      "en": "My school clothes are neat and simple.",
+      "ru": "Моя школьная одежда аккуратная и простая."
+    },
+    {
+      "en": "For a walk I like wearing trousers and a T-shirt.",
+      "ru": "На прогулку мне нравится надевать штаны и футболку."
+    },
+    {
+      "en": "I like clothes that are easy to move in.",
+      "ru": "Мне нравится одежда, в которой легко двигаться."
+    },
+    {
+      "en": "My mum and I choose things together.",
+      "ru": "Мы с мамой выбираем вещи вместе."
+    },
+    {
+      "en": "I like choosing clothes with my mum because it feels easier that way.",
+      "ru": "Мне нравится выбирать одежду вместе с мамой, потому что так мне легче."
+    },
+    {
+      "en": "In rainy weather I like wearing boots.",
+      "ru": "В дождливую погоду мне нравится носить сапоги."
+    },
+    {
+      "en": "Boots are good when it is wet outside.",
+      "ru": "Сапоги хороши, когда на улице мокро."
+    },
+    {
+      "en": "For a walk I like light trainers or sandals.",
+      "ru": "Для прогулки мне нравятся лёгкие кеды или сандалии."
+    },
+    {
+      "en": "Comfort is very important to me.",
+      "ru": "Комфорт для меня очень важен."
+    },
+    {
+      "en": "I like simple clothes for everyday life.",
+      "ru": "Мне нравится простая одежда для повседневной жизни."
+    },
+    {
+      "en": "Good shopping is calm and pleasant for me.",
+      "ru": "Хорошие покупки для меня спокойные и приятные."
+    },
+    {
+      "en": "I enjoy finding useful and nice things.",
+      "ru": "Мне нравится находить полезные и приятные вещи."
+    }
+  ]
+}

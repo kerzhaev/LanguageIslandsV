@@ -1,0 +1,105 @@
+{
+  "theme_id": "theme-15-es",
+  "slug": "ayudar-en-casa",
+  "theme_label": "THEME 15",
+  "title": "Ayudar en casa",
+  "folder_name": "Spanish\\15. Helping at home",
+  "language": "spanish",
+  "level": "basic",
+  "video": {
+    "width": 1280,
+    "height": 720,
+    "fps": 24,
+    "background_color": "#F6F0E5"
+  },
+  "entries": [
+    {
+      "text": "Ayudo a mi mama en casa.",
+      "ru": "Я помогаю маме дома."
+    },
+    {
+      "text": "La ayudo a limpiar verduras.",
+      "ru": "Я помогаю ей чистить овощи."
+    },
+    {
+      "text": "Tambien ayudo a mi mama sin molestarla.",
+      "ru": "Я также помогаю маме тем, что не мешаю ей."
+    },
+    {
+      "text": "Creo que la ayuda tranquila tambien es importante.",
+      "ru": "Я думаю, что спокойная помощь тоже важна."
+    },
+    {
+      "text": "Recojo mi ropa de cama despues de dormir.",
+      "ru": "Я убираю за собой постельные принадлежности."
+    },
+    {
+      "text": "Puedo ordenar lo que uso yo misma.",
+      "ru": "Я умею убирать за собой."
+    },
+    {
+      "text": "Me gusta mantener mis cosas en orden.",
+      "ru": "Мне нравится держать свои вещи в порядке."
+    },
+    {
+      "text": "Me gusta guardar mis cosas de la escuela.",
+      "ru": "Мне нравится убирать школьные принадлежности."
+    },
+    {
+      "text": "Un escritorio ordenado me ayuda a sentirme tranquila.",
+      "ru": "Аккуратный стол помогает мне чувствовать себя спокойно."
+    },
+    {
+      "text": "Mi mama todavia no confia en mi para lavar los platos.",
+      "ru": "Мама пока не доверяет мне мыть посуду."
+    },
+    {
+      "text": "Ella dice que todavia no los lavo lo bastante bien.",
+      "ru": "Она говорит, что я пока мою ее недостаточно хорошо."
+    },
+    {
+      "text": "Por eso, lavar los platos no es mi tarea ahora.",
+      "ru": "Поэтому мытье посуды сейчас не моя задача."
+    },
+    {
+      "text": "Mi mama cuida del gato.",
+      "ru": "Мама заботится о коте."
+    },
+    {
+      "text": "Yo no limpio despues del gato.",
+      "ru": "Я не убираю за котом."
+    },
+    {
+      "text": "Solo lo acaricio.",
+      "ru": "Я только глажу его."
+    },
+    {
+      "text": "Me gusta ser carinosa con nuestro gato.",
+      "ru": "Мне нравится быть ласковой с нашим котом."
+    },
+    {
+      "text": "Es importante ayudar en casa.",
+      "ru": "Важно помогать дома."
+    },
+    {
+      "text": "Mi mama se cansa.",
+      "ru": "Моя мама устает."
+    },
+    {
+      "text": "Quiero que nuestra casa este limpia.",
+      "ru": "Я хочу, чтобы наш дом был чистым."
+    },
+    {
+      "text": "Incluso una ayuda pequena puede ser util.",
+      "ru": "Даже маленькая помощь тоже может быть полезной."
+    },
+    {
+      "text": "Cuando todos ayudan, la casa se siente mejor.",
+      "ru": "Когда все помогают, дома становится лучше."
+    },
+    {
+      "text": "Ayudar en casa es algo amable y bueno.",
+      "ru": "Помощь дома — это доброе и хорошее дело."
+    }
+  ]
+}

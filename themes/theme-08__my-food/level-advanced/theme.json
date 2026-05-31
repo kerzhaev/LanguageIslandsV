@@ -1,0 +1,104 @@
+{
+  "theme_id": "theme-08",
+  "slug": "my-food",
+  "theme_label": "THEME 08",
+  "title": "My food",
+  "folder_name": "8. Моя еда",
+  "level": "advanced",
+  "video": {
+    "width": 1280,
+    "height": 720,
+    "fps": 24,
+    "background_color": "#F6F0E5"
+  },
+  "entries": [
+    {
+      "en": "My favourite food is borscht with meat.",
+      "ru": "Моя любимая еда — борщ с мясом."
+    },
+    {
+      "en": "I also like mashed potatoes very much.",
+      "ru": "Мне также очень нравится картофельное пюре."
+    },
+    {
+      "en": "My favourite sweets are marmalade and Swiss roll.",
+      "ru": "Мои любимые сладости — мармелад и рулет."
+    },
+    {
+      "en": "I like sweet and tasty desserts, especially familiar ones.",
+      "ru": "Мне нравятся сладкие и вкусные десерты, особенно знакомые."
+    },
+    {
+      "en": "For breakfast I usually like cottage cheese and tea.",
+      "ru": "На завтрак я обычно люблю есть творог и пить чай."
+    },
+    {
+      "en": "Breakfast is important for me because it helps me start the day well.",
+      "ru": "Завтрак важен для меня, потому что он помогает мне хорошо начать день."
+    },
+    {
+      "en": "My mum cooks very tasty food.",
+      "ru": "Моя мама готовит очень вкусную еду."
+    },
+    {
+      "en": "She cooks delicious corn.",
+      "ru": "Она готовит вкусную кукурузу."
+    },
+    {
+      "en": "She also cooks tasty soup.",
+      "ru": "Она также готовит вкусный суп."
+    },
+    {
+      "en": "Her borscht is very good too.",
+      "ru": "Её борщ тоже очень вкусный."
+    },
+    {
+      "en": "I do not like hamburgers.",
+      "ru": "Я не люблю гамбургеры."
+    },
+    {
+      "en": "I also do not like trying new food very much.",
+      "ru": "Мне также не очень нравится пробовать новую еду."
+    },
+    {
+      "en": "I usually prefer food that I already know well.",
+      "ru": "Обычно я предпочитаю еду, которую уже хорошо знаю."
+    },
+    {
+      "en": "My favourite fruit is an apple.",
+      "ru": "Мой любимый фрукт — яблоко."
+    },
+    {
+      "en": "I also like bananas.",
+      "ru": "Мне также нравятся бананы."
+    },
+    {
+      "en": "I like watermelon very much.",
+      "ru": "Мне очень нравится арбуз."
+    },
+    {
+      "en": "I also like blueberries.",
+      "ru": "Мне также нравится голубика."
+    },
+    {
+      "en": "My favourite drink is cranberry mors.",
+      "ru": "Мой любимый напиток — клюквенный морс."
+    },
+    {
+      "en": "It is tasty and refreshing.",
+      "ru": "Он вкусный и освежающий."
+    },
+    {
+      "en": "I like simple food that tastes good and feels familiar.",
+      "ru": "Мне нравится простая еда, которая вкусная и привычная."
+    },
+    {
+      "en": "Good food always makes me happy.",
+      "ru": "Хорошая еда всегда делает меня счастливой."
+    },
+    {
+      "en": "My favourite food has become a warm and pleasant part of my everyday life.",
+      "ru": "Моя любимая еда стала тёплой и приятной частью моей повседневной жизни."
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "theme_id": "theme-11",
+  "slug": "my-city-and-favourite-places",
+  "theme_label": "THEME 11",
+  "title": "My city and favourite places",
+  "folder_name": "11. Мой город и любимые места",
+  "level": "advanced",
+  "video": {
+    "width": 1280,
+    "height": 720,
+    "fps": 24,
+    "background_color": "#F6F0E5"
+  },
+  "entries": [
+    {
+      "en": "I live in Stavropol, and it is my city.",
+      "ru": "Я живу в Ставрополе, и это мой город."
+    },
+    {
+      "en": "I really like it because it feels comfortable and familiar.",
+      "ru": "Он мне очень нравится, потому что кажется удобным и родным."
+    },
+    {
+      "en": "There is a lot of greenery in Stavropol.",
+      "ru": "В Ставрополе много зелени."
+    },
+    {
+      "en": "I like green streets and trees because they make the city feel alive.",
+      "ru": "Мне нравятся зелёные улицы и деревья, потому что из-за них город кажется живым."
+    },
+    {
+      "en": "There are nice playgrounds in my city.",
+      "ru": "В моём городе есть хорошие игровые площадки."
+    },
+    {
+      "en": "I like places where I can ride a scooter.",
+      "ru": "Мне нравятся места, где можно кататься на самокате."
+    },
+    {
+      "en": "I also like riding a bike.",
+      "ru": "Мне также нравится кататься на велосипеде."
+    },
+    {
+      "en": "My favourite places are safe and comfortable.",
+      "ru": "Мои любимые места безопасные и удобные."
+    },
+    {
+      "en": "I like going to the city park.",
+      "ru": "Мне нравится ходить в городской парк."
+    },
+    {
+      "en": "I also like going to a cafe.",
+      "ru": "Мне также нравится ходить в кафе."
+    },
+    {
+      "en": "In a cafe I like eating pizza and rolls.",
+      "ru": "В кафе мне нравится есть пиццу и роллы."
+    },
+    {
+      "en": "I like going shopping with my mum.",
+      "ru": "Мне нравится ходить по магазинам с мамой."
+    },
+    {
+      "en": "We also go out together on everyday errands.",
+      "ru": "Мы также вместе ходим по обычным делам."
+    },
+    {
+      "en": "Near my home there is a private sector.",
+      "ru": "Рядом с моим домом есть частный сектор."
+    },
+    {
+      "en": "We often walk there.",
+      "ru": "Мы часто там гуляем."
+    },
+    {
+      "en": "I ride there on good asphalt roads.",
+      "ru": "Я катаюсь там по хорошим асфальтированным дорогам."
+    },
+    {
+      "en": "Cars do not drive there very often.",
+      "ru": "Машины там ездят не очень часто."
+    },
+    {
+      "en": "That is why I feel calm there.",
+      "ru": "Поэтому я чувствую себя там спокойно."
+    },
+    {
+      "en": "My home and my school are in a neat area.",
+      "ru": "Мой дом и моя школа находятся в благоустроенном районе."
+    },
+    {
+      "en": "We live on the top of a hill.",
+      "ru": "Мы живём на вершине холма."
+    },
+    {
+      "en": "It feels like one of the highest places in the city.",
+      "ru": "Кажется, что это одно из самых высоких мест в городе."
+    },
+    {
+      "en": "I love walking where there is a lot of greenery.",
+      "ru": "Я люблю гулять там, где много зелени."
+    }
+  ]
+}

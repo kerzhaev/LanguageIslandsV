@@ -6,6 +6,7 @@
     "naturalreaders": "node ./scripts/naturalreaders_download.mjs"
   },
   "dependencies": {
-    "playwright": "^1.54.1"
+    "playwright": "^1.54.1",
+    "ws": "^8.21.0"
   }
 }

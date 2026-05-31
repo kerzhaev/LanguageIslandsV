@@ -1,0 +1,105 @@
+{
+  "theme_id": "theme-02-es",
+  "slug": "mi-dia-escolar",
+  "theme_label": "THEME 02",
+  "title": "Mi dia escolar",
+  "folder_name": "Spanish\\2. School day",
+  "language": "spanish",
+  "level": "basic",
+  "video": {
+    "width": 1280,
+    "height": 720,
+    "fps": 24,
+    "background_color": "#F6F0E5"
+  },
+  "entries": [
+    {
+      "text": "Mi dia escolar empieza a las nueve.",
+      "ru": "Мой школьный день начинается в девять часов."
+    },
+    {
+      "text": "Me levanto a las ocho y diez.",
+      "ru": "Я встаю в восемь десять."
+    },
+    {
+      "text": "Por la manana me lavo la cara y me limpio los dientes.",
+      "ru": "Утром я умываюсь и чищу зубы."
+    },
+    {
+      "text": "Despues me visto para la escuela.",
+      "ru": "Потом я одеваюсь в школу."
+    },
+    {
+      "text": "Mi escuela esta muy cerca de mi casa.",
+      "ru": "Моя школа находится очень близко к дому."
+    },
+    {
+      "text": "Tardo solo cinco minutos en llegar andando.",
+      "ru": "Туда идти всего пять минут."
+    },
+    {
+      "text": "No necesito autobus ni coche.",
+      "ru": "Мне не нужен ни автобус, ни машина."
+    },
+    {
+      "text": "Puedo ir a la escuela a pie facilmente.",
+      "ru": "Я могу легко дойти до школы пешком."
+    },
+    {
+      "text": "Normalmente llego a la escuela a tiempo.",
+      "ru": "Обычно я прихожу в школу вовремя."
+    },
+    {
+      "text": "Estudio bien y saco solo buenas notas.",
+      "ru": "Я хорошо учусь и получаю только хорошие оценки."
+    },
+    {
+      "text": "Mis asignaturas favoritas son arte y literatura.",
+      "ru": "Мои любимые предметы — рисование и литература."
+    },
+    {
+      "text": "Me gusta dibujar porque puedo ser creativa.",
+      "ru": "Мне нравится рисование, потому что я могу быть творческой."
+    },
+    {
+      "text": "Me gusta la literatura porque disfruto de las historias y los libros.",
+      "ru": "Мне нравится литература, потому что я люблю истории и книги."
+    },
+    {
+      "text": "Las asignaturas escolares no suelen ser dificiles para mi.",
+      "ru": "Школьные предметы обычно не трудные для меня."
+    },
+    {
+      "text": "Escucho a mis profesores con atencion.",
+      "ru": "Я внимательно слушаю учителей."
+    },
+    {
+      "text": "En la escuela hay un comedor donde almuerzo.",
+      "ru": "В школе есть столовая, где я обедаю."
+    },
+    {
+      "text": "Durante el recreo corremos en el patio si hace buen tiempo.",
+      "ru": "На перемене мы бегаем на площадке, если погода хорошая."
+    },
+    {
+      "text": "Me gustan los recreos activos con mis companeros de clase.",
+      "ru": "Мне нравятся активные перемены с одноклассниками."
+    },
+    {
+      "text": "Despues de la escuela hago los deberes.",
+      "ru": "После школы я делаю домашнее задание."
+    },
+    {
+      "text": "Si tengo tiempo libre, juego o veo YouTube.",
+      "ru": "Если у меня есть свободное время, я играю в игры или смотрю YouTube."
+    },
+    {
+      "text": "Creo que mi dia escolar es ocupado, pero bueno.",
+      "ru": "Я думаю, что мой школьный день насыщенный, но хороший."
+    },
+    {
+      "text": "Me siento segura en la escuela.",
+      "ru": "Я чувствую себя уверенно в школе."
+    }
+  ]
+}

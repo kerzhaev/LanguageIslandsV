@@ -1,0 +1,60 @@
+{
+  "theme_id": "theme-09",
+  "slug": "my-weekend-day",
+  "theme_label": "THEME 09",
+  "title": "My weekend day",
+  "folder_name": "9. Мой выходной день",
+  "level": "hard",
+  "video": {
+    "width": 1280,
+    "height": 720,
+    "fps": 24,
+    "background_color": "#F6F0E5"
+  },
+  "entries": [
+    {
+      "en": "I usually get up at twelve o'clock on weekends. My weekend mornings are calm and slow, which I really like.",
+      "ru": "Обычно по выходным я встаю в двенадцать часов. Утро в выходной у меня спокойное и неторопливое, и мне это очень нравится."
+    },
+    {
+      "en": "In the morning I like going for a walk. In the school year I sometimes do my homework.",
+      "ru": "Утром мне нравится ходить гулять. В учебное время я иногда делаю домашнее задание."
+    },
+    {
+      "en": "If I do not have homework, I simply relax. I really like resting on weekends.",
+      "ru": "Если домашнего задания нет, я просто отдыхаю. Мне очень нравится отдыхать по выходным."
+    },
+    {
+      "en": "On weekends I like going to different shops. Shopping can be fun for me.",
+      "ru": "По выходным мне нравится ходить по разным магазинам. Покупки могут быть для меня веселым занятием."
+    },
+    {
+      "en": "I usually spend my weekend with my parents. I like being with my family because weekends feel warmer that way.",
+      "ru": "Обычно я провожу выходной с родителями. Мне нравится быть с семьёй, потому что так выходные кажутся теплее."
+    },
+    {
+      "en": "On weekends I like walking. I also like watching films.",
+      "ru": "По выходным мне нравится гулять. Мне также нравится смотреть фильмы."
+    },
+    {
+      "en": "I like drawing too. My weekend is quiet, but it is also very nice.",
+      "ru": "Мне также нравится рисовать. Мой выходной тихий, но при этом очень приятный."
+    },
+    {
+      "en": "Trips to visit people happen rarely. Usually I stay close to home.",
+      "ru": "Поездки в гости бывают редко. Обычно я остаюсь недалеко от дома."
+    },
+    {
+      "en": "I eat the same food on weekends as on weekdays. I do not need special food to enjoy a good weekend.",
+      "ru": "По выходным я ем ту же еду, что и в будние дни. Мне не нужна какая-то особенная еда, чтобы выходной был хорошим."
+    },
+    {
+      "en": "In the evening I brush my teeth. Then I wash myself.",
+      "ru": "Вечером я чищу зубы. Потом я умываюсь и моюсь."
+    },
+    {
+      "en": "After that I go to bed. A kind and peaceful weekend always makes me happy.",
+      "ru": "После этого я иду спать. Добрый и спокойный выходной всегда делает меня счастливой."
+    }
+  ]
+}

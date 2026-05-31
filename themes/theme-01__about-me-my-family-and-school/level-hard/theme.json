@@ -1,0 +1,104 @@
+{
+  "theme_id": "theme-01",
+  "slug": "about-me-my-family-and-school",
+  "theme_label": "THEME 01",
+  "title": "About me, my family and school",
+  "folder_name": "1. Обо мне",
+  "level": "hard",
+  "video": {
+    "width": 1280,
+    "height": 720,
+    "fps": 24,
+    "background_color": "#F6F0E5"
+  },
+  "entries": [
+    {
+      "en": "My name is Varvara, and I am ten years old, so I am still discovering many new things about myself and the world around me.",
+      "ru": "Меня зовут Варвара, и мне десять лет, поэтому я всё ещё открываю для себя много нового о себе и о мире вокруг."
+    },
+    {
+      "en": "I live in Russia, and my home city is Stavropol, which is the place where my everyday life is happening now.",
+      "ru": "Я живу в России, а мой родной город — Ставрополь, и именно здесь сейчас проходит моя повседневная жизнь."
+    },
+    {
+      "en": "I have got a small family, and because I am the only child in it, I often feel that a lot of love and attention are given to me.",
+      "ru": "У меня небольшая семья, и поскольку я единственный ребёнок в ней, я часто чувствую, что мне дарят много любви и внимания."
+    },
+    {
+      "en": "My family includes my mother, my father, my granny and my grandpa, and each of them is important in my life in a different way.",
+      "ru": "В моей семье есть мама, папа, бабушка и дедушка, и каждый из них важен в моей жизни по-своему."
+    },
+    {
+      "en": "I have also got a cat called Felix, and he has become such a natural part of our home that it is hard to imagine our family without him.",
+      "ru": "У меня ещё есть кот по имени Феликс, и он стал такой естественной частью нашего дома, что нашу семью уже трудно представить без него."
+    },
+    {
+      "en": "He is cute, clever and beautiful, so everyone in our family enjoys being around him and often pays attention to him.",
+      "ru": "Он милый, умный и красивый, поэтому всем в нашей семье приятно быть рядом с ним, и ему часто уделяют внимание."
+    },
+    {
+      "en": "At the moment I am in the fourth form, and although school can sometimes be tiring, I usually enjoy it and feel quite confident there.",
+      "ru": "Сейчас я учусь в четвёртом классе, и хотя школа иногда может утомлять, она мне обычно нравится, и там я чувствую себя довольно уверенно."
+    },
+    {
+      "en": "My favourite school subjects are Russian, Literature and Art because they let me think, imagine and express myself in different ways.",
+      "ru": "Мои любимые школьные предметы — русский язык, литература и рисование, потому что они позволяют мне думать, воображать и выражать себя по-разному."
+    },
+    {
+      "en": "After school I usually go for a walk and listen to music, which helps me slow down and feel calmer after a busy day.",
+      "ru": "После школы я обычно иду гулять и слушаю музыку, и это помогает мне замедлиться и почувствовать себя спокойнее после насыщенного дня."
+    },
+    {
+      "en": "My favourite sport is taekwondo, while my favourite game is hide-and-seek, so I like both active training and playful time.",
+      "ru": "Мой любимый вид спорта — тхэквондо, а моя любимая игра — прятки-догонялки, поэтому мне нравятся и активные тренировки, и весёлое игровое время."
+    },
+    {
+      "en": "I enjoy drawing, dancing, singing, reading and playing, which means that my free time is rarely boring and is usually full of different activities.",
+      "ru": "Мне нравится рисовать, танцевать, петь, читать и играть, а это значит, что моё свободное время почти никогда не бывает скучным и обычно наполнено разными занятиями."
+    },
+    {
+      "en": "My favourite colours are purple and blue because they seem bright, beautiful and expressive to me, especially when I use them in drawings.",
+      "ru": "Мои любимые цвета — фиолетовый и синий, потому что они кажутся мне яркими, красивыми и выразительными, особенно когда я использую их в рисунках."
+    },
+    {
+      "en": "My favourite food is borscht and meat with mashed potatoes, and these dishes have always felt warm and familiar to me.",
+      "ru": "Моя любимая еда — борщ и мясо с картофельным пюре, и эти блюда всегда казались мне тёплыми и родными."
+    },
+    {
+      "en": "I also like fruit, especially apples, bananas, watermelon and blueberries, so I am happy when I can choose something tasty and fresh.",
+      "ru": "Я также люблю фрукты, особенно яблоки, бананы, арбуз и голубику, поэтому радуюсь, когда могу выбрать что-то вкусное и свежее."
+    },
+    {
+      "en": "My birthday is on the twenty-fourth of July, and I always look forward to it because that day feels joyful and special from the very morning.",
+      "ru": "Мой день рождения — двадцать четвёртого июля, и я всегда жду его, потому что этот день кажется радостным и особенным с самого утра."
+    },
+    {
+      "en": "I like getting toys as presents, but I also enjoy receiving art sets because they give me new ideas and make me want to create something.",
+      "ru": "Я люблю получать в подарок игрушки, но мне также нравится получать наборы для творчества, потому что они дают мне новые идеи и вызывают желание что-нибудь создавать."
+    },
+    {
+      "en": "Art sets are especially important to me, since drawing is not only a hobby for me but also a way to show my thoughts and imagination.",
+      "ru": "Наборы для творчества особенно важны для меня, потому что рисование для меня не только хобби, но и способ показать свои мысли и воображение."
+    },
+    {
+      "en": "Sometimes I help my family in the kitchen when they are cooking, and even small things make me feel that I am taking part in family life.",
+      "ru": "Иногда я помогаю своей семье на кухне, когда они готовят, и даже небольшие дела помогают мне чувствовать, что я участвую в жизни семьи."
+    },
+    {
+      "en": "In the evening I usually read or draw, depending on my mood, so the end of my day is often quiet, creative and pleasant.",
+      "ru": "По вечерам я обычно читаю или рисую, в зависимости от настроения, поэтому конец моего дня часто бывает тихим, творческим и приятным."
+    },
+    {
+      "en": "I really like my school, my family and my hobbies because together they make my life balanced, interesting and full of meaning.",
+      "ru": "Мне очень нравятся школа, моя семья и мои увлечения, потому что вместе они делают мою жизнь более гармоничной, интересной и наполненной смыслом."
+    },
+    {
+      "en": "Most of my free time is connected with my family, my cat and the activities I enjoy most, and that is why I usually feel happy in my everyday life.",
+      "ru": "Большая часть моего свободного времени связана с семьёй, котом и занятиями, которые я люблю больше всего, и именно поэтому я обычно чувствую себя счастливой в повседневной жизни."
+    },
+    {
+      "en": "These ordinary things have already made my life happy and interesting, and right now I am growing up, learning new things and slowly becoming who I want to be.",
+      "ru": "Все эти обычные вещи уже сделали мою жизнь счастливой и интересной, а сейчас я расту, узнаю новое и постепенно становлюсь такой, какой хочу быть."
+    }
+  ]
+}

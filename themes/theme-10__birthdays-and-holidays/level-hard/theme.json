@@ -1,0 +1,60 @@
+{
+  "theme_id": "theme-10",
+  "slug": "birthdays-and-holidays",
+  "theme_label": "THEME 10",
+  "title": "Birthdays and holidays",
+  "folder_name": "10. Праздники и день рождения",
+  "level": "hard",
+  "video": {
+    "width": 1280,
+    "height": 720,
+    "fps": 24,
+    "background_color": "#F6F0E5"
+  },
+  "entries": [
+    {
+      "en": "My favourite holiday is New Year, and I love it most of all. I love New Year more than any other holiday.",
+      "ru": "Мой любимый праздник — Новый год, и я люблю его больше всего. Новый год я люблю больше любого другого праздника."
+    },
+    {
+      "en": "For me, New Year has always felt special. It is the start of a new year and, in a way, a new life.",
+      "ru": "Для меня Новый год всегда ощущался особенно. Это начало нового года и, в каком-то смысле, новой жизни."
+    },
+    {
+      "en": "I wait for this holiday with joy. My birthday is a happy day too.",
+      "ru": "Я жду этот праздник с радостью. Мой день рождения тоже счастливый день."
+    },
+    {
+      "en": "On my birthday people congratulate me and say kind words. My birthday is usually cheerful and fun.",
+      "ru": "В мой день рождения меня поздравляют и говорят мне добрые слова. Мой день рождения обычно проходит весело и радостно."
+    },
+    {
+      "en": "I like family holidays more than big noisy parties. I enjoy spending holidays with my family.",
+      "ru": "Семейные праздники мне нравятся больше, чем большие шумные вечеринки. Мне нравится проводить праздники с моей семьёй."
+    },
+    {
+      "en": "My mum's birthday is an important family day too. We can talk, smile and enjoy the festive mood together.",
+      "ru": "День рождения моей мамы — тоже важный семейный день. Мы можем разговаривать, улыбаться и вместе радоваться праздничному настроению."
+    },
+    {
+      "en": "I like talking with my friends on holidays. We feel happy and share our good mood.",
+      "ru": "Мне нравится разговаривать с друзьями в праздники. Мы радуемся и делимся хорошим настроением."
+    },
+    {
+      "en": "I like gifts for creativity most of all. Creative presents always make me feel inspired.",
+      "ru": "Больше всего мне нравятся подарки для творчества. Творческие подарки всегда вдохновляют меня."
+    },
+    {
+      "en": "On birthdays I like pizza and rolls. I do not need special sweets for a good holiday.",
+      "ru": "На день рождения я люблю пиццу и роллы. Мне не нужны особенные сладости, чтобы праздник был хорошим."
+    },
+    {
+      "en": "I can make drawings for holidays. My drawings make the day brighter and warmer.",
+      "ru": "Я могу делать рисунки к праздникам. Мои рисунки делают день ярче и теплее."
+    },
+    {
+      "en": "A cozy holiday atmosphere is very important to me. New Year always gives me hope, joy and a festive feeling.",
+      "ru": "Уютная праздничная атмосфера очень важна для меня. Новый год всегда дарит мне надежду, радость и праздничное настроение."
+    }
+  ]
+}

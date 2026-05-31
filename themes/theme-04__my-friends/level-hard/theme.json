@@ -1,0 +1,60 @@
+{
+  "theme_id": "theme-04",
+  "slug": "my-friends",
+  "theme_label": "THEME 04",
+  "title": "My friends",
+  "folder_name": "4. Мои друзья",
+  "level": "hard",
+  "video": {
+    "width": 1280,
+    "height": 720,
+    "fps": 24,
+    "background_color": "#F6F0E5"
+  },
+  "entries": [
+    {
+      "en": "My friends are very important to me, and they make my life brighter. I have two best friends called Dasha and Nazar.",
+      "ru": "Мои друзья очень важны для меня, и они делают мою жизнь ярче. У меня есть два лучших друга по имени Даша и Назар."
+    },
+    {
+      "en": "I also have five close friends. All my friends are in the same class, so we see each other every day.",
+      "ru": "У меня также есть пять близких друзей. Все мои друзья учатся в одном классе, поэтому мы видимся каждый день."
+    },
+    {
+      "en": "We meet at school every day and spend a lot of time together there. I like spending time with my friends because I feel comfortable with them.",
+      "ru": "Мы встречаемся в школе каждый день и проводим там много времени вместе. Мне нравится проводить время с друзьями, потому что рядом с ними я чувствую себя комфортно."
+    },
+    {
+      "en": "We like playing together. We also invent funny games by ourselves.",
+      "ru": "Мы любим играть вместе. Мы также сами придумываем смешные игры."
+    },
+    {
+      "en": "Our games are always lively and fun. I walk and play with my friends only at school.",
+      "ru": "Наши игры всегда живые и весёлые. Я гуляю и играю с друзьями только в школе."
+    },
+    {
+      "en": "We talk during the breaks. We laugh a lot together, which makes the day feel easier.",
+      "ru": "На переменах мы разговариваем. Мы много смеёмся вместе, и поэтому день кажется легче."
+    },
+    {
+      "en": "My friends make my school day more cheerful. I like my friends not for a special reason, but simply because they are my friends.",
+      "ru": "Мои друзья делают мой школьный день веселее. Мне нравятся мои друзья не по какой-то особой причине, а просто потому, что они мои друзья."
+    },
+    {
+      "en": "I feel good when I am with them. We understand each other quite well.",
+      "ru": "Мне хорошо, когда я рядом с ними. Мы довольно хорошо понимаем друг друга."
+    },
+    {
+      "en": "Quarrels happen very rarely. Usually I only have problems with people who are jealous of me.",
+      "ru": "Ссоры случаются очень редко. Обычно проблемы у меня бывают только с теми, кто мне завидует."
+    },
+    {
+      "en": "I want my friendships to stay kind, warm and happy. Good friends make school much more interesting.",
+      "ru": "Я хочу, чтобы моя дружба оставалась доброй, тёплой и счастливой. Хорошие друзья делают школу намного интереснее."
+    },
+    {
+      "en": "I am really glad that I have my friends. Friendship has become a very special part of my life.",
+      "ru": "Я очень рада, что у меня есть друзья. Дружба стала очень особенной частью моей жизни."
+    }
+  ]
+}

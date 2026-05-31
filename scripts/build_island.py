@@ -42,7 +42,23 @@ LANGUAGE_INFO = {
 
 
 def load_theme(path: Path) -> dict:
-    return json.loads(path.read_text(encoding="utf-8"))
+    theme = json.loads(path.read_text(encoding="utf-8-sig"))
+    validate_theme_text_integrity(theme, path)
+    return theme
+
+
+def validate_theme_text_integrity(theme: dict, path: Path) -> None:
+    entries = theme.get("entries", [])
+    for index, entry in enumerate(entries, start=1):
+        ru = native_text(entry)
+        if not ru:
+            raise ValueError(f"{path}: entry {index} has empty Russian text")
+        if "???" in ru:
+            raise ValueError(f"{path}: entry {index} contains damaged Russian text placeholder '???'")
+        if "�" in ru:
+            raise ValueError(f"{path}: entry {index} contains replacement characters in Russian text")
+        if not re.search(r"[А-Яа-яЁё]", ru):
+            raise ValueError(f"{path}: entry {index} Russian text has no Cyrillic characters")
 
 
 def theme_prefix(theme: dict) -> str:
@@ -361,7 +377,12 @@ def build_active_recall_pdf(theme: dict, target: Path) -> None:
 
 
 def write_text(path: Path, lines: list[str]) -> None:
-    path.write_text("\n".join(lines).strip() + "\n", encoding="utf-8")
+    text = "\n".join(lines).strip() + "\n"
+    encoding = "utf-8-sig" if path.suffix.lower() in {".txt", ".srt"} else "utf-8"
+    path.write_text(text, encoding=encoding)
+    roundtrip = path.read_text(encoding=encoding)
+    if roundtrip != text:
+        raise ValueError(f"Encoding roundtrip failed for {path}")
 
 
 def build_naturalreaders_inputs(theme: dict, target_once: Path, target_repeat: Path) -> None:
@@ -405,6 +426,17 @@ def subtitle_blocks(entries: list[dict], total_seconds: float) -> list[tuple[flo
     return blocks
 
 
+def expected_start_times(entries: list[dict], total_seconds: float) -> list[float]:
+    weights = subtitle_weights(entries)
+    total_weight = sum(weights)
+    starts = [0.0]
+    cursor = 0.0
+    for weight in weights[:-1]:
+        cursor += total_seconds * (weight / total_weight)
+        starts.append(cursor)
+    return starts
+
+
 def detect_silences(mp3_path: Path, threshold_db: int = -35, min_silence: float = 0.18) -> list[tuple[float, float]]:
     ffmpeg_exe = imageio_ffmpeg.get_ffmpeg_exe()
     cmd = [
@@ -437,6 +469,77 @@ def speech_chunks_from_silences(total_seconds: float, silences: list[tuple[float
     return chunks
 
 
+def best_speech_chunks(entries: list[dict], mp3_path: Path, total_seconds: float) -> list[tuple[float, float]]:
+    phrase_count = len(entries)
+    candidates: list[tuple[int, float, list[tuple[float, float]]]] = []
+    for min_silence in [0.40, 0.35, 0.30, 0.26, 0.22, 0.18]:
+        silences = detect_silences(mp3_path, threshold_db=-35, min_silence=min_silence)
+        chunks = speech_chunks_from_silences(total_seconds, silences)
+        candidates.append((len(chunks), min_silence, chunks))
+
+    enough = [item for item in candidates if item[0] >= phrase_count]
+    if enough:
+        best_count, _, best_chunks = min(enough, key=lambda item: (item[0] - phrase_count, -item[1]))
+        if best_count <= phrase_count + max(4, phrase_count // 4):
+            return best_chunks
+
+    return max(candidates, key=lambda item: item[0])[2]
+
+
+def exact_chunk_blocks(
+    entries: list[dict], mp3_path: Path, total_seconds: float
+) -> list[tuple[float, float, str]] | None:
+    phrase_count = len(entries)
+    for min_silence in [0.45, 0.42, 0.40, 0.38, 0.35, 0.32, 0.30]:
+        silences = detect_silences(mp3_path, threshold_db=-35, min_silence=min_silence)
+        chunks = speech_chunks_from_silences(total_seconds, silences)
+        if len(chunks) != phrase_count:
+            continue
+
+        durations = [end - start for start, end in chunks]
+        median_duration = sorted(durations)[len(durations) // 2]
+        if max(durations) > median_duration * 1.55 or min(durations) < median_duration * 0.45:
+            continue
+
+        blocks: list[tuple[float, float, str]] = []
+        previous_end = 0.0
+        for index, (start, end) in enumerate(chunks):
+            start = max(previous_end, start - 0.10)
+            if index + 1 < len(chunks):
+                next_start = chunks[index + 1][0]
+                end = min(total_seconds, next_start - 0.03)
+            else:
+                end = total_seconds
+            if end <= start:
+                end = min(total_seconds, start + 0.20)
+            blocks.append((start, end, target_text(entries[index])))
+            previous_end = end
+        return blocks
+    return None
+
+
+def timing_quality_score(
+    blocks: list[tuple[float, float, str]], entries: list[dict], total_seconds: float
+) -> float:
+    expected_starts = expected_start_times(entries, total_seconds)
+    starts = [start for start, _, _ in blocks]
+    durations = [end - start for start, end, _ in blocks]
+    median_duration = sorted(durations)[len(durations) // 2]
+    avg_chars = sum(len(target_text(entry)) for entry in entries) / max(1, len(entries))
+    dense_mode = avg_chars >= 110
+
+    score = sum((actual - expected) ** 2 for actual, expected in zip(starts, expected_starts))
+    score += (max(durations) - min(durations)) ** 2 * 2
+
+    min_duration = 5.5 if dense_mode else 3.8
+    for duration in durations:
+        if duration < min_duration:
+            score += (min_duration - duration) ** 2 * 30
+        if duration > median_duration * 1.6:
+            score += (duration - median_duration * 1.6) ** 2 * 8
+    return score
+
+
 def partition_chunks(
     entries: list[dict], chunks: list[tuple[float, float]], total_seconds: float
 ) -> list[tuple[float, float, str]] | None:
@@ -449,6 +552,7 @@ def partition_chunks(
     weights = subtitle_weights(entries)
     total_weight = sum(weights)
     weight_targets = [weight / total_weight * total_seconds for weight in weights]
+    dense_mode = sum(len(target_text(entry)) for entry in entries) / max(1, phrase_count) >= 110
 
     prefix = [0.0]
     for duration in chunk_durations:
@@ -467,6 +571,12 @@ def partition_chunks(
                 actual = prefix[end_idx] - prefix[start_idx]
                 target = weight_targets[phrase_idx - 1]
                 cost = dp[phrase_idx - 1][start_idx] + (actual - target) ** 2
+                if actual < target * 0.65:
+                    cost += (target * 0.65 - actual) ** 2 * 4
+                if actual > target * 1.65:
+                    cost += (actual - target * 1.65) ** 2 * 2
+                if dense_mode and actual < 5.5:
+                    cost += (5.5 - actual) ** 2 * 20
                 if cost < best_cost:
                     best_cost = cost
                     best_start_idx = start_idx
@@ -512,11 +622,24 @@ def partition_chunks(
 
 def aligned_subtitle_blocks(entries: list[dict], mp3_path: Path) -> list[tuple[float, float, str]]:
     total_seconds = mp3_duration_seconds(mp3_path)
-    silences = detect_silences(mp3_path)
-    chunks = speech_chunks_from_silences(total_seconds, silences)
-    aligned = partition_chunks(entries, chunks, total_seconds)
-    if aligned:
-        return aligned
+    exact = exact_chunk_blocks(entries, mp3_path, total_seconds)
+    if exact:
+        return exact
+
+    candidates: list[list[tuple[float, float, str]]] = []
+    for min_silence in [0.40, 0.38, 0.35, 0.32, 0.30, 0.26, 0.22, 0.18]:
+        silences = detect_silences(mp3_path, threshold_db=-35, min_silence=min_silence)
+        chunks = speech_chunks_from_silences(total_seconds, silences)
+        aligned = partition_chunks(entries, chunks, total_seconds)
+        if aligned:
+            candidates.append(aligned)
+
+    if candidates:
+        return min(candidates, key=lambda blocks: timing_quality_score(blocks, entries, total_seconds))
+
+    avg_chars = sum(len(target_text(entry)) for entry in entries) / max(1, len(entries))
+    if avg_chars >= 110:
+        return subtitle_blocks(entries, total_seconds)
     return subtitle_blocks(entries, total_seconds)
 
 
