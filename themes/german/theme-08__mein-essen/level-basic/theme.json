@@ -1,0 +1,105 @@
+{
+  "theme_id": "theme-08-de",
+  "slug": "mein-essen",
+  "theme_label": "THEME 08",
+  "title": "Mein Essen",
+  "folder_name": "German\\8. My food",
+  "language": "german",
+  "level": "basic",
+  "video": {
+    "width": 1280,
+    "height": 720,
+    "fps": 24,
+    "background_color": "#F6F0E5"
+  },
+  "entries": [
+    {
+      "text": "Mein Lieblingsessen ist Borschtsch mit Fleisch.",
+      "ru": "Моя любимая еда — борщ с мясом."
+    },
+    {
+      "text": "Ich mag auch Kartoffelpüree.",
+      "ru": "Мне также нравится картофельное пюре."
+    },
+    {
+      "text": "Meine Lieblingssüßigkeiten sind Marmelade und Biskuitrolle.",
+      "ru": "Мои любимые сладости — мармелад и рулет."
+    },
+    {
+      "text": "Ich mag süße und leckere Desserts.",
+      "ru": "Мне нравятся сладкие и вкусные десерты."
+    },
+    {
+      "text": "Zum Frühstück mag ich Hüttenkäse und Tee.",
+      "ru": "На завтрак я люблю творог и чай."
+    },
+    {
+      "text": "Für mich ist das Frühstück wichtig.",
+      "ru": "Завтрак важен для меня."
+    },
+    {
+      "text": "Meine Mutter kocht sehr leckeres Essen.",
+      "ru": "Моя мама готовит очень вкусную еду."
+    },
+    {
+      "text": "Sie kocht köstlichen Mais.",
+      "ru": "Она готовит вкусную кукурузу."
+    },
+    {
+      "text": "Sie kocht auch leckere Suppe.",
+      "ru": "Она также готовит вкусный суп."
+    },
+    {
+      "text": "Ihr Borschtsch ist auch sehr gut.",
+      "ru": "Ее борщ тоже очень вкусный."
+    },
+    {
+      "text": "Ich mag keine Hamburger.",
+      "ru": "Я не люблю гамбургеры."
+    },
+    {
+      "text": "Ich mag es nicht, neues Essen auszuprobieren.",
+      "ru": "Я не люблю пробовать новую еду."
+    },
+    {
+      "text": "Ich mag Essen, das ich gut kenne.",
+      "ru": "Мне нравится еда, которую я хорошо знаю."
+    },
+    {
+      "text": "Meine Lieblingsfrucht ist ein Apfel.",
+      "ru": "Мой любимый фрукт — яблоко."
+    },
+    {
+      "text": "Ich mag auch Bananen.",
+      "ru": "Мне также нравятся бананы."
+    },
+    {
+      "text": "Ich mag Wassermelone sehr.",
+      "ru": "Мне очень нравится арбуз."
+    },
+    {
+      "text": "Ich mag auch Blaubeeren.",
+      "ru": "Мне также нравится голубика."
+    },
+    {
+      "text": "Mein Lieblingsgetränk ist Cranberry Mors.",
+      "ru": "Мой любимый напиток — клюквенный морс."
+    },
+    {
+      "text": "Es ist lecker und erfrischend.",
+      "ru": "Он вкусный и освежающий."
+    },
+    {
+      "text": "Ich mag einfaches Essen, das gut schmeckt.",
+      "ru": "Мне нравится простая еда, которая вкусная."
+    },
+    {
+      "text": "Gutes Essen macht mich glücklich.",
+      "ru": "Хорошая еда делает меня счастливой."
+    },
+    {
+      "text": "Mein Lieblingsessen ist ein schöner Teil meines Lebens.",
+      "ru": "Моя любимая еда — приятная часть моей жизни."
+    }
+  ]
+}

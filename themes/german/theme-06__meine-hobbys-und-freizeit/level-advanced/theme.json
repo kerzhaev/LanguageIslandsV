@@ -1,0 +1,105 @@
+{
+  "theme_id": "theme-06-de",
+  "slug": "meine-hobbys-und-freizeit",
+  "theme_label": "THEME 06",
+  "title": "Meine Hobbys und Freizeit",
+  "folder_name": "German\\6. My hobbies and free time",
+  "language": "german",
+  "level": "advanced",
+  "video": {
+    "width": 1280,
+    "height": 720,
+    "fps": 24,
+    "background_color": "#F6F0E5"
+  },
+  "entries": [
+    {
+      "text": "Mein Lieblingshobby ist das Zeichnen und es war schon immer etwas Besonderes für mich.",
+      "ru": "Моё любимое хобби — рисование, и оно всегда было для меня особенным."
+    },
+    {
+      "text": "Ich zeichne sehr gern, weil ich mich dadurch ruhig und glücklich fühle.",
+      "ru": "Мне очень нравится рисовать, потому что это помогает мне чувствовать себя спокойно и счастливо."
+    },
+    {
+      "text": "Nach der Schule gehe ich gerne spazieren und schlafe.",
+      "ru": "После школы я люблю гулять и спать."
+    },
+    {
+      "text": "Ich schaue mir auch gerne Videos an, wenn ich mich entspannen möchte.",
+      "ru": "Когда я хочу расслабиться, мне также нравится смотреть видео."
+    },
+    {
+      "text": "Zeichnen macht mir Freude und hilft mir, mich zu konzentrieren.",
+      "ru": "Рисование делает меня счастливой и помогает мне сосредоточиться."
+    },
+    {
+      "text": "Wenn ich Freizeit habe, kann ich viel Zeit mit Zeichnen verbringen.",
+      "ru": "Когда у меня есть свободное время, я могу долго рисовать."
+    },
+    {
+      "text": "Zeichnen ist das, was ich am besten kann.",
+      "ru": "Лучше всего у меня получается именно рисование."
+    },
+    {
+      "text": "Beim Zeichnen fühle ich mich oft ruhig.",
+      "ru": "Когда я рисую, я часто чувствую себя спокойно."
+    },
+    {
+      "text": "In meiner Freizeit mache ich gerne Dinge, die mir wirklich Spaß machen.",
+      "ru": "В свободное время мне нравится заниматься тем, что я по-настоящему люблю."
+    },
+    {
+      "text": "Mit meinen Freunden spiele ich gerne Fangen.",
+      "ru": "С друзьями я люблю играть в догонялки."
+    },
+    {
+      "text": "Wir haben immer Spaß zusammen.",
+      "ru": "Нам всегда весело вместе."
+    },
+    {
+      "text": "Mit meiner Mutter mache ich gerne meine Hausaufgaben.",
+      "ru": "С мамой мне нравится делать уроки."
+    },
+    {
+      "text": "Sie hilft mir, wenn ich es brauche.",
+      "ru": "Она помогает мне, когда это нужно."
+    },
+    {
+      "text": "Ich gehe zum Taekwondo.",
+      "ru": "Я хожу на тхэквондо."
+    },
+    {
+      "text": "Ich gehe auch schwimmen.",
+      "ru": "Я также хожу на плавание."
+    },
+    {
+      "text": "Sport tut mir gut, weil er mich aktiv hält.",
+      "ru": "Спорт полезен для меня, потому что помогает мне оставаться активной."
+    },
+    {
+      "text": "Ich mag es, aktiv zu sein, nicht nur kreativ.",
+      "ru": "Мне нравится быть не только творческой, но и активной."
+    },
+    {
+      "text": "Meine Hobbys machen mein Leben interessanter und erfüllter.",
+      "ru": "Мои хобби делают мою жизнь интереснее и насыщеннее."
+    },
+    {
+      "text": "Ich lerne gerne Neues durch Hobbys und Sport.",
+      "ru": "Мне нравится узнавать что-то новое и через хобби, и через спорт."
+    },
+    {
+      "text": "Ich möchte eines Tages Arzt werden.",
+      "ru": "Я хочу однажды стать врачом."
+    },
+    {
+      "text": "Ich denke, meine Hobbys helfen mir auf unterschiedliche Weise, zu wachsen.",
+      "ru": "Я думаю, что мои увлечения помогают мне расти в разных направлениях."
+    },
+    {
+      "text": "Meine Freizeit macht mir Spaß, ist nützlich und sehr wichtig.",
+      "ru": "Моё свободное время весёлое, полезное и очень важное для меня."
+    }
+  ]
+}

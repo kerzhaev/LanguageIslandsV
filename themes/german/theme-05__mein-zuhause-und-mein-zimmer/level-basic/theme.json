@@ -1,0 +1,105 @@
+{
+  "theme_id": "theme-05-de",
+  "slug": "mein-zuhause-und-mein-zimmer",
+  "theme_label": "THEME 05",
+  "title": "Mein Zuhause und mein Zimmer",
+  "folder_name": "German\\5. My home and my room",
+  "language": "german",
+  "level": "basic",
+  "video": {
+    "width": 1280,
+    "height": 720,
+    "fps": 24,
+    "background_color": "#F6F0E5"
+  },
+  "entries": [
+    {
+      "text": "Ich wohne in einer Wohnung.",
+      "ru": "Я живу в квартире."
+    },
+    {
+      "text": "Unsere Wohnung besteht aus einem großen Zimmer.",
+      "ru": "В нашей квартире одна большая комната."
+    },
+    {
+      "text": "Mein Zuhause ist gemütlich und komfortabel.",
+      "ru": "Мой дом уютный и удобный."
+    },
+    {
+      "text": "Ich bin gerne zu Hause.",
+      "ru": "Мне нравится быть дома."
+    },
+    {
+      "text": "Im Zimmer steht ein Tisch.",
+      "ru": "В комнате есть стол."
+    },
+    {
+      "text": "Es gibt auch ein Bett.",
+      "ru": "Там также есть кровать."
+    },
+    {
+      "text": "In meinem Zimmer stehen Regale.",
+      "ru": "В моей комнате есть полки."
+    },
+    {
+      "text": "Ich habe Spielzeug in meinem Zimmer.",
+      "ru": "У меня в комнате есть игрушки."
+    },
+    {
+      "text": "Ich habe dort auch Bücher.",
+      "ru": "У меня там также есть книги."
+    },
+    {
+      "text": "Was mir im Zimmer am besten gefällt, ist mein Bett.",
+      "ru": "Моя любимая вещь в комнате — это моя кровать."
+    },
+    {
+      "text": "Mein Bett ist mein Lieblingsplatz zum Ausruhen.",
+      "ru": "Моя кровать — мое любимое место для отдыха."
+    },
+    {
+      "text": "Ich mache meine Hausaufgaben am Tisch.",
+      "ru": "Я делаю уроки за столом."
+    },
+    {
+      "text": "Der Tisch steht vor dem Computer.",
+      "ru": "Стол стоит перед компьютером."
+    },
+    {
+      "text": "Ich kann dort sitzen und lernen.",
+      "ru": "Я могу сидеть там и заниматься."
+    },
+    {
+      "text": "Ich lese Bücher in meinem Zimmer.",
+      "ru": "Я читаю книги в своей комнате."
+    },
+    {
+      "text": "Dort kann ich auch mit meinen Spielsachen spielen.",
+      "ru": "Я также могу там играть со своими игрушками."
+    },
+    {
+      "text": "Mein Zimmer ist mir wichtig.",
+      "ru": "Моя комната важна для меня."
+    },
+    {
+      "text": "Ich fühle mich ruhig und glücklich in meinem Zimmer.",
+      "ru": "Я чувствую себя спокойно и счастливо в своей комнате."
+    },
+    {
+      "text": "Ich mag kreatives Durcheinander.",
+      "ru": "Мне нравится творческий беспорядок."
+    },
+    {
+      "text": "Mein kreatives Durcheinander ist Teil meines Zimmers.",
+      "ru": "Мой творческий беспорядок — это часть моей комнаты."
+    },
+    {
+      "text": "Mein Zimmer ist in gewisser Weise klein, aber groß für meine Ideen.",
+      "ru": "Моя комната маленькая в одном смысле, но большая для моих идей."
+    },
+    {
+      "text": "Mir gefällt mein Zuhause und mein Zimmer sehr gut.",
+      "ru": "Мне очень нравится мой дом и моя комната."
+    }
+  ]
+}

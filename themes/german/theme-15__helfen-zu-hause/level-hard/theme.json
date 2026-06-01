@@ -1,0 +1,61 @@
+{
+  "theme_id": "theme-15-de",
+  "slug": "helfen-zu-hause",
+  "theme_label": "THEME 15",
+  "title": "Helfen zu Hause",
+  "folder_name": "German\\15. Helping at home",
+  "language": "german",
+  "level": "hard",
+  "video": {
+    "width": 1280,
+    "height": 720,
+    "fps": 24,
+    "background_color": "#F6F0E5"
+  },
+  "entries": [
+    {
+      "text": "Ich helfe meiner Mutter zu Hause. Ich helfe ihr beim Gemüseputzen.",
+      "ru": "Я помогаю маме дома. Я помогаю ей чистить овощи."
+    },
+    {
+      "text": "Ich helfe meiner Mutter auch, indem ich sie nicht störe. Ich denke auch, dass stille Hilfe wichtig ist.",
+      "ru": "Я также помогаю маме тем, что не мешаю ей. Я думаю, что спокойная помощь тоже важна."
+    },
+    {
+      "text": "Nach dem Schlafen räume ich meine Bettwäsche auf. Ich kann hinter mir selbst aufräumen.",
+      "ru": "После сна я убираю свою постель. Я умею убирать за собой."
+    },
+    {
+      "text": "Ich mag es, meine Sachen in Ordnung zu halten. Ich mag es, meine Schulsachen wegzuräumen.",
+      "ru": "Мне нравится держать свои вещи в порядке. Мне нравится убирать школьные принадлежности."
+    },
+    {
+      "text": "Ein aufgeräumter Schreibtisch hilft mir, ruhig zu bleiben. Meine Mutter traut mir das Abwaschen noch nicht zu.",
+      "ru": "Аккуратный стол помогает мне чувствовать себя спокойно. Мама пока не доверяет мне мыть посуду."
+    },
+    {
+      "text": "Sie sagt, ich wasche sie noch nicht gut genug. Geschirrspülen ist also jetzt nicht meine Aufgabe.",
+      "ru": "Она говорит, что я пока мою её недостаточно хорошо. Поэтому мытьё посуды сейчас не моя обязанность."
+    },
+    {
+      "text": "Meine Mutter kümmert sich um die Katze. Ich putze nicht nach der Katze.",
+      "ru": "Мама заботится о коте. Я не убираю за котом."
+    },
+    {
+      "text": "Ich streichle ihn nur. Ich mag es, sanft mit unserer Katze umzugehen.",
+      "ru": "Я только глажу его. Мне нравится быть ласковой с нашим котом."
+    },
+    {
+      "text": "Es ist wichtig, zu Hause zu helfen. Meine Mutter wird müde, deshalb verstehe ich, warum Hilfe wichtig ist.",
+      "ru": "Важно помогать дома. Моя мама устаёт, поэтому я понимаю, почему помощь важна."
+    },
+    {
+      "text": "Ich möchte, dass unser Zuhause sauber ist. Auch kleine Hilfen können sinnvoll sein.",
+      "ru": "Я хочу, чтобы наш дом был чистым. Даже маленькая помощь тоже может быть полезной."
+    },
+    {
+      "text": "Wenn jeder mithilft, fühlt sich Zuhause besser an. Zu Hause zu helfen ist eine nette und gute Sache.",
+      "ru": "Когда все помогают, дома становится лучше. Помощь дома — это доброе и хорошее дело."
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "theme_id": "theme-07-de",
+  "slug": "meine-katze-und-meine-tiere",
+  "theme_label": "THEME 07",
+  "title": "Meine Katze und meine Tiere",
+  "folder_name": "German\\7. My cat and animals",
+  "language": "german",
+  "level": "hard",
+  "video": {
+    "width": 1280,
+    "height": 720,
+    "fps": 24,
+    "background_color": "#F6F0E5"
+  },
+  "entries": [
+    {
+      "text": "Der Name meiner Katze ist Felix und er ist ein ganz besonderer Teil meines Lebens. Felix ist faul, klug und lustig.",
+      "ru": "Моего кота зовут Феликс, и он очень особенная часть моей жизни. Феликс ленивый, умный и смешной."
+    },
+    {
+      "text": "Er ist grau und weiß. Felix ist eine sehr große Katze.",
+      "ru": "Он серо-белый. Феликс — очень большой кот."
+    },
+    {
+      "text": "Er wiegt fast acht Kilo. Er hat einen großen Bauch, was ihn noch lustiger aussehen lässt.",
+      "ru": "Он весит почти восемь килограммов. У него большой живот, и из-за этого он выглядит ещё смешнее."
+    },
+    {
+      "text": "Felix schläft gern den ganzen Tag. Er isst auch gern.",
+      "ru": "Феликс любит спать целый день. Он также любит есть."
+    },
+    {
+      "text": "Meistens führt er ein ruhiges Katzenleben. Felix sitzt gerne auf Händen.",
+      "ru": "Большую часть времени он живёт спокойной кошачьей жизнью. Феликс любит сидеть на руках."
+    },
+    {
+      "text": "Er spielt auch gerne, besonders wenn er sich energiegeladen fühlt. Nachts kann er sehr schnell laufen.",
+      "ru": "Ему также нравится играть, особенно когда у него есть настроение и силы. Ночью он может очень быстро бегать."
+    },
+    {
+      "text": "Es gibt eine andere Katze namens Nyusha. Nyusha ist die Katze meines Vaters.",
+      "ru": "Есть ещё одна кошка по имени Нюша. Нюша — кошка моего папы."
+    },
+    {
+      "text": "Wenn Nyusha zu Besuch kommt, wird die Nacht viel lauter. Felix und Nyusha rennen und spielen nachts.",
+      "ru": "Когда Нюша приезжает в гости, ночь становится гораздо шумнее. Феликс и Нюша ночью бегают и играют."
+    },
+    {
+      "text": "Manchmal lassen sie die Leute nicht schlafen. Ich finde Nyusha auch lustig.",
+      "ru": "Иногда они не дают людям спать. Я думаю, что Нюша тоже смешная."
+    },
+    {
+      "text": "Ich mag Katzen sehr. Tiere sind süß und flauschig, und das ist einer der Gründe, warum ich sie liebe.",
+      "ru": "Я очень люблю кошек. Животные милые и пушистые, и это одна из причин, почему я их люблю."
+    },
+    {
+      "text": "Sie machen das Leben auch wärmer und fröhlicher. Deshalb ist Felix zu einem so wichtigen Teil meines Lebens geworden.",
+      "ru": "Они также делают жизнь теплее и веселее. Поэтому Феликс стал такой важной частью моей жизни."
+    }
+  ]
+}

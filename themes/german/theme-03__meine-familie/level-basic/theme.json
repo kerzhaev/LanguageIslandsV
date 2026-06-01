@@ -1,0 +1,105 @@
+{
+  "theme_id": "theme-03-de",
+  "slug": "meine-familie",
+  "theme_label": "THEME 03",
+  "title": "Meine Familie",
+  "folder_name": "German\\3. My family",
+  "language": "german",
+  "level": "basic",
+  "video": {
+    "width": 1280,
+    "height": 720,
+    "fps": 24,
+    "background_color": "#F6F0E5"
+  },
+  "entries": [
+    {
+      "text": "Meine Familie ist nett und wichtig für mich.",
+      "ru": "Моя семья добрая и очень важна для меня."
+    },
+    {
+      "text": "Ich lebe mit meiner Mutter und meiner Katze.",
+      "ru": "Я живу с мамой и с моим котом."
+    },
+    {
+      "text": "Der Name meiner Mutter ist Yulia.",
+      "ru": "Мою маму зовут Юлия."
+    },
+    {
+      "text": "Der Name meines Vaters ist Zhenya.",
+      "ru": "Моего папу зовут Женя."
+    },
+    {
+      "text": "Mein Vater arbeitet in einer anderen Stadt.",
+      "ru": "Мой папа работает в другом городе."
+    },
+    {
+      "text": "Er kommt an Feiertagen oder im Urlaub zu uns.",
+      "ru": "Он приезжает к нам на праздники или во время отпуска."
+    },
+    {
+      "text": "Meine Oma und mein Opa leben getrennt.",
+      "ru": "Моя бабушка и мой дедушка живут отдельно."
+    },
+    {
+      "text": "Sie kommen uns von Zeit zu Zeit besuchen.",
+      "ru": "Они время от времени приезжают к нам в гости."
+    },
+    {
+      "text": "Meine Oma kommt öfter.",
+      "ru": "Моя бабушка приезжает чаще."
+    },
+    {
+      "text": "Ich habe keine Brüder oder Schwestern.",
+      "ru": "У меня нет братьев и сестер."
+    },
+    {
+      "text": "Aber ich habe einen Cousin namens Ilya.",
+      "ru": "Но у меня есть двоюродный брат по имени Илья."
+    },
+    {
+      "text": "Meine Mutter kocht gerne leckeres Essen.",
+      "ru": "Моя мама любит готовить вкусную еду."
+    },
+    {
+      "text": "Mein Vater hilft ihr in der Küche.",
+      "ru": "Мой папа помогает ей на кухне."
+    },
+    {
+      "text": "Er kann Gemüse schneiden und Fisch putzen.",
+      "ru": "Он может резать овощи и чистить рыбу."
+    },
+    {
+      "text": "Er kann auch zu Hause starke Männerarbeit leisten.",
+      "ru": "Он также может делать дома сильную мужскую работу."
+    },
+    {
+      "text": "Ich zeichne sehr gerne.",
+      "ru": "Мне очень нравится рисовать."
+    },
+    {
+      "text": "Ich spiele auch gerne mit meiner Katze Felix.",
+      "ru": "Мне также нравится играть с моим котом Феликсом."
+    },
+    {
+      "text": "Meine Mutter und ich gehen oft zusammen spazieren.",
+      "ru": "Мы с мамой часто вместе ходим гулять."
+    },
+    {
+      "text": "Manchmal können wir zusammen irgendwohin gehen.",
+      "ru": "Иногда мы можем куда-нибудь поехать вместе."
+    },
+    {
+      "text": "Wenn mein Vater kommt, können wir zusammen einen langen Zeichentrickfilm oder einen Film schauen.",
+      "ru": "Когда приезжает папа, мы можем вместе посмотреть полнометражный мультфильм или фильм."
+    },
+    {
+      "text": "Wir wählen für jeden etwas Interessantes aus.",
+      "ru": "Мы выбираем что-то интересное для всех."
+    },
+    {
+      "text": "Ich fühle mich glücklich, wenn meine Familie zusammen ist.",
+      "ru": "Я чувствую себя счастливой, когда моя семья вместе."
+    }
+  ]
+}

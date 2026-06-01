@@ -1,0 +1,61 @@
+{
+  "theme_id": "theme-10-de",
+  "slug": "geburtstage-und-feiertage",
+  "theme_label": "THEME 10",
+  "title": "Geburtstage und Feiertage",
+  "folder_name": "German\\10. Birthdays and holidays",
+  "language": "german",
+  "level": "hard",
+  "video": {
+    "width": 1280,
+    "height": 720,
+    "fps": 24,
+    "background_color": "#F6F0E5"
+  },
+  "entries": [
+    {
+      "text": "Mein Lieblingsfeiertag ist Neujahr und ich liebe es am meisten. Ich liebe Neujahr mehr als jeden anderen Feiertag.",
+      "ru": "Мой любимый праздник — Новый год, и я люблю его больше всего. Новый год я люблю больше любого другого праздника."
+    },
+    {
+      "text": "Für mich war Neujahr immer etwas Besonderes. Es ist der Beginn eines neuen Jahres und in gewisser Weise auch eines neuen Lebens.",
+      "ru": "Для меня Новый год всегда ощущался особенно. Это начало нового года и, в каком-то смысле, новой жизни."
+    },
+    {
+      "text": "Ich warte mit Freude auf diesen Feiertag. Mein Geburtstag ist auch ein glücklicher Tag.",
+      "ru": "Я жду этот праздник с радостью. Мой день рождения тоже счастливый день."
+    },
+    {
+      "text": "Zu meinem Geburtstag gratulieren mir die Leute und sagen nette Worte. Mein Geburtstag ist normalerweise fröhlich und lustig.",
+      "ru": "В мой день рождения меня поздравляют и говорят мне добрые слова. Мой день рождения обычно проходит весело и радостно."
+    },
+    {
+      "text": "Ich mag Familienurlaube lieber als große, laute Partys. Ich genieße es, Urlaub mit meiner Familie zu verbringen.",
+      "ru": "Семейные праздники мне нравятся больше, чем большие шумные вечеринки. Мне нравится проводить праздники с моей семьёй."
+    },
+    {
+      "text": "Der Geburtstag meiner Mutter ist auch ein wichtiger Familientag. Wir können gemeinsam reden, lächeln und die festliche Stimmung genießen.",
+      "ru": "День рождения моей мамы — тоже важный семейный день. Мы можем разговаривать, улыбаться и вместе радоваться праздничному настроению."
+    },
+    {
+      "text": "Im Urlaub unterhalte ich mich gerne mit meinen Freunden. Wir fühlen uns glücklich und teilen unsere gute Laune.",
+      "ru": "Мне нравится разговаривать с друзьями в праздники. Мы радуемся и делимся хорошим настроением."
+    },
+    {
+      "text": "Am liebsten mag ich Geschenke für Kreativität. Kreative Geschenke inspirieren mich immer.",
+      "ru": "Больше всего мне нравятся подарки для творчества. Творческие подарки всегда вдохновляют меня."
+    },
+    {
+      "text": "An Geburtstagen mag ich Pizza und Brötchen. Für einen schönen Urlaub brauche ich keine besonderen Süßigkeiten.",
+      "ru": "На день рождения я люблю пиццу и роллы. Мне не нужны особенные сладости, чтобы праздник был хорошим."
+    },
+    {
+      "text": "Ich kann Zeichnungen für Feiertage anfertigen. Meine Zeichnungen machen den Tag heller und wärmer.",
+      "ru": "Я могу делать рисунки к праздникам. Мои рисунки делают день ярче и теплее."
+    },
+    {
+      "text": "Eine gemütliche Urlaubsatmosphäre ist mir sehr wichtig. Das neue Jahr gibt mir immer Hoffnung, Freude und ein festliches Gefühl.",
+      "ru": "Уютная праздничная атмосфера очень важна для меня. Новый год всегда дарит мне надежду, радость и праздничное настроение."
+    }
+  ]
+}

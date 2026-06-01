@@ -2,9 +2,10 @@
   "theme_id": "theme-01-de",
   "slug": "uber-mich-meine-familie-und-die-schule",
   "theme_label": "THEME 01",
-  "title": "About me, my family and school",
+  "title": "Über mich, meine Familie und Schule",
   "folder_name": "German\\1. About me",
   "language": "german",
+  "level": "basic",
   "video": {
     "width": 1280,
     "height": 720,

@@ -1,0 +1,61 @@
+{
+  "theme_id": "theme-02-de",
+  "slug": "mein-schultag",
+  "theme_label": "THEME 02",
+  "title": "Mein Schultag",
+  "folder_name": "German\\2. My school day",
+  "language": "german",
+  "level": "hard",
+  "video": {
+    "width": 1280,
+    "height": 720,
+    "fps": 24,
+    "background_color": "#F6F0E5"
+  },
+  "entries": [
+    {
+      "text": "Mein Schultag beginnt normalerweise um neun Uhr, sodass mein Morgen einen klaren Rhythmus hat. Ich stehe um zehn nach acht auf und habe so genügend Zeit, mich fertig zu machen.",
+      "ru": "Мой школьный день обычно начинается в девять часов, поэтому у моего утра есть понятный ритм. Я встаю в восемь десять, и у меня хватает времени спокойно собраться."
+    },
+    {
+      "text": "Jeden Morgen wasche ich mein Gesicht und putze meine Zähne vor der Schule. Dann ziehe ich mich an und bereite mich auf den bevorstehenden Tag vor.",
+      "ru": "Каждое утро я умываюсь и чищу зубы перед школой. Потом я одеваюсь и готовлюсь к предстоящему дню."
+    },
+    {
+      "text": "Meine Schule liegt ganz in der Nähe meines Zuhauses und das erleichtert meinen Alltag. Der Fußweg dorthin dauert nur fünf Minuten.",
+      "ru": "Моя школа находится очень близко к дому, и это делает мой распорядок легче. Туда идти всего пять минут."
+    },
+    {
+      "text": "Ich brauche weder einen Bus noch ein Auto, da die Schule in der Nähe ist. Deshalb kann ich problemlos und ruhig zur Schule gehen.",
+      "ru": "Мне не нужен ни автобус, ни машина, потому что школа рядом. Поэтому я могу легко и спокойно дойти до школы пешком."
+    },
+    {
+      "text": "Normalerweise komme ich pünktlich zur Schule. Ich lerne gut und habe schon viele Bestnoten bekommen.",
+      "ru": "Обычно я прихожу в школу вовремя. Я хорошо учусь и уже получила много пятёрок."
+    },
+    {
+      "text": "Meine Lieblingsfächer sind Kunst und Literatur, weil sie für mich am interessantesten sind. Ich zeichne gern, weil es mir hilft, kreativ zu sein und meine Ideen auszudrücken.",
+      "ru": "Мои любимые предметы — рисование и литература, потому что они для меня самые интересные. Мне нравится рисование, потому что оно помогает мне быть творческой и выражать свои идеи."
+    },
+    {
+      "text": "Ich mag Literatur, weil ich Geschichten, Bücher und interessante Charaktere wirklich mag. Schulfächer fallen mir meist nicht schwer.",
+      "ru": "Мне нравится литература, потому что я очень люблю истории, книги и интересных персонажей. Школьные предметы обычно не кажутся мне трудными."
+    },
+    {
+      "text": "Ich höre meinen Lehrern aufmerksam zu und versuche, alles gut zu verstehen. In der Schule gibt es eine Kantine, in der ich zu Mittag esse.",
+      "ru": "Я внимательно слушаю учителей и стараюсь хорошо всё понимать. В школе есть столовая, где я обедаю."
+    },
+    {
+      "text": "In der Pause laufen wir bei schönem Wetter auf dem Spielplatz. Ich mag aktive Pausen mit meinen Klassenkameraden, weil sie den Schulalltag lebendiger machen.",
+      "ru": "На перемене мы бегаем на площадке, если погода хорошая. Мне нравятся активные перемены с одноклассниками, потому что они делают школьный день живее."
+    },
+    {
+      "text": "Nach der Schule mache ich meine Hausaufgaben. Wenn ich Freizeit habe, spiele ich normalerweise Spiele oder schaue YouTube.",
+      "ru": "После школы я делаю домашнее задание. Если у меня есть свободное время, я обычно играю в игры или смотрю YouTube."
+    },
+    {
+      "text": "Ich denke, mein Schultag ist anstrengend, aber auch gut und interessant. Die Schule ist zu einem Ort geworden, an dem ich mich sicher und ruhig fühle.",
+      "ru": "Я думаю, что мой школьный день насыщенный, но при этом хороший и интересный. Школа стала для меня местом, где я чувствую себя уверенно и спокойно."
+    }
+  ]
+}

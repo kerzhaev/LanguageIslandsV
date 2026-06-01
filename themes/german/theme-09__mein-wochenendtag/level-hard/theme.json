@@ -1,0 +1,61 @@
+{
+  "theme_id": "theme-09-de",
+  "slug": "mein-wochenendtag",
+  "theme_label": "THEME 09",
+  "title": "Mein Wochenendtag",
+  "folder_name": "German\\9. My weekend day",
+  "language": "german",
+  "level": "hard",
+  "video": {
+    "width": 1280,
+    "height": 720,
+    "fps": 24,
+    "background_color": "#F6F0E5"
+  },
+  "entries": [
+    {
+      "text": "Am Wochenende stehe ich normalerweise um zwölf Uhr auf. Meine Wochenendmorgen sind ruhig und langsam, was mir sehr gefällt.",
+      "ru": "Обычно по выходным я встаю в двенадцать часов. Утро в выходной у меня спокойное и неторопливое, и мне это очень нравится."
+    },
+    {
+      "text": "Morgens gehe ich gerne spazieren. Im Schuljahr mache ich manchmal meine Hausaufgaben.",
+      "ru": "Утром мне нравится ходить гулять. В учебное время я иногда делаю домашнее задание."
+    },
+    {
+      "text": "Wenn ich keine Hausaufgaben habe, entspanne ich mich einfach. Am Wochenende ruhe ich mich sehr gerne aus.",
+      "ru": "Если домашнего задания нет, я просто отдыхаю. Мне очень нравится отдыхать по выходным."
+    },
+    {
+      "text": "Am Wochenende gehe ich gerne in verschiedene Geschäfte. Einkaufen kann mir Spaß machen.",
+      "ru": "По выходным мне нравится ходить по разным магазинам. Покупки могут быть для меня веселым занятием."
+    },
+    {
+      "text": "Normalerweise verbringe ich mein Wochenende mit meinen Eltern. Ich bin gerne mit meiner Familie zusammen, weil sich die Wochenenden so wärmer anfühlen.",
+      "ru": "Обычно я провожу выходной с родителями. Мне нравится быть с семьёй, потому что так выходные кажутся теплее."
+    },
+    {
+      "text": "Am Wochenende gehe ich gerne spazieren. Ich schaue auch gerne Filme.",
+      "ru": "По выходным мне нравится гулять. Мне также нравится смотреть фильмы."
+    },
+    {
+      "text": "Ich zeichne auch gern. Mein Wochenende ist ruhig, aber auch sehr schön.",
+      "ru": "Мне также нравится рисовать. Мой выходной тихий, но при этом очень приятный."
+    },
+    {
+      "text": "Reisen zu Menschen kommen selten vor. Normalerweise bleibe ich in der Nähe meines Zuhauses.",
+      "ru": "Поездки в гости бывают редко. Обычно я остаюсь недалеко от дома."
+    },
+    {
+      "text": "Am Wochenende esse ich das Gleiche wie an Wochentagen. Ich brauche kein besonderes Essen, um ein schönes Wochenende zu genießen.",
+      "ru": "По выходным я ем ту же еду, что и в будние дни. Мне не нужна какая-то особенная еда, чтобы выходной был хорошим."
+    },
+    {
+      "text": "Abends putze ich mir die Zähne. Dann wasche ich mich.",
+      "ru": "Вечером я чищу зубы. Потом я умываюсь и моюсь."
+    },
+    {
+      "text": "Danach gehe ich ins Bett. Ein freundliches und friedliches Wochenende macht mich immer glücklich.",
+      "ru": "После этого я иду спать. Добрый и спокойный выходной всегда делает меня счастливой."
+    }
+  ]
+}

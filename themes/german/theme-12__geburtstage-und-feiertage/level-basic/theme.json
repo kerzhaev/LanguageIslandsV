@@ -1,0 +1,97 @@
+{
+  "theme_id": "theme-12-de",
+  "slug": "geburtstage-und-feiertage",
+  "theme_label": "THEME 12",
+  "title": "Geburtstage und Feiertage",
+  "folder_name": "German\\12. Birthdays and holidays",
+  "language": "german",
+  "level": "basic",
+  "video": {
+    "width": 1280,
+    "height": 720,
+    "fps": 24,
+    "background_color": "#F6F0E5"
+  },
+  "entries": [
+    {
+      "text": "Feiertage sind besondere Tage der Ruhe und Freude.",
+      "ru": "Праздники — это особые дни для отдыха и радости."
+    },
+    {
+      "text": "Mein Geburtstag ist einer meiner Lieblingstage im Jahr.",
+      "ru": "Мой день рождения — один из моих любимых дней в году."
+    },
+    {
+      "text": "Ich feiere es gerne mit meiner Familie und meinen Freunden.",
+      "ru": "Мне нравится праздновать его с семьёй и друзьями."
+    },
+    {
+      "text": "Normalerweise dekorieren wir den Raum mit Luftballons.",
+      "ru": "Обычно мы украшаем комнату шарами."
+    },
+    {
+      "text": "Oft steht eine Geburtstagstorte auf dem Tisch.",
+      "ru": "На столе часто бывает праздничный торт."
+    },
+    {
+      "text": "Ich blase die Kerzen aus und wünsche mir etwas.",
+      "ru": "Я задуваю свечи и загадываю желание."
+    },
+    {
+      "text": "Meine Gäste sagen nette Worte zu mir.",
+      "ru": "Гости говорят мне добрые слова."
+    },
+    {
+      "text": "Ich freue mich über Karten und Geschenke.",
+      "ru": "Я рада получать открытки и подарки."
+    },
+    {
+      "text": "Ich verschenke auch gerne kleine Geschenke an andere Menschen.",
+      "ru": "Мне также нравится дарить маленькие подарки другим людям."
+    },
+    {
+      "text": "Neujahr ist ein weiterer wunderschöner Feiertag.",
+      "ru": "Новый год — ещё один замечательный праздник."
+    },
+    {
+      "text": "Menschen schmücken einen Baum und bereiten leckeres Essen zu.",
+      "ru": "Люди украшают ёлку и готовят вкусную еду."
+    },
+    {
+      "text": "Viele Kinder warten gespannt auf die Winterferien.",
+      "ru": "Многие дети с волнением ждут зимних каникул."
+    },
+    {
+      "text": "Manche Feiertage sind Familienferien.",
+      "ru": "Некоторые праздники — семейные."
+    },
+    {
+      "text": "Andere sind nationale Feiertage für das ganze Land.",
+      "ru": "Другие — государственные праздники для всей страны."
+    },
+    {
+      "text": "An Feiertagen besuchen Menschen oft Verwandte.",
+      "ru": "В праздники люди часто навещают родственников."
+    },
+    {
+      "text": "Wir können Spiele spielen, Lieder singen und Fotos machen.",
+      "ru": "Мы можем играть, петь песни и фотографироваться."
+    },
+    {
+      "text": "Bei einem Feiertag geht es nicht nur um Essen und Geschenke.",
+      "ru": "Праздник — это не только еда и подарки."
+    },
+    {
+      "text": "Es geht auch um Liebe, gemeinsame Zeit und schöne Erinnerungen.",
+      "ru": "Это ещё и любовь, время вместе и тёплые воспоминания."
+    },
+    {
+      "text": "Ich genieße glückliche Tage mit den Menschen, die ich liebe.",
+      "ru": "Мне нравятся счастливые дни с людьми, которых я люблю."
+    },
+    {
+      "text": "Schöne Feiertage bleiben uns lange im Herzen.",
+      "ru": "Хорошие праздники надолго остаются в нашем сердце."
+    }
+  ]
+}

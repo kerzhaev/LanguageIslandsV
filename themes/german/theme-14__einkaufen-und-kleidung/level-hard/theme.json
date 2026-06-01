@@ -1,0 +1,61 @@
+{
+  "theme_id": "theme-14-de",
+  "slug": "einkaufen-und-kleidung",
+  "theme_label": "THEME 14",
+  "title": "Einkaufen und Kleidung",
+  "folder_name": "German\\14. Shopping and clothes",
+  "language": "german",
+  "level": "hard",
+  "video": {
+    "width": 1280,
+    "height": 720,
+    "fps": 24,
+    "background_color": "#F6F0E5"
+  },
+  "entries": [
+    {
+      "text": "Ich gehe gerne einkaufen. Einkaufen kann für mich interessant sein, besonders wenn ich Dinge selbst auswähle.",
+      "ru": "Мне нравится ходить по магазинам. Покупки могут быть для меня интересными, особенно когда я выбираю вещи сама."
+    },
+    {
+      "text": "Ich wähle gerne Briefpapier. Ich wähle auch gerne Essen aus.",
+      "ru": "Мне нравится выбирать канцтовары. Мне также нравится выбирать еду."
+    },
+    {
+      "text": "Schöne Geschäfte machen mich glücklich. Ich mag Kleidung wie Hoodies.",
+      "ru": "Хорошие магазины делают меня счастливой. Мне нравится одежда вроде толстовок."
+    },
+    {
+      "text": "Hoodies sind bequem und gemütlich. Ich mag viele verschiedene Farben.",
+      "ru": "Толстовки удобные и уютные. Мне нравятся разные цвета."
+    },
+    {
+      "text": "Ich wähle nicht nur eine Farbe, weil ich Abwechslung mag. Zur Schule trage ich eine Schuluniform.",
+      "ru": "Я не выбираю только один цвет, потому что люблю разнообразие. В школу я ношу школьную форму."
+    },
+    {
+      "text": "Meine Schulkleidung ist ordentlich und schlicht. Für einen Spaziergang trage ich gerne eine Hose und ein T-Shirt.",
+      "ru": "Моя школьная одежда аккуратная и простая. На прогулку мне нравится надевать штаны и футболку."
+    },
+    {
+      "text": "Ich mag Kleidung, in der man sich gut bewegen kann. Meine Mutter und ich wählen die Dinge gemeinsam aus.",
+      "ru": "Мне нравится одежда, в которой легко двигаться. Мы с мамой выбираем вещи вместе."
+    },
+    {
+      "text": "Ich wähle die Kleidung gerne gemeinsam mit meiner Mutter aus, weil es mir so leichter fällt. Bei Regenwetter trage ich gerne Stiefel.",
+      "ru": "Мне нравится выбирать одежду вместе с мамой, потому что так мне легче. В дождливую погоду мне нравится носить сапоги."
+    },
+    {
+      "text": "Stiefel sind gut, wenn es draußen nass ist. Für einen Spaziergang bevorzuge ich leichte Turnschuhe oder Sandalen.",
+      "ru": "Сапоги хороши, когда на улице мокро. Для прогулки мне нравятся лёгкие кеды или сандалии."
+    },
+    {
+      "text": "Komfort ist mir sehr wichtig. Ich mag schlichte Kleidung für den Alltag.",
+      "ru": "Комфорт для меня очень важен. Мне нравится простая одежда для повседневной жизни."
+    },
+    {
+      "text": "Gutes Einkaufen ist für mich ruhig und angenehm. Es macht mir Spaß, nützliche und schöne Dinge zu finden.",
+      "ru": "Хорошие покупки для меня спокойные и приятные. Мне нравится находить полезные и приятные вещи."
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "theme_id": "theme-12-de",
+  "slug": "jahreszeiten-und-wetter",
+  "theme_label": "THEME 12",
+  "title": "Jahreszeiten und Wetter",
+  "folder_name": "German\\12. Seasons and weather",
+  "language": "german",
+  "level": "hard",
+  "video": {
+    "width": 1280,
+    "height": 720,
+    "fps": 24,
+    "background_color": "#F6F0E5"
+  },
+  "entries": [
+    {
+      "text": "Meine Lieblingsjahreszeiten sind Frühling und Sommer. Ich mag sie, weil sie warm und angenehm sind.",
+      "ru": "Мои любимые времена года — весна и лето. Мне они нравятся, потому что они тёплые и приятные."
+    },
+    {
+      "text": "Warmes Wetter ist mein Favorit. Ich fühle mich am glücklichsten, wenn das Wetter warm ist.",
+      "ru": "Больше всего мне нравится тёплая погода. Я чувствую себя счастливее всего, когда погода тёплая."
+    },
+    {
+      "text": "Im Sommer gehe ich sehr gerne spazieren. Im Sommer fahre ich auch gerne mit dem Roller.",
+      "ru": "Летом мне очень нравится гулять. Летом мне также нравится кататься на самокате."
+    },
+    {
+      "text": "Der Sommer ist ideal für Outdoor-Spaß und aktive Tage. Im Winter spiele ich gerne Schneebälle.",
+      "ru": "Лето отлично подходит для веселья на улице и активных дней. Зимой мне нравится играть в снежки."
+    },
+    {
+      "text": "Im Winter fahre ich auch gerne Schlitten. Winterspiele können sehr lustig sein.",
+      "ru": "Зимой мне также нравится кататься на санках. Зимние игры могут быть очень весёлыми."
+    },
+    {
+      "text": "Im Frühling springe ich gerne in Pfützen. Der Frühling fühlt sich frisch und lebendig an.",
+      "ru": "Весной мне нравится прыгать по лужам. Весна кажется свежей и живой."
+    },
+    {
+      "text": "Im Herbst sammle ich gerne Blätter für ein Herbarium. Herbstblätter können sehr schön sein.",
+      "ru": "Осенью мне нравится собирать листья для гербария. Осенние листья могут быть очень красивыми."
+    },
+    {
+      "text": "Ich mag sowohl Regen als auch Sonnenschein. Regen kann Spaß machen, wenn ich in der richtigen Stimmung bin.",
+      "ru": "Мне нравятся и дождь, и солнце. Дождь может быть приятным, когда у меня подходящее настроение."
+    },
+    {
+      "text": "Sonnenschein lässt den Tag hell und fröhlich wirken. Warmes Wetter eignet sich immer noch am besten zum Wandern.",
+      "ru": "Солнечный свет делает день ярким и радостным. Тёплая погода всё равно лучше всего подходит для прогулок."
+    },
+    {
+      "text": "Ich mag kein kaltes Wetter. Ich mag auch kein windiges Wetter.",
+      "ru": "Мне не нравится холодная погода. Мне также не нравится ветреная погода."
+    },
+    {
+      "text": "Mir geht es am besten, wenn das Wetter warm und angenehm ist. Jede Jahreszeit hat etwas Schönes, aber Wärme ist für mich immer noch das Beste.",
+      "ru": "Лучше всего я себя чувствую, когда погода тёплая и приятная. В каждом времени года есть что-то хорошее, но тепло для меня всё равно лучше всего."
+    }
+  ]
+}

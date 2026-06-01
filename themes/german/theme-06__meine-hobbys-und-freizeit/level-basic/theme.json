@@ -1,0 +1,105 @@
+{
+  "theme_id": "theme-06-de",
+  "slug": "meine-hobbys-und-freizeit",
+  "theme_label": "THEME 06",
+  "title": "Meine Hobbys und Freizeit",
+  "folder_name": "German\\6. My hobbies and free time",
+  "language": "german",
+  "level": "basic",
+  "video": {
+    "width": 1280,
+    "height": 720,
+    "fps": 24,
+    "background_color": "#F6F0E5"
+  },
+  "entries": [
+    {
+      "text": "Mein Lieblingshobby ist Zeichnen.",
+      "ru": "Мое любимое хобби — рисование."
+    },
+    {
+      "text": "Ich zeichne sehr gerne.",
+      "ru": "Мне очень нравится рисовать."
+    },
+    {
+      "text": "Nach der Schule gehe ich gerne spazieren und schlafe.",
+      "ru": "После школы я люблю гулять и спать."
+    },
+    {
+      "text": "Ich schaue mir auch gerne Videos an.",
+      "ru": "Я также люблю смотреть видео."
+    },
+    {
+      "text": "Zeichnen macht mir Freude.",
+      "ru": "Рисование делает меня счастливой."
+    },
+    {
+      "text": "Ich kann viel Zeit mit Zeichnen verbringen.",
+      "ru": "Я могу проводить много времени за рисованием."
+    },
+    {
+      "text": "Zeichnen ist das, was ich am besten kann.",
+      "ru": "Рисование получается у меня лучше всего."
+    },
+    {
+      "text": "Ich fühle mich ruhig, wenn ich zeichne.",
+      "ru": "Я чувствую себя спокойно, когда рисую."
+    },
+    {
+      "text": "In meiner Freizeit mache ich gerne Dinge, die mir Spaß machen.",
+      "ru": "В свободное время мне нравится делать то, что я люблю."
+    },
+    {
+      "text": "Mit meinen Freunden spiele ich gerne Fangen.",
+      "ru": "С моими друзьями я люблю играть в догонялки."
+    },
+    {
+      "text": "Wir haben Spaß zusammen.",
+      "ru": "Нам весело вместе."
+    },
+    {
+      "text": "Mit meiner Mutter mache ich gerne meine Hausaufgaben.",
+      "ru": "С мамой мне нравится делать уроки."
+    },
+    {
+      "text": "Sie hilft mir, wenn ich es brauche.",
+      "ru": "Она помогает мне, когда мне это нужно."
+    },
+    {
+      "text": "Ich gehe zum Taekwondo.",
+      "ru": "Я хожу на тхэквондо."
+    },
+    {
+      "text": "Ich gehe auch schwimmen.",
+      "ru": "Я также хожу на плавание."
+    },
+    {
+      "text": "Sport tut mir gut.",
+      "ru": "Спорт полезен для меня."
+    },
+    {
+      "text": "Ich mag es, aktiv zu sein.",
+      "ru": "Мне нравится быть активной."
+    },
+    {
+      "text": "Meine Hobbys machen mein Leben interessant.",
+      "ru": "Мои хобби делают мою жизнь интересной."
+    },
+    {
+      "text": "Ich mag es, neue Dinge zu lernen.",
+      "ru": "Мне нравится узнавать новое."
+    },
+    {
+      "text": "Ich möchte Arzt werden.",
+      "ru": "Я хочу стать врачом."
+    },
+    {
+      "text": "Ich denke, meine Hobbys helfen mir, zu wachsen.",
+      "ru": "Я думаю, что мои хобби помогают мне расти."
+    },
+    {
+      "text": "Meine Freizeit macht mir Spaß und ist mir wichtig.",
+      "ru": "Мое свободное время веселое и важное для меня."
+    }
+  ]
+}

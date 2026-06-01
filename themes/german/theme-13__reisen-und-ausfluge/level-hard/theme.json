@@ -1,0 +1,61 @@
+{
+  "theme_id": "theme-13-de",
+  "slug": "reisen-und-ausfluge",
+  "theme_label": "THEME 13",
+  "title": "Reisen und Ausflüge",
+  "folder_name": "German\\13. Travel and trips",
+  "language": "german",
+  "level": "hard",
+  "video": {
+    "width": 1280,
+    "height": 720,
+    "fps": 24,
+    "background_color": "#F6F0E5"
+  },
+  "entries": [
+    {
+      "text": "Ich reise nicht wirklich gern. Ich mag es nicht, weit weg von zu Hause zu sein, weil ich mich in der Nähe ruhiger fühle.",
+      "ru": "Я не очень люблю путешествовать. Мне не нравится уезжать далеко от дома, потому что рядом с домом я чувствую себя спокойнее."
+    },
+    {
+      "text": "Dennoch habe ich einige schöne Ausflüge gemacht. Ich war am Meer.",
+      "ru": "Но всё же у меня были хорошие поездки. Я ездила на море."
+    },
+    {
+      "text": "Ich war auch in heißen Quellen. Heiße Quellen sind mein Lieblingsort zum Ausruhen.",
+      "ru": "Я также ездила на горячие источники. Горячие источники — моё любимое место для отдыха."
+    },
+    {
+      "text": "Ich fühle mich dort ruhig und wohl. Mein Lieblingstransportmittel ist der Zug.",
+      "ru": "Там я чувствую себя спокойно и уютно. Мой любимый транспорт — поезд."
+    },
+    {
+      "text": "Eine Zugfahrt fühlt sich für mich ruhig und besonders an. Im Zug schaue ich gerne aus dem Fenster.",
+      "ru": "Поездка на поезде кажется мне спокойной и особенной. В поезде мне нравится смотреть в окно."
+    },
+    {
+      "text": "Unterwegs schaue ich mir auch gerne Filme an. Filme erleichtern mir den Weg.",
+      "ru": "Мне также нравится смотреть фильмы в дороге. Фильмы делают дорогу для меня легче."
+    },
+    {
+      "text": "Ich nehme Essen und das Nötigste mit. Ich mag einfache und bequeme Reisen.",
+      "ru": "В поездку я беру еду и самое необходимое. Мне нравятся простые и удобные поездки."
+    },
+    {
+      "text": "Ich liebe Reisen nicht, aber ich kann trotzdem schöne Momente genießen. Ein ruhiger Ort kann eine Reise viel angenehmer machen.",
+      "ru": "Я не люблю поездки, но всё равно могу радоваться хорошим моментам. Спокойное место может сделать поездку намного лучше."
+    },
+    {
+      "text": "Warmes Wasser und Ruhe machen mich glücklich. Manchmal träume ich von zukünftigen Reisen.",
+      "ru": "Тёплая вода и отдых делают меня счастливой. Иногда я мечтаю о будущих путешествиях."
+    },
+    {
+      "text": "Ich träume davon, eines Tages nach Kasachstan zu reisen. Vielleicht wird diese Reise ruhig und interessant.",
+      "ru": "Я мечтаю однажды съездить в Казахстан. Может быть, эта поездка будет спокойной и интересной."
+    },
+    {
+      "text": "Ich hoffe, neue Orte in meinem eigenen Tempo zu sehen. Selbst ein kleiner Traum kann eines Tages zu einer echten Reise werden.",
+      "ru": "Я надеюсь увидеть новые места в своём собственном спокойном ритме. Даже маленькая мечта однажды может стать настоящей поездкой."
+    }
+  ]
+}
