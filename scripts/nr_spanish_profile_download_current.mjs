@@ -14,6 +14,10 @@ function sleep(ms) {
   return new Promise((resolve) => setTimeout(resolve, ms));
 }
 
+function logStep(message) {
+  console.log(`[NR ES] ${message}`);
+}
+
 async function fileExists(p) {
   return fs.stat(p).then(() => true).catch(() => false);
 }
@@ -67,6 +71,7 @@ async function discardBackupIfSuccess(originalPath, backupPath) {
 }
 
 async function openEditor(page) {
+  logStep("Opening NaturalReaders editor");
   await page.goto("https://www.naturalreaders.com/online/", { waitUntil: "domcontentloaded" });
   await sleep(6000);
 
@@ -83,6 +88,7 @@ async function openEditor(page) {
 }
 
 async function selectArabella(page) {
+  logStep("Opening voice dialog");
   const voiceListBtn = page.locator("#voiceListBtn").first();
   if (!(await voiceListBtn.count())) {
     throw new Error("Voice list button not found");
@@ -96,6 +102,7 @@ async function selectArabella(page) {
   if (!(await langTrigger.count())) {
     throw new Error("Language trigger not found in voice dialog");
   }
+  logStep("Selecting language Spanish (Spain)");
   await langTrigger.click({ force: true }).catch(async () => {
     await langTrigger.evaluate((el) => el.click());
   });
@@ -117,6 +124,7 @@ async function selectArabella(page) {
 
   const plusTab = page.locator("button").filter({ hasText: /^Plus$/i }).first();
   if (await plusTab.count()) {
+    logStep("Switching to Plus voices");
     await plusTab.click({ force: true }).catch(async () => {
       await plusTab.evaluate((el) => el.click());
     });
@@ -127,6 +135,7 @@ async function selectArabella(page) {
   if (!(await arabella.count())) {
     throw new Error("Arabella (Spain) voice not found");
   }
+  logStep("Selecting Arabella (Spain) Plus voice");
   await arabella.click({ force: true }).catch(async () => {
     await arabella.evaluate((el) => el.click());
   });
@@ -136,6 +145,7 @@ async function selectArabella(page) {
 }
 
 async function fillText(page, text) {
+  logStep(`Filling editor text (${text.length} chars)`);
   await page.evaluate((value) => {
     const inputDiv = document.querySelector("#inputDiv");
     const contentEditable = document.querySelector('[contenteditable="true"]');
@@ -174,6 +184,7 @@ async function fillText(page, text) {
 }
 
 async function triggerMp3Dialog(page) {
+  logStep("Opening MP3 dialog");
   const mp3Button = page.locator("button, [role='button']").filter({ hasText: /^MP3 Download$/i }).first();
   if (!(await mp3Button.count())) {
     throw new Error("MP3 Download button not found");
@@ -187,6 +198,7 @@ async function triggerMp3Dialog(page) {
   if (!(await convertNow.count())) {
     throw new Error("Convert Now button not found");
   }
+  logStep("Clicking Convert Now");
   await convertNow.click({ force: true }).catch(async () => {
     await convertNow.evaluate((el) => el.click());
   });
@@ -194,6 +206,7 @@ async function triggerMp3Dialog(page) {
 
 async function waitForAndDownload(page, outputPath) {
   const deadline = Date.now() + 480000;
+  logStep(`Waiting for MP3 download: ${path.basename(outputPath)}`);
 
   while (Date.now() < deadline) {
     await sleep(3000);
@@ -209,17 +222,20 @@ async function waitForAndDownload(page, outputPath) {
     }).catch(() => null);
 
     if (directHref) {
+      logStep("Direct MP3 link found, downloading");
       const response = await page.request.get(directHref, { timeout: 180000 });
       if (!response.ok()) {
         throw new Error(`Direct MP3 request failed: ${response.status()}`);
       }
       const body = await response.body();
       await fs.writeFile(outputPath, body);
+      logStep(`Saved MP3: ${path.basename(outputPath)}`);
       return;
     }
 
     const downloadBtn = page.locator("button, a, [role='button']").filter({ hasText: /^Download$/i }).first();
     if (await downloadBtn.count()) {
+      logStep("Download button found, waiting for browser download event");
       const downloadPromise = page.waitForEvent("download", { timeout: 120000 }).catch(() => null);
       await downloadBtn.click({ force: true }).catch(async () => {
         await downloadBtn.evaluate((el) => el.click());
@@ -227,6 +243,7 @@ async function waitForAndDownload(page, outputPath) {
       const download = await downloadPromise;
       if (download) {
         await download.saveAs(outputPath);
+        logStep(`Saved MP3 from browser download: ${path.basename(outputPath)}`);
         return;
       }
     }
@@ -241,11 +258,13 @@ async function waitForAndDownload(page, outputPath) {
 }
 
 async function generateOne(page, text, outputPath) {
+  logStep(`Starting generation for ${path.basename(outputPath)}`);
   await openEditor(page);
   await selectArabella(page);
   await fillText(page, text);
   await triggerMp3Dialog(page);
   await waitForAndDownload(page, outputPath);
+  logStep(`Finished generation for ${path.basename(outputPath)}`);
 }
 
 const jobs = await Promise.all(targetDirs.map(readJob));
@@ -260,12 +279,15 @@ const page = context.pages()[0] || await context.newPage();
 try {
   for (const job of jobs) {
     console.log(`\n=== ${job.targetDir} ===`);
+    logStep(`Preparing job folder ${job.targetDir}`);
 
     const onceBak = await backupIfExists(job.onceMp3);
     const repeatBak = await backupIfExists(job.repeatMp3);
 
     try {
+      logStep("Generating once MP3");
       await generateOne(page, job.onceText, job.onceMp3);
+      logStep("Generating repeat MP3");
       await generateOne(page, job.repeatText, job.repeatMp3);
       await discardBackupIfSuccess(job.onceMp3, onceBak);
       await discardBackupIfSuccess(job.repeatMp3, repeatBak);

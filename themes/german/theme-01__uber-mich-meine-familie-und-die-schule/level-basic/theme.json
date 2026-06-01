@@ -1,0 +1,104 @@
+{
+  "theme_id": "theme-01-de",
+  "slug": "uber-mich-meine-familie-und-die-schule",
+  "theme_label": "THEME 01",
+  "title": "About me, my family and school",
+  "folder_name": "German\\1. About me",
+  "language": "german",
+  "video": {
+    "width": 1280,
+    "height": 720,
+    "fps": 24,
+    "background_color": "#F6F0E5"
+  },
+  "entries": [
+    {
+      "text": "Mein Name ist Varvara.",
+      "ru": "Меня зовут Варвара."
+    },
+    {
+      "text": "Ich bin zehn Jahre alt.",
+      "ru": "Мне десять лет."
+    },
+    {
+      "text": "Ich lebe in Russland.",
+      "ru": "Я живу в России."
+    },
+    {
+      "text": "Ich lebe in Stawropol.",
+      "ru": "Я живу в городе Ставрополь."
+    },
+    {
+      "text": "Ich habe eine kleine Familie.",
+      "ru": "У меня маленькая семья."
+    },
+    {
+      "text": "Ich bin das einzige Kind in der Familie.",
+      "ru": "Я единственный ребенок в семье."
+    },
+    {
+      "text": "Meine Familie besteht aus einer Mutter, einem Vater, einer Oma und einem Opa.",
+      "ru": "В моей семье есть мама, папа, бабушка и дедушка."
+    },
+    {
+      "text": "Ich habe eine Katze.",
+      "ru": "У меня есть кот."
+    },
+    {
+      "text": "Sein Name ist Felix.",
+      "ru": "Его зовут Феликс."
+    },
+    {
+      "text": "Er ist süß, klug und schön.",
+      "ru": "Он милый, умный и красивый."
+    },
+    {
+      "text": "Ich bin in der vierten Klasse.",
+      "ru": "Я учусь в четвертом классе."
+    },
+    {
+      "text": "Meine Lieblingsfächer in der Schule sind Russisch, Literatur und Kunst.",
+      "ru": "Мои любимые школьные предметы - русский язык, литература и ИЗО."
+    },
+    {
+      "text": "Nach der Schule gehe ich gerne spazieren und höre Musik.",
+      "ru": "После школы я люблю гулять и слушать музыку."
+    },
+    {
+      "text": "Mein Lieblingssport ist Taekwondo.",
+      "ru": "Мой любимый вид спорта - тхэквондо."
+    },
+    {
+      "text": "Mein Lieblingsspiel ist Verstecken.",
+      "ru": "Моя любимая игра - прятки-догонялки."
+    },
+    {
+      "text": "Ich mag Zeichnen, Tanzen, Singen, Lesen und Spielen.",
+      "ru": "Я люблю рисовать, танцевать, петь, читать и играть."
+    },
+    {
+      "text": "Meine Lieblingsfarben sind Lila und Blau.",
+      "ru": "Мои любимые цвета - фиолетовый и синий."
+    },
+    {
+      "text": "Mein Lieblingsessen ist Borschtsch und Fleisch mit Kartoffelpüree.",
+      "ru": "Моя любимая еда - борщ и мясо с пюре."
+    },
+    {
+      "text": "Meine Lieblingsfrucht ist ein Apfel, eine Banane, Wassermelone und Blaubeeren.",
+      "ru": "Мои любимые фрукты - яблоко, банан, арбуз и голубика."
+    },
+    {
+      "text": "Mein Geburtstag ist am 24. Juli.",
+      "ru": "Мой день рождения двадцать четвертого июля."
+    },
+    {
+      "text": "Ich mag es, Spielzeug als Geschenk zu bekommen.",
+      "ru": "Я люблю получать в подарок игрушки."
+    },
+    {
+      "text": "Ich bekomme auch gerne Kunstsets geschenkt.",
+      "ru": "Я также люблю получать наборы для творчества."
+    }
+  ]
+}
