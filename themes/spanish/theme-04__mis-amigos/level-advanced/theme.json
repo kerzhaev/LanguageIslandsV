@@ -1,0 +1,105 @@
+{
+  "theme_id": "theme-04-es",
+  "slug": "mis-amigos",
+  "theme_label": "THEME 04",
+  "title": "mis amigos",
+  "folder_name": "Spanish\\4. My friends",
+  "language": "spanish",
+  "level": "advanced",
+  "video": {
+    "width": 1280,
+    "height": 720,
+    "fps": 24,
+    "background_color": "#F6F0E5"
+  },
+  "entries": [
+    {
+      "text": "Mis amigos son muy importantes para mí y hacen mi vida más brillante.",
+      "ru": "Мои друзья очень важны для меня, и они делают мою жизнь ярче."
+    },
+    {
+      "text": "Tengo dos mejores amigos llamados Dasha y Nazar.",
+      "ru": "У меня есть два лучших друга по имени Даша и Назар."
+    },
+    {
+      "text": "También tengo cinco amigos cercanos.",
+      "ru": "У меня также есть пять близких друзей."
+    },
+    {
+      "text": "Todos mis amigos están en la misma clase, por eso nos vemos todos los días.",
+      "ru": "Все мои друзья учатся в одном классе, поэтому мы видимся каждый день."
+    },
+    {
+      "text": "Nos reunimos en la escuela todos los días y pasamos mucho tiempo juntos allí.",
+      "ru": "Мы встречаемся в школе каждый день и проводим там много времени вместе."
+    },
+    {
+      "text": "Me gusta pasar tiempo con mis amigos porque me siento cómodo con ellos.",
+      "ru": "Мне нравится проводить время с друзьями, потому что рядом с ними я чувствую себя комфортно."
+    },
+    {
+      "text": "Nos gusta jugar juntos.",
+      "ru": "Мы любим играть вместе."
+    },
+    {
+      "text": "También inventamos juegos divertidos nosotros mismos.",
+      "ru": "Мы также сами придумываем смешные игры."
+    },
+    {
+      "text": "Nuestros juegos son siempre animados y divertidos.",
+      "ru": "Наши игры всегда живые и весёлые."
+    },
+    {
+      "text": "Camino y juego con mis amigos sólo en la escuela.",
+      "ru": "Я гуляю и играю с друзьями только в школе."
+    },
+    {
+      "text": "Hablamos durante los descansos.",
+      "ru": "На переменах мы разговариваем."
+    },
+    {
+      "text": "Nos reímos mucho juntos, lo que hace que el día sea más fácil.",
+      "ru": "Мы много смеёмся вместе, и поэтому день кажется легче."
+    },
+    {
+      "text": "Mis amigos hacen que mi día escolar sea más alegre.",
+      "ru": "Мои друзья делают мой школьный день веселее."
+    },
+    {
+      "text": "Me gustan mis amigos no por una razón especial, sino simplemente porque son mis amigos.",
+      "ru": "Мне нравятся мои друзья не по какой-то особой причине, а просто потому, что они мои друзья."
+    },
+    {
+      "text": "Me siento bien cuando estoy con ellos.",
+      "ru": "Мне хорошо, когда я рядом с ними."
+    },
+    {
+      "text": "Nos entendemos bastante bien.",
+      "ru": "Мы довольно хорошо понимаем друг друга."
+    },
+    {
+      "text": "Las peleas ocurren muy raramente.",
+      "ru": "Ссоры случаются очень редко."
+    },
+    {
+      "text": "Normalmente sólo tengo problemas con la gente que tiene celos de mí.",
+      "ru": "Обычно проблемы у меня бывают только с теми, кто мне завидует."
+    },
+    {
+      "text": "Quiero que mis amistades sigan siendo amables, cálidas y felices.",
+      "ru": "Я хочу, чтобы моя дружба оставалась доброй, тёплой и счастливой."
+    },
+    {
+      "text": "Los buenos amigos hacen que la escuela sea mucho más interesante.",
+      "ru": "Хорошие друзья делают школу намного интереснее."
+    },
+    {
+      "text": "Estoy muy contenta de tener a mis amigos.",
+      "ru": "Я очень рада, что у меня есть друзья."
+    },
+    {
+      "text": "La amistad se ha convertido en una parte muy especial de mi vida.",
+      "ru": "Дружба стала очень особенной частью моей жизни."
+    }
+  ]
+}

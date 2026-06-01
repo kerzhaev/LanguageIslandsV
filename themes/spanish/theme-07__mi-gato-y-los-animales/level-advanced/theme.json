@@ -1,0 +1,105 @@
+{
+  "theme_id": "theme-07-es",
+  "slug": "mi-gato-y-los-animales",
+  "theme_label": "THEME 07",
+  "title": "mi gato y mis animales",
+  "folder_name": "Spanish\\7. My cat and animals",
+  "language": "spanish",
+  "level": "advanced",
+  "video": {
+    "width": 1280,
+    "height": 720,
+    "fps": 24,
+    "background_color": "#F6F0E5"
+  },
+  "entries": [
+    {
+      "text": "Mi gato se llama Félix y es una parte muy especial de mi vida.",
+      "ru": "Моего кота зовут Феликс, и он очень особенная часть моей жизни."
+    },
+    {
+      "text": "Félix es vago, inteligente y divertido.",
+      "ru": "Феликс ленивый, умный и смешной."
+    },
+    {
+      "text": "Él es gris y blanco.",
+      "ru": "Он серо-белый."
+    },
+    {
+      "text": "Félix es un gato muy grande.",
+      "ru": "Феликс — очень большой кот."
+    },
+    {
+      "text": "Pesa casi ocho kilos.",
+      "ru": "Он весит почти восемь килограммов."
+    },
+    {
+      "text": "Tiene una barriga grande, lo que lo hace parecer aún más divertido.",
+      "ru": "У него большой живот, и из-за этого он выглядит ещё смешнее."
+    },
+    {
+      "text": "A Félix le gusta dormir todo el día.",
+      "ru": "Феликс любит спать целый день."
+    },
+    {
+      "text": "A él también le gusta comer.",
+      "ru": "Он также любит есть."
+    },
+    {
+      "text": "La mayor parte del tiempo vive una vida gatuna tranquila.",
+      "ru": "Большую часть времени он живёт спокойной кошачьей жизнью."
+    },
+    {
+      "text": "A Félix le gusta sentarse sobre las manos.",
+      "ru": "Феликс любит сидеть на руках."
+    },
+    {
+      "text": "A él también le gusta jugar, especialmente cuando se siente con energía.",
+      "ru": "Ему также нравится играть, особенно когда у него есть настроение и силы."
+    },
+    {
+      "text": "Por la noche puede correr muy rápido.",
+      "ru": "Ночью он может очень быстро бегать."
+    },
+    {
+      "text": "Hay otro gato llamado Nyusha.",
+      "ru": "Есть ещё одна кошка по имени Нюша."
+    },
+    {
+      "text": "Nyusha es el gato de mi papá.",
+      "ru": "Нюша — кошка моего папы."
+    },
+    {
+      "text": "Cuando Nyusha viene de visita, la noche se vuelve mucho más ruidosa.",
+      "ru": "Когда Нюша приезжает в гости, ночь становится гораздо шумнее."
+    },
+    {
+      "text": "Felix y Nyusha corren y juegan por la noche.",
+      "ru": "Феликс и Нюша ночью бегают и играют."
+    },
+    {
+      "text": "A veces no dejan dormir a la gente.",
+      "ru": "Иногда они не дают людям спать."
+    },
+    {
+      "text": "Creo que Nyusha también es divertida.",
+      "ru": "Я думаю, что Нюша тоже смешная."
+    },
+    {
+      "text": "Me gustan mucho los gatos.",
+      "ru": "Я очень люблю кошек."
+    },
+    {
+      "text": "Los animales son lindos y esponjosos, y esa es una de las razones por las que los amo.",
+      "ru": "Животные милые и пушистые, и это одна из причин, почему я их люблю."
+    },
+    {
+      "text": "También hacen la vida más cálida y alegre.",
+      "ru": "Они также делают жизнь теплее и веселее."
+    },
+    {
+      "text": "Por eso Félix se ha convertido en una parte tan importante de mi vida.",
+      "ru": "Поэтому Феликс стал такой важной частью моей жизни."
+    }
+  ]
+}

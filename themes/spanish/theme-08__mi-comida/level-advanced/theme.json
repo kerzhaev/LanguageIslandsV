@@ -1,0 +1,105 @@
+{
+  "theme_id": "theme-08-es",
+  "slug": "mi-comida",
+  "theme_label": "THEME 08",
+  "title": "mi comida",
+  "folder_name": "Spanish\\8. My food",
+  "language": "spanish",
+  "level": "advanced",
+  "video": {
+    "width": 1280,
+    "height": 720,
+    "fps": 24,
+    "background_color": "#F6F0E5"
+  },
+  "entries": [
+    {
+      "text": "Mi comida favorita es el borscht con carne.",
+      "ru": "Моя любимая еда — борщ с мясом."
+    },
+    {
+      "text": "También me gusta mucho el puré de patatas.",
+      "ru": "Мне также очень нравится картофельное пюре."
+    },
+    {
+      "text": "Mis dulces favoritos son la mermelada y el panecillo suizo.",
+      "ru": "Мои любимые сладости — мармелад и рулет."
+    },
+    {
+      "text": "Me gustan los postres dulces y sabrosos, sobre todo los familiares.",
+      "ru": "Мне нравятся сладкие и вкусные десерты, особенно знакомые."
+    },
+    {
+      "text": "Para el desayuno normalmente me gusta el requesón y el té.",
+      "ru": "На завтрак я обычно люблю есть творог и пить чай."
+    },
+    {
+      "text": "El desayuno para mí es importante porque me ayuda a empezar bien el día.",
+      "ru": "Завтрак важен для меня, потому что он помогает мне хорошо начать день."
+    },
+    {
+      "text": "Mi mamá cocina comida muy rica.",
+      "ru": "Моя мама готовит очень вкусную еду."
+    },
+    {
+      "text": "Ella cocina maíz delicioso.",
+      "ru": "Она готовит вкусную кукурузу."
+    },
+    {
+      "text": "También cocina una sopa deliciosa.",
+      "ru": "Она также готовит вкусный суп."
+    },
+    {
+      "text": "Su borscht también es muy bueno.",
+      "ru": "Её борщ тоже очень вкусный."
+    },
+    {
+      "text": "No me gustan las hamburguesas.",
+      "ru": "Я не люблю гамбургеры."
+    },
+    {
+      "text": "Tampoco me gusta mucho probar comida nueva.",
+      "ru": "Мне также не очень нравится пробовать новую еду."
+    },
+    {
+      "text": "Normalmente prefiero la comida que ya conozco bien.",
+      "ru": "Обычно я предпочитаю еду, которую уже хорошо знаю."
+    },
+    {
+      "text": "Mi fruta favorita es una manzana.",
+      "ru": "Мой любимый фрукт — яблоко."
+    },
+    {
+      "text": "También me gustan los plátanos.",
+      "ru": "Мне также нравятся бананы."
+    },
+    {
+      "text": "Me gusta mucho la sandía.",
+      "ru": "Мне очень нравится арбуз."
+    },
+    {
+      "text": "También me gustan los arándanos.",
+      "ru": "Мне также нравится голубика."
+    },
+    {
+      "text": "Mi bebida favorita es el mors de arándano.",
+      "ru": "Мой любимый напиток — клюквенный морс."
+    },
+    {
+      "text": "Es sabroso y refrescante.",
+      "ru": "Он вкусный и освежающий."
+    },
+    {
+      "text": "Me gusta la comida sencilla, que sepa bien y me resulte familiar.",
+      "ru": "Мне нравится простая еда, которая вкусная и привычная."
+    },
+    {
+      "text": "La buena comida siempre me hace feliz.",
+      "ru": "Хорошая еда всегда делает меня счастливой."
+    },
+    {
+      "text": "Mi comida favorita se ha convertido en una parte cálida y placentera de mi vida diaria.",
+      "ru": "Моя любимая еда стала тёплой и приятной частью моей повседневной жизни."
+    }
+  ]
+}

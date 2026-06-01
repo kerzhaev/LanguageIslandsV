@@ -16,13 +16,13 @@ except Exception:
 
 
 ROOT = Path(__file__).resolve().parents[1]
-OUTPUT_ROOT = ROOT / "output"
+DEFAULT_OUTPUT_ROOT = ROOT / "output"
 FFMPEG = imageio_ffmpeg.get_ffmpeg_exe()
 
 
-def numbered_theme_dirs() -> list[Path]:
+def numbered_theme_dirs(output_root: Path) -> list[Path]:
     return sorted(
-        [path for path in OUTPUT_ROOT.iterdir() if path.is_dir() and path.name[:1].isdigit()],
+        [path for path in output_root.iterdir() if path.is_dir() and path.name[:1].isdigit()],
         key=lambda path: int(path.name.split(".", 1)[0]),
     )
 
@@ -37,6 +37,10 @@ def find_file(folder: Path, suffix: str) -> Path:
     if not matches:
         raise FileNotFoundError(f"Missing {suffix} in {folder}")
     return matches[0]
+
+
+def has_file(folder: Path, suffix: str) -> bool:
+    return any(path.is_file() and path.name.endswith(suffix) for path in folder.iterdir())
 
 
 def combine_pdfs(paths: list[Path], target: Path) -> None:
@@ -124,30 +128,46 @@ def combine_srts(srt_paths: list[Path], mp3_paths: list[Path], target: Path) -> 
     target.write_text("\n".join(blocks).strip() + "\n", encoding="utf-8-sig")
 
 
-def build_level(level: str) -> None:
-    dirs = [level_dir(theme_dir, level) for theme_dir in numbered_theme_dirs()]
-    mp3s = [find_file(folder, "__04__shadowing_en.mp3") for folder in dirs]
-    mp4s = [find_file(folder, "__14__shadowing_video_en.mp4") for folder in dirs]
+def build_level(level: str, output_root: Path, media_code: str, prefix: str) -> None:
+    dirs = [
+        folder
+        for theme_dir in numbered_theme_dirs(output_root)
+        for folder in [level_dir(theme_dir, level)]
+        if folder.exists() and has_file(folder, f"__04__shadowing_{media_code}.mp3")
+    ]
+    if not dirs:
+        raise FileNotFoundError(
+            f"No completed theme folders found in {output_root} for level={level} media_code={media_code}"
+        )
+    mp3s = [find_file(folder, f"__04__shadowing_{media_code}.mp3") for folder in dirs]
+    mp4s = [find_file(folder, f"__14__shadowing_video_{media_code}.mp4") for folder in dirs]
     srts = [find_file(folder, "__13__shadowing_ru.srt") for folder in dirs]
+    stem = f"{prefix}all-themes-{level}"
 
     if level in {"advanced", "hard"}:
         bilingual = [find_file(folder, "__03__bilingual_study.pdf") for folder in dirs]
         active = [find_file(folder, "__05__active_recall.pdf") for folder in dirs]
-        combine_pdfs(bilingual, OUTPUT_ROOT / f"all-themes-{level}-bilingual-study.pdf")
-        combine_pdfs(active, OUTPUT_ROOT / f"all-themes-{level}-active-recall.pdf")
+        combine_pdfs(bilingual, output_root / f"{stem}-bilingual-study.pdf")
+        combine_pdfs(active, output_root / f"{stem}-active-recall.pdf")
 
-    concat_media(mp3s, OUTPUT_ROOT / f"all-themes-{level}-shadowing.mp3")
-    concat_media(mp4s, OUTPUT_ROOT / f"all-themes-{level}-shadowing-video.mp4")
-    combine_srts(srts, mp3s, OUTPUT_ROOT / f"all-themes-{level}-shadowing_ru.srt")
+    concat_media(mp3s, output_root / f"{stem}-shadowing.mp3")
+    concat_media(mp4s, output_root / f"{stem}-shadowing-video.mp4")
+    combine_srts(srts, mp3s, output_root / f"{stem}-shadowing_ru.srt")
 
 
 def main() -> None:
     parser = argparse.ArgumentParser(description="Build combined outputs for basic / advanced / hard levels.")
     parser.add_argument("levels", nargs="*", default=["hard", "advanced", "basic"])
+    parser.add_argument("--output-root", default=str(DEFAULT_OUTPUT_ROOT))
+    parser.add_argument("--media-code", default="en")
+    parser.add_argument("--prefix", default="")
     args = parser.parse_args()
 
+    output_root = Path(args.output_root).resolve()
+    prefix = f"{args.prefix.strip('-')}-" if args.prefix.strip("-") else ""
+
     for level in args.levels:
-        build_level(level)
+        build_level(level, output_root, args.media_code, prefix)
         print(f"Built combined outputs for {level}")
 
 

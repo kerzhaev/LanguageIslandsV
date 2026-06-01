@@ -1,0 +1,105 @@
+{
+  "theme_id": "theme-03-es",
+  "slug": "mi-familia",
+  "theme_label": "THEME 03",
+  "title": "Mi familia",
+  "folder_name": "Spanish\\3. My family",
+  "language": "spanish",
+  "level": "advanced",
+  "video": {
+    "width": 1280,
+    "height": 720,
+    "fps": 24,
+    "background_color": "#F6F0E5"
+  },
+  "entries": [
+    {
+      "text": "Mi familia es amable y es una de las partes más importantes de mi vida.",
+      "ru": "Моя семья добрая, и это одна из самых важных частей моей жизни."
+    },
+    {
+      "text": "Vivo con mi madre y mi gato, por lo que el hogar suele resultar cálido y acogedor.",
+      "ru": "Я живу с мамой и своим котом, поэтому дома обычно тепло и уютно."
+    },
+    {
+      "text": "El nombre de mi mamá es Yulia.",
+      "ru": "Мою маму зовут Юлия."
+    },
+    {
+      "text": "El nombre de mi papá es Zhenya.",
+      "ru": "Моего папу зовут Женя."
+    },
+    {
+      "text": "Mi papá trabaja en otra ciudad, por eso no siempre puede estar en casa.",
+      "ru": "Мой папа работает в другом городе, поэтому он не всегда может быть дома."
+    },
+    {
+      "text": "Aun así, viene a nosotros en vacaciones o durante sus vacaciones.",
+      "ru": "Но всё же он приезжает к нам на праздники или во время отпуска."
+    },
+    {
+      "text": "Mi abuela y mi abuelo viven separados.",
+      "ru": "Моя бабушка и мой дедушка живут отдельно."
+    },
+    {
+      "text": "Vienen a visitarnos de vez en cuando.",
+      "ru": "Они время от времени приезжают к нам в гости."
+    },
+    {
+      "text": "Mi abuela suele venir más seguido.",
+      "ru": "Моя бабушка обычно приезжает чаще."
+    },
+    {
+      "text": "No tengo hermanos ni hermanas.",
+      "ru": "У меня нет братьев и сестёр."
+    },
+    {
+      "text": "Pero tengo un primo llamado Ilya.",
+      "ru": "Но у меня есть двоюродный брат по имени Илья."
+    },
+    {
+      "text": "A mi mamá le gusta cocinar comida rica y creo que lo hace muy bien.",
+      "ru": "Моя мама любит готовить вкусную еду, и, по-моему, у неё это получается очень хорошо."
+    },
+    {
+      "text": "Mi papá la ayuda en la cocina cuando está en casa.",
+      "ru": "Когда папа дома, он помогает ей на кухне."
+    },
+    {
+      "text": "Puede cortar verduras y limpiar pescado.",
+      "ru": "Он умеет резать овощи и чистить рыбу."
+    },
+    {
+      "text": "También puede realizar el trabajo más pesado en casa.",
+      "ru": "Он также может выполнять более тяжёлую работу по дому."
+    },
+    {
+      "text": "Me gusta mucho dibujar.",
+      "ru": "Мне очень нравится рисовать."
+    },
+    {
+      "text": "También me gusta jugar con mi gato Félix, quien se ha convertido en una parte especial de mi vida.",
+      "ru": "Мне также нравится играть со своим котом Феликсом, который стал особенной частью моей жизни."
+    },
+    {
+      "text": "Mi mamá y yo salimos a caminar juntas a menudo.",
+      "ru": "Мы с мамой часто вместе ходим гулять."
+    },
+    {
+      "text": "A veces también podemos ir juntos a algún lugar.",
+      "ru": "Иногда мы также можем куда-нибудь поехать вместе."
+    },
+    {
+      "text": "Cuando viene mi papá, podemos ver juntos una caricatura larga o una película.",
+      "ru": "Когда приезжает папа, мы можем вместе посмотреть полнометражный мультфильм или фильм."
+    },
+    {
+      "text": "Normalmente elegimos algo que sea interesante para todos.",
+      "ru": "Обычно мы выбираем что-то интересное для всех."
+    },
+    {
+      "text": "Me siento más feliz cuando mi familia está junta.",
+      "ru": "Я чувствую себя счастливее всего, когда моя семья вместе."
+    }
+  ]
+}

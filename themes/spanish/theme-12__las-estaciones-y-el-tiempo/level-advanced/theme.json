@@ -1,0 +1,105 @@
+{
+  "theme_id": "theme-12-es",
+  "slug": "las-estaciones-y-el-tiempo",
+  "theme_label": "THEME 12",
+  "title": "Estaciones y clima",
+  "folder_name": "Spanish\\12. Seasons and weather",
+  "language": "spanish",
+  "level": "advanced",
+  "video": {
+    "width": 1280,
+    "height": 720,
+    "fps": 24,
+    "background_color": "#F6F0E5"
+  },
+  "entries": [
+    {
+      "text": "Mis estaciones favoritas son la primavera y el verano.",
+      "ru": "Мои любимые времена года — весна и лето."
+    },
+    {
+      "text": "Me gustan porque son cálidos y agradables.",
+      "ru": "Мне они нравятся, потому что они тёплые и приятные."
+    },
+    {
+      "text": "El clima cálido es mi favorito.",
+      "ru": "Больше всего мне нравится тёплая погода."
+    },
+    {
+      "text": "Me siento más feliz cuando hace calor.",
+      "ru": "Я чувствую себя счастливее всего, когда погода тёплая."
+    },
+    {
+      "text": "En verano me gusta mucho caminar.",
+      "ru": "Летом мне очень нравится гулять."
+    },
+    {
+      "text": "También me gusta andar en scooter en verano.",
+      "ru": "Летом мне также нравится кататься на самокате."
+    },
+    {
+      "text": "El verano es fantástico para la diversión al aire libre y los días activos.",
+      "ru": "Лето отлично подходит для веселья на улице и активных дней."
+    },
+    {
+      "text": "En invierno me gusta jugar bolas de nieve.",
+      "ru": "Зимой мне нравится играть в снежки."
+    },
+    {
+      "text": "También me gusta andar en trineo en invierno.",
+      "ru": "Зимой мне также нравится кататься на санках."
+    },
+    {
+      "text": "Los juegos de invierno pueden ser muy divertidos.",
+      "ru": "Зимние игры могут быть очень весёлыми."
+    },
+    {
+      "text": "En primavera me gusta saltar en los charcos.",
+      "ru": "Весной мне нравится прыгать по лужам."
+    },
+    {
+      "text": "La primavera se siente fresca y vivaz.",
+      "ru": "Весна кажется свежей и живой."
+    },
+    {
+      "text": "En otoño me gusta coleccionar hojas para un herbario.",
+      "ru": "Осенью мне нравится собирать листья для гербария."
+    },
+    {
+      "text": "Las hojas de otoño pueden ser muy hermosas.",
+      "ru": "Осенние листья могут быть очень красивыми."
+    },
+    {
+      "text": "Me gusta tanto la lluvia como el sol.",
+      "ru": "Мне нравятся и дождь, и солнце."
+    },
+    {
+      "text": "La lluvia puede ser divertida cuando estoy de buen humor.",
+      "ru": "Дождь может быть приятным, когда у меня подходящее настроение."
+    },
+    {
+      "text": "El sol hace que el día parezca brillante y alegre.",
+      "ru": "Солнечный свет делает день ярким и радостным."
+    },
+    {
+      "text": "El clima cálido sigue siendo el mejor para caminar.",
+      "ru": "Тёплая погода всё равно лучше всего подходит для прогулок."
+    },
+    {
+      "text": "No me gusta el clima frío.",
+      "ru": "Мне не нравится холодная погода."
+    },
+    {
+      "text": "Tampoco me gusta el clima ventoso.",
+      "ru": "Мне также не нравится ветреная погода."
+    },
+    {
+      "text": "Me siento mejor cuando el clima es cálido y agradable.",
+      "ru": "Лучше всего я себя чувствую, когда погода тёплая и приятная."
+    },
+    {
+      "text": "Cada estación tiene algo bonito, pero la calidez sigue siendo lo mejor para mí.",
+      "ru": "В каждом времени года есть что-то хорошее, но тепло для меня всё равно лучше всего."
+    }
+  ]
+}

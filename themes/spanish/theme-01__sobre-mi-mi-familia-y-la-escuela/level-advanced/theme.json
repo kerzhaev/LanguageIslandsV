@@ -1,0 +1,109 @@
+{
+  "theme_id": "theme-01-es",
+  "slug": "sobre-mi-mi-familia-y-la-escuela",
+  "theme_label": "THEME 01",
+  "title": "Sobre mí, mi familia y la escuela.",
+  "folder_name": "Spanish\\1. About me",
+  "language": "spanish",
+  "level": "advanced",
+  "video": {
+    "width": 1280,
+    "height": 720,
+    "fps": 24,
+    "background_color": "#F6F0E5"
+  },
+  "entries": [
+    {
+      "text": "Mi nombre es Varvara y tengo diez años.",
+      "ru": "Меня зовут Варвара, и мне десять лет."
+    },
+    {
+      "text": "Vivo en Rusia y mi ciudad es Stavropol.",
+      "ru": "Я живу в России, и мой город — Ставрополь."
+    },
+    {
+      "text": "Tengo una familia pequeña y soy el único hijo en ella.",
+      "ru": "У меня небольшая семья, и я единственный ребёнок в ней."
+    },
+    {
+      "text": "Mi familia tiene una madre, un padre, una abuela y un abuelo.",
+      "ru": "В моей семье есть мама, папа, бабушка и дедушка."
+    },
+    {
+      "text": "También tengo un gato y se llama Félix.",
+      "ru": "У меня ещё есть кот, и его зовут Феликс."
+    },
+    {
+      "text": "Es lindo, inteligente y hermoso, por lo que agrada a todos en nuestra familia.",
+      "ru": "Он милый, умный и красивый, поэтому в нашей семье его все любят."
+    },
+    {
+      "text": "Estoy en cuarto grado y normalmente disfruto de la escuela.",
+      "ru": "Я учусь в четвёртом классе, и школа мне обычно нравится."
+    },
+    {
+      "text": "Mis materias escolares favoritas son ruso, literatura y arte porque me resultan especialmente interesantes.",
+      "ru": "Мои любимые школьные предметы — русский язык, литература и рисование, потому что они мне особенно интересны."
+    },
+    {
+      "text": "Después de la escuela suelo salir a caminar y escuchar música porque me ayuda a relajarme.",
+      "ru": "После школы я обычно иду гулять и слушаю музыку, потому что это помогает мне расслабиться."
+    },
+    {
+      "text": "Mi deporte favorito es el taekwondo y mi juego favorito es el escondite.",
+      "ru": "Мой любимый вид спорта — тхэквондо, а моя любимая игра — прятки-догонялки."
+    },
+    {
+      "text": "Me gusta dibujar, bailar, cantar, leer y jugar, por eso suelo estar ocupada en mi tiempo libre.",
+      "ru": "Я люблю рисовать, танцевать, петь, читать и играть, поэтому в свободное время я обычно занята."
+    },
+    {
+      "text": "Mis colores favoritos son el morado y el azul porque se ven brillantes y hermosos.",
+      "ru": "Мои любимые цвета — фиолетовый и синий, потому что они выглядят ярко и красиво."
+    },
+    {
+      "text": "Mi comida favorita es el borscht y la carne con puré de patatas.",
+      "ru": "Моя любимая еда — борщ и мясо с картофельным пюре."
+    },
+    {
+      "text": "También me gustan las frutas, especialmente las manzanas, los plátanos, la sandía y los arándanos.",
+      "ru": "Я также люблю фрукты, особенно яблоки, бананы, арбуз и голубику."
+    },
+    {
+      "text": "Mi cumpleaños es el veinticuatro de julio y siempre espero con ansias ese día.",
+      "ru": "Мой день рождения — двадцать четвёртого июля, и я всегда жду этот день."
+    },
+    {
+      "text": "Me gusta recibir juguetes como regalo, pero también me gusta recibir juegos de arte.",
+      "ru": "Я люблю получать в подарок игрушки, но мне также нравятся наборы для творчества."
+    },
+    {
+      "text": "Los sets de arte son especiales para mí porque me gusta mucho dibujar y probar nuevas ideas.",
+      "ru": "Наборы для творчества для меня особенные, потому что я очень люблю рисовать и пробовать новые идеи."
+    },
+    {
+      "text": "A veces ayudo a mi familia en la cocina cuando están cocinando.",
+      "ru": "Иногда я помогаю своей семье на кухне, когда они готовят."
+    },
+    {
+      "text": "Por la noche suelo leer o dibujar, según mi estado de ánimo.",
+      "ru": "По вечерам я обычно читаю или рисую, в зависимости от настроения."
+    },
+    {
+      "text": "Me gusta mucho la escuela, mi familia y mis aficiones.",
+      "ru": "Мне очень нравятся школа, моя семья и мои увлечения."
+    },
+    {
+      "text": "Paso mi tiempo libre con mi familia, mi gato y mis aficiones.",
+      "ru": "Свободное время я провожу с семьёй, котом и своими увлечениями."
+    },
+    {
+      "text": "Estas son las cosas que han hecho mi vida feliz e interesante.",
+      "ru": "Именно эти вещи сделали мою жизнь счастливой и интересной."
+    },
+    {
+      "text": "Ahora mismo estoy creciendo, aprendiendo cosas nuevas y disfrutando de mi vida.",
+      "ru": "Сейчас я расту, узнаю новое и радуюсь своей жизни."
+    }
+  ]
+}

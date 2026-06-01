@@ -1,0 +1,61 @@
+{
+  "theme_id": "theme-09-es",
+  "slug": "mi-dia-de-fin-de-semana",
+  "theme_label": "THEME 09",
+  "title": "mi dia de fin de semana",
+  "folder_name": "Spanish\\9. My weekend day",
+  "language": "spanish",
+  "level": "hard",
+  "video": {
+    "width": 1280,
+    "height": 720,
+    "fps": 24,
+    "background_color": "#F6F0E5"
+  },
+  "entries": [
+    {
+      "text": "Normalmente me levanto a las doce los fines de semana. Mis mañanas de fin de semana son tranquilas y tranquilas, lo que me gusta mucho.",
+      "ru": "Обычно по выходным я встаю в двенадцать часов. Утро в выходной у меня спокойное и неторопливое, и мне это очень нравится."
+    },
+    {
+      "text": "Por la mañana me gusta salir a caminar. En el año escolar a veces hago mis tareas.",
+      "ru": "Утром мне нравится ходить гулять. В учебное время я иногда делаю домашнее задание."
+    },
+    {
+      "text": "Si no tengo tarea, simplemente me relajo. Me gusta mucho descansar los fines de semana.",
+      "ru": "Если домашнего задания нет, я просто отдыхаю. Мне очень нравится отдыхать по выходным."
+    },
+    {
+      "text": "Los fines de semana me gusta ir a diferentes tiendas. Ir de compras puede ser divertido para mí.",
+      "ru": "По выходным мне нравится ходить по разным магазинам. Покупки могут быть для меня веселым занятием."
+    },
+    {
+      "text": "Normalmente paso el fin de semana con mis padres. Me gusta estar con mi familia porque así los fines de semana se sienten más cálidos.",
+      "ru": "Обычно я провожу выходной с родителями. Мне нравится быть с семьёй, потому что так выходные кажутся теплее."
+    },
+    {
+      "text": "Los fines de semana me gusta caminar. También me gusta ver películas.",
+      "ru": "По выходным мне нравится гулять. Мне также нравится смотреть фильмы."
+    },
+    {
+      "text": "A mí también me gusta dibujar. Mi fin de semana es tranquilo, pero también muy bonito.",
+      "ru": "Мне также нравится рисовать. Мой выходной тихий, но при этом очень приятный."
+    },
+    {
+      "text": "Los viajes para visitar a la gente son raros. Normalmente me quedo cerca de casa.",
+      "ru": "Поездки в гости бывают редко. Обычно я остаюсь недалеко от дома."
+    },
+    {
+      "text": "Como la misma comida los fines de semana que entre semana. No necesito comida especial para disfrutar de un buen fin de semana.",
+      "ru": "По выходным я ем ту же еду, что и в будние дни. Мне не нужна какая-то особенная еда, чтобы выходной был хорошим."
+    },
+    {
+      "text": "Por la noche me cepillo los dientes. Luego me lavo.",
+      "ru": "Вечером я чищу зубы. Потом я умываюсь и моюсь."
+    },
+    {
+      "text": "Después de eso me voy a la cama. Un fin de semana amable y tranquilo siempre me hace feliz.",
+      "ru": "После этого я иду спать. Добрый и спокойный выходной всегда делает меня счастливой."
+    }
+  ]
+}

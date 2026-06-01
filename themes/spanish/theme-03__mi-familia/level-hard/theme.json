@@ -1,0 +1,61 @@
+{
+  "theme_id": "theme-03-es",
+  "slug": "mi-familia",
+  "theme_label": "THEME 03",
+  "title": "Mi familia",
+  "folder_name": "Spanish\\3. My family",
+  "language": "spanish",
+  "level": "hard",
+  "video": {
+    "width": 1280,
+    "height": 720,
+    "fps": 24,
+    "background_color": "#F6F0E5"
+  },
+  "entries": [
+    {
+      "text": "Mi familia es amable y es una de las partes más importantes de mi vida. Vivo con mi madre y mi gato, por lo que el hogar suele resultar cálido y acogedor.",
+      "ru": "Моя семья добрая, и это одна из самых важных частей моей жизни. Я живу с мамой и своим котом, поэтому дома обычно тепло и уютно."
+    },
+    {
+      "text": "El nombre de mi mamá es Yulia. El nombre de mi papá es Zhenya.",
+      "ru": "Мою маму зовут Юлия. Моего папу зовут Женя."
+    },
+    {
+      "text": "Mi papá trabaja en otra ciudad, por eso no siempre puede estar en casa. Aun así, viene a nosotros en vacaciones o durante sus vacaciones.",
+      "ru": "Мой папа работает в другом городе, поэтому он не всегда может быть дома. Но всё же он приезжает к нам на праздники или во время отпуска."
+    },
+    {
+      "text": "Mi abuela y mi abuelo viven separados. Vienen a visitarnos de vez en cuando.",
+      "ru": "Моя бабушка и мой дедушка живут отдельно. Они время от времени приезжают к нам в гости."
+    },
+    {
+      "text": "Mi abuela suele venir más seguido. No tengo hermanos ni hermanas.",
+      "ru": "Моя бабушка обычно приезжает чаще. У меня нет братьев и сестёр."
+    },
+    {
+      "text": "Pero tengo un primo llamado Ilya. A mi mamá le gusta cocinar comida rica y creo que lo hace muy bien.",
+      "ru": "Но у меня есть двоюродный брат по имени Илья. Моя мама любит готовить вкусную еду, и, по-моему, у неё это получается очень хорошо."
+    },
+    {
+      "text": "Mi papá la ayuda en la cocina cuando está en casa. Puede cortar verduras y limpiar pescado.",
+      "ru": "Когда папа дома, он помогает ей на кухне. Он умеет резать овощи и чистить рыбу."
+    },
+    {
+      "text": "También puede realizar el trabajo más pesado en casa. Me gusta mucho dibujar.",
+      "ru": "Он также может выполнять более тяжёлую работу по дому. Мне очень нравится рисовать."
+    },
+    {
+      "text": "También me gusta jugar con mi gato Félix, quien se ha convertido en una parte especial de mi vida. Mi mamá y yo salimos a caminar juntas a menudo.",
+      "ru": "Мне также нравится играть со своим котом Феликсом, который стал особенной частью моей жизни. Мы с мамой часто вместе ходим гулять."
+    },
+    {
+      "text": "A veces también podemos ir juntos a algún lugar. Cuando viene mi papá, podemos ver juntos una caricatura larga o una película.",
+      "ru": "Иногда мы также можем куда-нибудь поехать вместе. Когда приезжает папа, мы можем вместе посмотреть полнометражный мультфильм или фильм."
+    },
+    {
+      "text": "Normalmente elegimos algo que sea interesante para todos. Me siento más feliz cuando mi familia está junta.",
+      "ru": "Обычно мы выбираем что-то интересное для всех. Я чувствую себя счастливее всего, когда моя семья вместе."
+    }
+  ]
+}

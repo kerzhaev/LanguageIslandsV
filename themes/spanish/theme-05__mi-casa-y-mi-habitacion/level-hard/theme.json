@@ -1,0 +1,61 @@
+{
+  "theme_id": "theme-05-es",
+  "slug": "mi-casa-y-mi-habitacion",
+  "theme_label": "THEME 05",
+  "title": "mi casa y mi cuarto",
+  "folder_name": "Spanish\\5. My home and my room",
+  "language": "spanish",
+  "level": "hard",
+  "video": {
+    "width": 1280,
+    "height": 720,
+    "fps": 24,
+    "background_color": "#F6F0E5"
+  },
+  "entries": [
+    {
+      "text": "Vivo en un piso y es un lugar importante para mí. Nuestro piso tiene una habitación grande, pero aun así se siente muy acogedor.",
+      "ru": "Я живу в квартире, и это очень важное для меня место. В нашей квартире одна большая комната, но всё равно в ней очень уютно."
+    },
+    {
+      "text": "Mi casa es acogedora y cómoda, por eso me gusta pasar tiempo allí. Normalmente me siento tranquilo cuando estoy en casa.",
+      "ru": "Мой дом уютный и удобный, поэтому мне нравится проводить там время. Когда я дома, я обычно чувствую себя спокойно."
+    },
+    {
+      "text": "Hay una mesa en la habitación. También hay una cama.",
+      "ru": "В комнате есть стол. Там также есть кровать."
+    },
+    {
+      "text": "En mi habitación también hay estantes. Tengo juguetes en mi habitación.",
+      "ru": "В моей комнате ещё есть полки. У меня в комнате есть игрушки."
+    },
+    {
+      "text": "También guardo mis libros allí. Lo que más me gusta de la habitación es mi cama.",
+      "ru": "Там же я храню свои книги. Моя любимая вещь в комнате — это кровать."
+    },
+    {
+      "text": "Mi cama es mi lugar favorito para descansar y relajarme. Hago mis deberes en la mesa.",
+      "ru": "Моя кровать — моё любимое место, где можно отдохнуть и расслабиться. Я делаю уроки за столом."
+    },
+    {
+      "text": "La mesa está frente a la computadora. Puedo sentarme cómodamente y estudiar.",
+      "ru": "Стол стоит перед компьютером. Я могу удобно сидеть там и заниматься."
+    },
+    {
+      "text": "Leo libros en mi habitación. Allí también puedo jugar con mis juguetes.",
+      "ru": "Я читаю книги в своей комнате. Там же я могу играть со своими игрушками."
+    },
+    {
+      "text": "Mi habitación es importante para mí porque es mi propio espacio. Me siento tranquilo y feliz en mi habitación.",
+      "ru": "Моя комната важна для меня, потому что это моё собственное пространство. В своей комнате я чувствую себя спокойно и счастливо."
+    },
+    {
+      "text": "Me gusta el desorden creativo y no me incomoda. Mi desorden creativo es parte de mi habitación y parte de mi carácter.",
+      "ru": "Мне нравится творческий беспорядок, и он меня совсем не смущает. Мой творческий беспорядок — это часть моей комнаты и часть моего характера."
+    },
+    {
+      "text": "Mi habitación puede ser sencilla, pero está llena de mis ideas. Me gusta mucho mi casa y mi habitación.",
+      "ru": "Моя комната может быть простой, но в ней полно моих идей. Мне очень нравится мой дом и моя комната."
+    }
+  ]
+}

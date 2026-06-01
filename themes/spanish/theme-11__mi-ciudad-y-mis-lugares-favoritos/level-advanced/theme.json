@@ -1,0 +1,105 @@
+{
+  "theme_id": "theme-11-es",
+  "slug": "mi-ciudad-y-mis-lugares-favoritos",
+  "theme_label": "THEME 11",
+  "title": "Mi ciudad y lugares favoritos.",
+  "folder_name": "Spanish\\11. My city and favourite places",
+  "language": "spanish",
+  "level": "advanced",
+  "video": {
+    "width": 1280,
+    "height": 720,
+    "fps": 24,
+    "background_color": "#F6F0E5"
+  },
+  "entries": [
+    {
+      "text": "Vivo en Stavropol y es mi ciudad.",
+      "ru": "Я живу в Ставрополе, и это мой город."
+    },
+    {
+      "text": "Me gusta mucho porque se siente cómodo y familiar.",
+      "ru": "Он мне очень нравится, потому что кажется удобным и родным."
+    },
+    {
+      "text": "En Stavropol hay mucha vegetación.",
+      "ru": "В Ставрополе много зелени."
+    },
+    {
+      "text": "Me gustan las calles y los árboles verdes porque hacen que la ciudad se sienta viva.",
+      "ru": "Мне нравятся зелёные улицы и деревья, потому что из-за них город кажется живым."
+    },
+    {
+      "text": "En mi ciudad hay bonitos parques infantiles.",
+      "ru": "В моём городе есть хорошие игровые площадки."
+    },
+    {
+      "text": "Me gustan los lugares donde puedo andar en scooter.",
+      "ru": "Мне нравятся места, где можно кататься на самокате."
+    },
+    {
+      "text": "También me gusta andar en bicicleta.",
+      "ru": "Мне также нравится кататься на велосипеде."
+    },
+    {
+      "text": "Mis lugares favoritos son seguros y cómodos.",
+      "ru": "Мои любимые места безопасные и удобные."
+    },
+    {
+      "text": "Me gusta ir al parque de la ciudad.",
+      "ru": "Мне нравится ходить в городской парк."
+    },
+    {
+      "text": "También me gusta ir a un café.",
+      "ru": "Мне также нравится ходить в кафе."
+    },
+    {
+      "text": "En una cafetería me gusta comer pizza y panecillos.",
+      "ru": "В кафе мне нравится есть пиццу и роллы."
+    },
+    {
+      "text": "Me gusta ir de compras con mi mamá.",
+      "ru": "Мне нравится ходить по магазинам с мамой."
+    },
+    {
+      "text": "También salimos juntos a hacer recados cotidianos.",
+      "ru": "Мы также вместе ходим по обычным делам."
+    },
+    {
+      "text": "Cerca de mi casa hay un sector privado.",
+      "ru": "Рядом с моим домом есть частный сектор."
+    },
+    {
+      "text": "A menudo caminamos hasta allí.",
+      "ru": "Мы часто там гуляем."
+    },
+    {
+      "text": "Viajo hasta allí por buenas carreteras asfaltadas.",
+      "ru": "Я катаюсь там по хорошим асфальтированным дорогам."
+    },
+    {
+      "text": "Los coches no pasan por allí muy a menudo.",
+      "ru": "Машины там ездят не очень часто."
+    },
+    {
+      "text": "Por eso me siento tranquilo allí.",
+      "ru": "Поэтому я чувствую себя там спокойно."
+    },
+    {
+      "text": "Mi casa y mi escuela están en un área ordenada.",
+      "ru": "Мой дом и моя школа находятся в благоустроенном районе."
+    },
+    {
+      "text": "Vivimos en la cima de una colina.",
+      "ru": "Мы живём на вершине холма."
+    },
+    {
+      "text": "Se siente como uno de los lugares más altos de la ciudad.",
+      "ru": "Кажется, что это одно из самых высоких мест в городе."
+    },
+    {
+      "text": "Me encanta caminar donde hay mucha vegetación.",
+      "ru": "Я люблю гулять там, где много зелени."
+    }
+  ]
+}

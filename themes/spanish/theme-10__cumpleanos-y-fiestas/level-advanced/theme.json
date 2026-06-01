@@ -1,0 +1,105 @@
+{
+  "theme_id": "theme-10-es",
+  "slug": "cumpleanos-y-fiestas",
+  "theme_label": "THEME 10",
+  "title": "cumpleaños y vacaciones",
+  "folder_name": "Spanish\\10. Birthdays and holidays",
+  "language": "spanish",
+  "level": "advanced",
+  "video": {
+    "width": 1280,
+    "height": 720,
+    "fps": 24,
+    "background_color": "#F6F0E5"
+  },
+  "entries": [
+    {
+      "text": "Mi fiesta favorita es el Año Nuevo y es la que más me encanta de todas.",
+      "ru": "Мой любимый праздник — Новый год, и я люблю его больше всего."
+    },
+    {
+      "text": "Amo el Año Nuevo más que cualquier otra festividad.",
+      "ru": "Новый год я люблю больше любого другого праздника."
+    },
+    {
+      "text": "Para mí, el Año Nuevo siempre ha sido especial.",
+      "ru": "Для меня Новый год всегда ощущался особенно."
+    },
+    {
+      "text": "Es el comienzo de un nuevo año y, en cierto modo, de una nueva vida.",
+      "ru": "Это начало нового года и, в каком-то смысле, новой жизни."
+    },
+    {
+      "text": "Espero estas vacaciones con alegría.",
+      "ru": "Я жду этот праздник с радостью."
+    },
+    {
+      "text": "Mi cumpleaños también es un día feliz.",
+      "ru": "Мой день рождения тоже счастливый день."
+    },
+    {
+      "text": "En mi cumpleaños la gente me felicita y me dice palabras amables.",
+      "ru": "В мой день рождения меня поздравляют и говорят мне добрые слова."
+    },
+    {
+      "text": "Mi cumpleaños suele ser alegre y divertido.",
+      "ru": "Мой день рождения обычно проходит весело и радостно."
+    },
+    {
+      "text": "Me gustan más las vacaciones familiares que las grandes fiestas ruidosas.",
+      "ru": "Семейные праздники мне нравятся больше, чем большие шумные вечеринки."
+    },
+    {
+      "text": "Disfruto pasar vacaciones con mi familia.",
+      "ru": "Мне нравится проводить праздники с моей семьёй."
+    },
+    {
+      "text": "El cumpleaños de mi madre también es un día familiar importante.",
+      "ru": "День рождения моей мамы — тоже важный семейный день."
+    },
+    {
+      "text": "Podemos hablar, sonreír y disfrutar juntos del ambiente festivo.",
+      "ru": "Мы можем разговаривать, улыбаться и вместе радоваться праздничному настроению."
+    },
+    {
+      "text": "Me gusta hablar con mis amigos en vacaciones.",
+      "ru": "Мне нравится разговаривать с друзьями в праздники."
+    },
+    {
+      "text": "Nos sentimos felices y compartimos nuestro buen humor.",
+      "ru": "Мы радуемся и делимся хорошим настроением."
+    },
+    {
+      "text": "Lo que más me gustan son los regalos para la creatividad.",
+      "ru": "Больше всего мне нравятся подарки для творчества."
+    },
+    {
+      "text": "Los regalos creativos siempre me inspiran.",
+      "ru": "Творческие подарки всегда вдохновляют меня."
+    },
+    {
+      "text": "En los cumpleaños me gusta la pizza y los panecillos.",
+      "ru": "На день рождения я люблю пиццу и роллы."
+    },
+    {
+      "text": "No necesito dulces especiales para unas buenas vacaciones.",
+      "ru": "Мне не нужны особенные сладости, чтобы праздник был хорошим."
+    },
+    {
+      "text": "Puedo hacer dibujos para vacaciones.",
+      "ru": "Я могу делать рисунки к праздникам."
+    },
+    {
+      "text": "Mis dibujos hacen que el día sea más brillante y cálido.",
+      "ru": "Мои рисунки делают день ярче и теплее."
+    },
+    {
+      "text": "Para mí es muy importante un ambiente acogedor de vacaciones.",
+      "ru": "Уютная праздничная атмосфера очень важна для меня."
+    },
+    {
+      "text": "El Año Nuevo siempre me da esperanza, alegría y un sentimiento festivo.",
+      "ru": "Новый год всегда дарит мне надежду, радость и праздничное настроение."
+    }
+  ]
+}

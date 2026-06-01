@@ -92,7 +92,38 @@ async function selectArabella(page) {
   });
   await sleep(1500);
 
-  const arabella = page.locator(".pw-voices-cell").filter({ hasText: /Arabella\s*\(Spain\)/i }).first();
+  const langTrigger = page.locator(".btn-language-trigger, .pw-voices-header-lang").first();
+  if (!(await langTrigger.count())) {
+    throw new Error("Language trigger not found in voice dialog");
+  }
+  await langTrigger.click({ force: true }).catch(async () => {
+    await langTrigger.evaluate((el) => el.click());
+  });
+  await sleep(1500);
+
+  await page.evaluate(() => {
+    const items = Array.from(
+      document.querySelectorAll(".lan-text, .mat-list-text, .mat-list-item-content, button, div, span"),
+    );
+    const target = items.find((el) => (el.textContent || "").trim() === "Spanish (Spain)");
+    if (target) target.click();
+  });
+  await sleep(2500);
+
+  const bodyAfterLang = await page.locator("body").innerText().catch(() => "");
+  if (!/Spanish \(Spain\)/i.test(bodyAfterLang)) {
+    throw new Error("Spanish (Spain) language was not selected");
+  }
+
+  const plusTab = page.locator("button").filter({ hasText: /^Plus$/i }).first();
+  if (await plusTab.count()) {
+    await plusTab.click({ force: true }).catch(async () => {
+      await plusTab.evaluate((el) => el.click());
+    });
+    await sleep(800);
+  }
+
+  const arabella = page.locator(".pw-voices-cell").filter({ hasText: /^Arabella\s*\(Spain\)/i }).first();
   if (!(await arabella.count())) {
     throw new Error("Arabella (Spain) voice not found");
   }
@@ -124,6 +155,15 @@ async function fillText(page, text) {
 
   const editor = page.locator("#inputDiv").first();
   await editor.click({ force: true }).catch(() => {});
+  await page.evaluate(() => {
+    const el = document.querySelector("#inputDiv");
+    if (!el) return;
+    const selection = window.getSelection();
+    const range = document.createRange();
+    range.selectNodeContents(el);
+    selection?.removeAllRanges();
+    selection?.addRange(range);
+  }).catch(() => {});
   await page.keyboard.press("Control+A").catch(() => {});
   await sleep(300);
 
@@ -153,7 +193,7 @@ async function triggerMp3Dialog(page) {
 }
 
 async function waitForAndDownload(page, outputPath) {
-  const deadline = Date.now() + 240000;
+  const deadline = Date.now() + 480000;
 
   while (Date.now() < deadline) {
     await sleep(3000);

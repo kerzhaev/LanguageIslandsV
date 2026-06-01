@@ -1,0 +1,105 @@
+{
+  "theme_id": "theme-14-es",
+  "slug": "compras-y-ropa",
+  "theme_label": "THEME 14",
+  "title": "Compras y ropa",
+  "folder_name": "Spanish\\14. Shopping and clothes",
+  "language": "spanish",
+  "level": "advanced",
+  "video": {
+    "width": 1280,
+    "height": 720,
+    "fps": 24,
+    "background_color": "#F6F0E5"
+  },
+  "entries": [
+    {
+      "text": "Me gusta ir de compras.",
+      "ru": "Мне нравится ходить по магазинам."
+    },
+    {
+      "text": "Ir de compras puede resultar interesante para mí, especialmente cuando elijo las cosas yo mismo.",
+      "ru": "Покупки могут быть для меня интересными, особенно когда я выбираю вещи сама."
+    },
+    {
+      "text": "Me gusta elegir papelería.",
+      "ru": "Мне нравится выбирать канцтовары."
+    },
+    {
+      "text": "También me gusta elegir la comida.",
+      "ru": "Мне также нравится выбирать еду."
+    },
+    {
+      "text": "Las buenas tiendas me hacen sentir feliz.",
+      "ru": "Хорошие магазины делают меня счастливой."
+    },
+    {
+      "text": "Me gusta la ropa como las sudaderas con capucha.",
+      "ru": "Мне нравится одежда вроде толстовок."
+    },
+    {
+      "text": "Las sudaderas con capucha son cómodas y acogedoras.",
+      "ru": "Толстовки удобные и уютные."
+    },
+    {
+      "text": "Me gustan muchos colores diferentes.",
+      "ru": "Мне нравятся разные цвета."
+    },
+    {
+      "text": "No elijo un solo color porque disfruto de la variedad.",
+      "ru": "Я не выбираю только один цвет, потому что люблю разнообразие."
+    },
+    {
+      "text": "Para la escuela uso uniforme escolar.",
+      "ru": "В школу я ношу школьную форму."
+    },
+    {
+      "text": "Mi ropa escolar es limpia y sencilla.",
+      "ru": "Моя школьная одежда аккуратная и простая."
+    },
+    {
+      "text": "Para pasear me gusta llevar pantalones y camiseta.",
+      "ru": "На прогулку мне нравится надевать штаны и футболку."
+    },
+    {
+      "text": "Me gusta la ropa que sea fácil de mover.",
+      "ru": "Мне нравится одежда, в которой легко двигаться."
+    },
+    {
+      "text": "Mi mamá y yo elegimos las cosas juntas.",
+      "ru": "Мы с мамой выбираем вещи вместе."
+    },
+    {
+      "text": "Me gusta elegir ropa con mi mamá porque así me resulta más fácil.",
+      "ru": "Мне нравится выбирать одежду вместе с мамой, потому что так мне легче."
+    },
+    {
+      "text": "Cuando llueve me gusta usar botas.",
+      "ru": "В дождливую погоду мне нравится носить сапоги."
+    },
+    {
+      "text": "Las botas son buenas cuando afuera está mojado.",
+      "ru": "Сапоги хороши, когда на улице мокро."
+    },
+    {
+      "text": "Para caminar me gustan las zapatillas ligeras o las sandalias.",
+      "ru": "Для прогулки мне нравятся лёгкие кеды или сандалии."
+    },
+    {
+      "text": "La comodidad es muy importante para mí.",
+      "ru": "Комфорт для меня очень важен."
+    },
+    {
+      "text": "Me gusta la ropa sencilla para la vida cotidiana.",
+      "ru": "Мне нравится простая одежда для повседневной жизни."
+    },
+    {
+      "text": "Las buenas compras me resultan tranquilas y agradables.",
+      "ru": "Хорошие покупки для меня спокойные и приятные."
+    },
+    {
+      "text": "Disfruto encontrando cosas útiles y bonitas.",
+      "ru": "Мне нравится находить полезные и приятные вещи."
+    }
+  ]
+}
