@@ -111,6 +111,12 @@ python scripts/build_repeat_mp3.py <once.mp3> <repeat.mp3> <phrase_count>
 
 `<phrase_count>` is the number of entries in the theme.
 
+Practical rule:
+- When NaturalReaders is used, prefer generating only the `once mp3` through the service.
+- Then build the `repeat mp3` locally from that same `once mp3` with `build_repeat_mp3.py`.
+- This avoids unnecessary duplicate repeat generation in NaturalReaders and preserves the same voice source in both files.
+- Do not send the same full theme text to NaturalReaders a second time just to create the repeat file unless the user has explicitly asked for that exact behavior.
+
 #### Step 5 - Final build
 
 ```powershell
