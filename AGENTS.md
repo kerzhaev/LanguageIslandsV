@@ -141,3 +141,22 @@ This re-runs the build with MP3 files in place and produces the final video, sub
 
 - Files use language codes such as `_es`, `_en`, `_fr`, and so on.
 - Output goes to `output/<Language>/N. Topic Name/level-basic/` or the corresponding level folder.
+
+### Anki Export Rule
+
+When exporting a theme to Anki:
+
+1. The canonical text source remains the English theme JSON for that level.
+2. One Anki note must be created per theme entry.
+3. Sentence audio for Anki must be sliced from the already-built `once mp3` file for that theme.
+4. For accurate sentence slicing, use the same phrase-alignment logic as the main pipeline, equivalent to `aligned_subtitle_blocks(...)`, so that Anki sentence audio follows the real speech starts and ends.
+5. The existing subtitle file `__13__shadowing_ru.srt` may be used as a validation artifact, but it must not be treated as the only timing source when more accurate aligned audio blocks are available.
+6. Audio cutting for Anki must be done with exact trimming, not rough MP3 seeking that can bleed into the next sentence.
+7. Do not synthesize new audio for Anki and do not use the repeat MP3 as note media.
+8. Do not use the video file as the source of timing or media.
+9. If image generation is available, create one relevant image per sentence and include it in the deck media.
+10. If image generation is unavailable, the deck may still be built without images.
+11. The default note model for this project is:
+   - one note per sentence
+   - `RU -> EN recall` card
+   - `EN -> RU recognition` card
