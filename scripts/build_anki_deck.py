@@ -5,6 +5,7 @@ import base64
 import csv
 import hashlib
 import json
+import mimetypes
 import os
 import re
 import sqlite3
@@ -29,7 +30,7 @@ from build_island import (
 
 
 ANKI_OUTPUT_ROOT = OUTPUT_ROOT / "Anki"
-IMAGE_MODEL = "gpt-image-1"
+MINIMAX_IMAGE_MODEL = "image-01"
 HIGHLIGHT_STYLE = "#ff6b6b; font-weight: bold;"
 
 
@@ -86,7 +87,8 @@ def resolve_theme_asset_dir(theme_file: Path, theme: dict) -> Path:
 
 def theme_hint(theme: dict) -> str:
     theme_number = str(theme["theme_id"]).replace("theme-", "").zfill(2)
-    return f"Theme {theme_number}: {theme['title']}"
+    short_title = theme["title"].strip()
+    return f"Theme {theme_number}: {short_title}"
 
 
 def visual_focus_text(sentence: str) -> str:
@@ -107,6 +109,17 @@ def visual_focus_text(sentence: str) -> str:
         r"\bpurple and blue\b",
         r"\ban apple, a banana, watermelon and blueberries\b",
         r"\bdrawing, dancing, singing, reading and playing\b",
+        r"\bstarts at\b",
+        r"\bget up at\b",
+        r"\bvery close to\b",
+        r"\bit takes only\b",
+        r"\bdo not need\b",
+        r"\busually\b",
+        r"\bfavourite subjects are\b",
+        r"\bbecause\b",
+        r"\bduring the break\b",
+        r"\bafter school\b",
+        r"\bif I have free time\b",
     ]
     for pattern in patterns:
         match = re.search(pattern, sentence, flags=re.IGNORECASE)
@@ -131,41 +144,119 @@ def visual_focus_text(sentence: str) -> str:
 
 def build_image_search_prompt(sentence: str) -> str:
     short = sentence.rstrip(".")
+    scene_map = [
+        (r"family is kind and important", "warm family moment at home with a girl and loving family atmosphere"),
+        (r"live with my mum and my cat", "schoolgirl at home with her mum and pet cat"),
+        (r"mum's name is yulia", "schoolgirl happily standing with her mum at home"),
+        (r"dad's name is zhenya", "schoolgirl smiling while talking about her dad"),
+        (r"dad works in another city", "dad traveling for work in another city while family thinks of him"),
+        (r"comes to us on holidays", "dad arriving home for holidays and family greeting him warmly"),
+        (r"during his vacation", "dad returning home during vacation and hugging family"),
+        (r"granny and grandpa live separately", "granny and grandpa visiting from another home"),
+        (r"come to visit us from time to time", "granny and grandpa visiting the family from time to time"),
+        (r"granny comes more often", "granny visiting family more often with warm smiles"),
+        (r"only child", "one schoolgirl in family with no brothers or sisters"),
+        (r"cousin", "schoolgirl with her cousin boy having a friendly moment"),
+        (r"mum likes cooking", "mum cooking in a cozy kitchen"),
+        (r"dad helps her in the kitchen", "dad helping mum in the kitchen with food preparation"),
+        (r"cut vegetables and clean fish", "dad cutting vegetables and preparing fish in the kitchen"),
+        (r"strong men's work at home", "dad doing helpful heavy work at home with tools"),
+        (r"play with my cat", "schoolgirl playing with her cat on the floor at home"),
+        (r"go for a walk together", "schoolgirl walking outdoors with her mum"),
+        (r"can go somewhere together", "family going somewhere together in the city"),
+        (r"watch a long cartoon", "family watching a full-length cartoon movie together on a sofa"),
+        (r"watch a film", "family enjoying a film together at home in the evening"),
+        (r"interesting for everyone", "family choosing a movie together that everyone likes"),
+        (r"happy when my family is together", "happy family together in a cozy room"),
+        (r"starts at nine o'clock", "school building with clock showing 9:00, cheerful schoolgirl nearby"),
+        (r"get up at ten past eight", "schoolgirl waking up with alarm clock at 8:10"),
+        (r"wash my face and brush my teeth", "schoolgirl in bathroom washing face and brushing teeth"),
+        (r"get dressed for school", "schoolgirl putting on clothes for school in bedroom"),
+        (r"school is very close to my home", "schoolgirl standing between home and nearby school building"),
+        (r"five minutes to walk", "schoolgirl walking a short way from home to school"),
+        (r"do not need a bus or a car", "schoolgirl happily walking instead of bus or car"),
+        (r"walk to school easily", "schoolgirl walking to school on a safe path"),
+        (r"come to school on time", "schoolgirl arriving at school on time with morning clock"),
+        (r"study well and I get top marks", "happy schoolgirl with good grades and school notebook"),
+        (r"subjects are Art and Literature", "school books with art supplies and reading class"),
+        (r"like drawing because I can be creative", "schoolgirl drawing colorful picture at desk"),
+        (r"like Literature", "schoolgirl reading an interesting storybook"),
+        (r"not difficult for me", "confident schoolgirl studying with easy homework"),
+        (r"listen to my teachers carefully", "schoolgirl listening to teacher in classroom"),
+        (r"canteen where I have lunch", "schoolgirl having lunch in school canteen"),
+        (r"run on the playground", "schoolgirl running on school playground in good weather"),
+        (r"breaks with my classmates", "schoolgirl playing with classmates during school break"),
+        (r"do my homework", "schoolgirl doing homework at home desk"),
+        (r"play games or watch YouTube", "schoolgirl relaxing with games or videos after homework"),
+    ]
+    lowered = short.lower()
+    for pattern, scene in scene_map:
+        if re.search(pattern, lowered):
+            return f"{scene}, bright cartoon style"
+
     short = short.replace("My favourite ", "favorite ")
     short = short.replace("I have got ", "")
     short = short.replace("My family has got ", "family with ")
     return f"{short}, bright cartoon style"
 
 
-def maybe_generate_image(
-    sentence_id: int,
-    sentence: str,
-    out_dir: Path,
-    skip_images: bool,
-) -> tuple[Path | None, str | None]:
-    image_name = f"theme-01__{sentence_id:03d}__image.png"
-    image_path = out_dir / image_name
-    if image_path.exists():
-        return image_path, None
-    if skip_images:
-        return None, "image generation skipped by flag"
-    api_key = os.environ.get("OPENAI_API_KEY")
-    if not api_key:
-        return None, "OPENAI_API_KEY not set"
+def build_minimax_prompt(theme: dict, sentence: str, reference_enabled: bool) -> str:
+    scene_prompt = build_image_search_prompt(sentence).replace(", bright cartoon style", "")
+    base = (
+        "Create a child-safe storybook cartoon illustration. "
+        f"Scene: {scene_prompt}. "
+        "Show one clear action scene that explains the idea at a glance. "
+        "Use a medium shot or wide shot only, never an extreme close-up or selfie framing. "
+        "The girl should occupy about one quarter of the frame, not dominate the whole image. "
+        "Show visible surroundings, props, and other people when relevant. "
+        "Prefer full figure or half-body compositions with meaningful environment and action. "
+        "Use bright children's book colors, soft animated shapes, expressive poses, simple background details, "
+        "strong 2D illustration look, and clearly non-photorealistic rendering. "
+        "Absolutely no text, no letters, no numbers, no captions, no speech bubbles, no signs, no posters, "
+        "no book text, no watermark, no collage, no realistic photography style, no framing devices, no page layout. "
+    )
+    if reference_enabled:
+        base += (
+            "The main girl should be inspired by the reference photo only for general character identity: "
+            "brown straight hair with bangs, about 10 years old, cheerful schoolgirl. "
+            "Use the reference only lightly for identity cues, not for framing or face cloning. "
+            "Do not copy the photo composition, do not make a realistic portrait, and do not center only the face. "
+            "Keep it clearly cartoon, scene-driven, and focused on the activity. "
+        )
+    return base
 
-    payload = {
-        "model": IMAGE_MODEL,
-        "size": "1024x1024",
-        "quality": "medium",
-        "background": "opaque",
-        "prompt": (
-            "Create a child-safe, simple, warm illustration for an Anki flashcard. "
-            f"Main sentence meaning: {sentence}. "
-            "Use one clear scene, no text, no watermark, no collage, friendly colors."
-        ),
+
+def image_to_data_uri(path: Path) -> str:
+    mime = mimetypes.guess_type(path.name)[0] or "image/jpeg"
+    data = base64.b64encode(path.read_bytes()).decode("ascii")
+    return f"data:{mime};base64,{data}"
+
+
+def minimax_generate_image(
+    sentence: str,
+    theme: dict,
+    output_path: Path,
+    api_key: str,
+    subject_reference: Path | None,
+) -> tuple[Path | None, str | None]:
+    payload: dict = {
+        "model": MINIMAX_IMAGE_MODEL,
+        "prompt": build_minimax_prompt(theme, sentence, reference_enabled=subject_reference is not None),
+        "aspect_ratio": "1:1",
+        "response_format": "base64",
+        "n": 1,
+        "prompt_optimizer": False,
     }
+    if subject_reference is not None:
+        payload["subject_reference"] = [
+            {
+                "type": "character",
+                "image_file": image_to_data_uri(subject_reference),
+            }
+        ]
+
     request = urllib.request.Request(
-        "https://api.openai.com/v1/images/generations",
+        "https://api.minimax.io/v1/image_generation",
         data=json.dumps(payload).encode("utf-8"),
         headers={
             "Authorization": f"Bearer {api_key}",
@@ -174,19 +265,42 @@ def maybe_generate_image(
         method="POST",
     )
     try:
-        with urllib.request.urlopen(request, timeout=120) as response:
+        with urllib.request.urlopen(request, timeout=240) as response:
             result = json.loads(response.read().decode("utf-8"))
     except urllib.error.HTTPError as exc:
-        return None, f"image generation HTTP error: {exc.code}"
+        try:
+            body = exc.read().decode("utf-8", errors="replace")
+        except Exception:
+            body = "<unreadable>"
+        return None, f"MiniMax HTTP {exc.code}: {body[:500]}"
     except Exception as exc:
-        return None, f"image generation error: {exc}"
+        return None, f"MiniMax error: {exc}"
 
-    data = (result.get("data") or [{}])[0]
-    b64 = data.get("b64_json")
-    if not b64:
-        return None, "image generation returned no b64_json"
-    image_path.write_bytes(base64.b64decode(b64))
-    return image_path, None
+    images = (result.get("data") or {}).get("image_base64") or []
+    if not images:
+        return None, "MiniMax returned no image_base64"
+    output_path.write_bytes(base64.b64decode(images[0]))
+    return output_path, None
+
+
+def maybe_generate_image(
+    theme: dict,
+    sentence_id: int,
+    sentence: str,
+    out_dir: Path,
+    skip_images: bool,
+    subject_reference: Path | None,
+) -> tuple[Path | None, str | None]:
+    image_name = f"{theme['theme_id']}__{sentence_id:03d}__image.png"
+    image_path = out_dir / image_name
+    if image_path.exists():
+        return image_path, None
+    if skip_images:
+        return None, "image generation skipped by flag"
+    api_key = os.environ.get("MINIMAX_API_KEY")
+    if not api_key:
+        return None, "MINIMAX_API_KEY not set"
+    return minimax_generate_image(sentence, theme, image_path, api_key, subject_reference)
 
 
 def extract_audio_segment(source_mp3: Path, target_mp3: Path, start_seconds: float, end_seconds: float) -> None:
@@ -214,7 +328,7 @@ def extract_audio_segment(source_mp3: Path, target_mp3: Path, start_seconds: flo
 
 def anki_model() -> genanki.Model:
     return genanki.Model(
-        stable_id("language-islands-anki-model-v2"),
+        stable_id("language-islands-anki-model-v3"),
         "Language Islands Sentence Model",
         fields=[
             {"name": "SentenceId"},
@@ -343,6 +457,7 @@ def build_manifest(
     asset_dir: Path,
     notes_meta: list[dict],
     skipped_images: list[dict],
+    subject_reference: Path | None,
 ) -> dict:
     return {
         "deck_name": deck_name,
@@ -351,6 +466,7 @@ def build_manifest(
         "theme_file": str(theme_file),
         "asset_dir": str(asset_dir),
         "timing_source": "aligned_subtitle_blocks",
+        "subject_reference": str(subject_reference) if subject_reference else None,
         "note_count": len(notes_meta),
         "notes": notes_meta,
         "skipped_images": skipped_images,
@@ -397,12 +513,17 @@ def main() -> None:
     parser = argparse.ArgumentParser(description="Build Anki deck from a language island theme.")
     parser.add_argument("theme_file", type=Path, help="Path to English theme.json")
     parser.add_argument("--skip-images", action="store_true", help="Skip image generation")
+    parser.add_argument("--subject-reference", type=Path, default=None, help="Local reference image for consistent character generation")
     args = parser.parse_args()
 
     theme_file = args.theme_file.resolve()
     theme = load_theme(theme_file)
-    if theme.get("level"):
-        raise ValueError("Anki v1 currently supports the English basic theme source only")
+    if theme.get("level") not in (None, "basic"):
+        raise ValueError("Anki builder currently supports English basic theme sources only")
+
+    subject_reference = args.subject_reference.resolve() if args.subject_reference else None
+    if subject_reference and not subject_reference.exists():
+        raise FileNotFoundError(f"Subject reference image not found: {subject_reference}")
 
     asset_dir = resolve_theme_asset_dir(theme_file, theme)
     prefix = theme_prefix(theme)
@@ -421,22 +542,16 @@ def main() -> None:
             "end_seconds": end,
             "text": text,
         }
-        for idx, (start, end, text) in enumerate(
-            aligned_subtitle_blocks(entries, once_mp3),
-            start=1,
-        )
+        for idx, (start, end, text) in enumerate(aligned_subtitle_blocks(entries, once_mp3), start=1)
     ]
     if len(blocks) != len(entries):
-        raise ValueError(
-            f"Aligned timing block count {len(blocks)} does not match theme entry count {len(entries)}"
-        )
+        raise ValueError(f"Aligned timing block count {len(blocks)} does not match theme entry count {len(entries)}")
     srt_blocks = parse_srt_blocks(srt_path)
     if len(srt_blocks) != len(entries):
-        raise ValueError(
-            f"SRT block count {len(srt_blocks)} does not match theme entry count {len(entries)}"
-        )
+        raise ValueError(f"SRT block count {len(srt_blocks)} does not match theme entry count {len(entries)}")
 
-    deck_name = f"English Basic - Theme {str(theme['theme_id']).split('-')[-1]}"
+    theme_number = str(theme["theme_id"]).split("-")[-1].zfill(2)
+    deck_name = f"English Basic - Theme {theme_number}"
     ANKI_OUTPUT_ROOT.mkdir(parents=True, exist_ok=True)
     debug_dir = ANKI_OUTPUT_ROOT / f"{theme['theme_id']}-debug"
     debug_dir.mkdir(parents=True, exist_ok=True)
@@ -444,7 +559,7 @@ def main() -> None:
     tsv_path = ANKI_OUTPUT_ROOT / f"{theme['theme_id']}__anki_import.tsv"
 
     model = anki_model()
-    deck = genanki.Deck(stable_id(f"{theme['theme_id']}::anki-v2::deck"), deck_name)
+    deck = genanki.Deck(stable_id(f"{theme['theme_id']}::anki-v3::deck"), deck_name)
     media_files: list[str] = []
     notes_meta: list[dict] = []
     skipped_images: list[dict] = []
@@ -464,10 +579,12 @@ def main() -> None:
         media_files.append(str(audio_path))
 
         image_path, image_error = maybe_generate_image(
+            theme=theme,
             sentence_id=idx,
             sentence=english_sentence,
             out_dir=debug_dir,
             skip_images=args.skip_images,
+            subject_reference=subject_reference,
         )
         image_html = ""
         if image_path and image_path.exists():
@@ -524,7 +641,7 @@ def main() -> None:
     write_tsv(tsv_path, tsv_rows)
 
     manifest_path = debug_dir / "manifest.json"
-    manifest = build_manifest(deck_name, deck_path, tsv_path, theme_file, asset_dir, notes_meta, skipped_images)
+    manifest = build_manifest(deck_name, deck_path, tsv_path, theme_file, asset_dir, notes_meta, skipped_images, subject_reference)
     manifest_path.write_text(json.dumps(manifest, ensure_ascii=False, indent=2), encoding="utf-8")
 
     verification = verify_apkg(deck_path, expected_notes=len(entries))
